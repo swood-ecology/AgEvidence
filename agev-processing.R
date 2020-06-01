@@ -11,9 +11,6 @@ source('processing-functions.R')
 
 #### READ DATA ####
 # Normative effects files
-#ne <- read_excel("data/Normative_effects_groups.xlsx")
-#ne_mod <- read_excel("data/Normative_effects_groups_modified.xlsx")
-#ne_mod_2 <- read_excel("data/Normative_effects_groups_modified_2.xlsx")
 ne_mod_3 <- read_excel("data/10Mar20_Normative_effects_groups_modified_2.xlsx")
 
 # Data files
