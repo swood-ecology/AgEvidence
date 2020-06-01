@@ -1,12 +1,10 @@
+#### SET WORKING DIRECTORY ####
+require(funr)
+setwd(funr::get_script_path())
+
 #### LOAD LIBRARIES ####
 library(tidyverse)
 library(readxl)
-
-#### SET WORKING DIRECTORY ####
-
-setwd(funr::get_script_path())
-
-
 source('processing-functions.R')
 
 #### READ DATA ####
