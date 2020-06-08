@@ -2,6 +2,9 @@
 library(tidyverse)
 library(readxl)
 
+path <- "~/Parent-Directory/"
+setwd(path)
+
 #### FUNCTIONS ####
 # Function to change the GL2 changes in the raw data
 gl2.rename <- function(data) {
@@ -46,16 +49,16 @@ grouping <- function(data) {
 
 #### READ DATA ####
 # Normative effects files
-ne <- read_excel("Normative_effects_groups.xlsx")
-ne_mod <- read_excel("Normative_effects_groups_modified.xlsx")
-ne_mod_2 <- read_excel("Normative_effects_groups_modified_2.xlsx")
-ne_mod_3 <- read_excel("10Mar20_Normative_effects_groups_modified_2.xlsx")
+ne <- read_excel("data/Normative_effects_groups.xlsx")
+ne_mod <- read_excel("data/Normative_effects_groups_modified.xlsx")
+ne_mod_2 <- read_excel("data/Normative_effects_groups_modified_2.xlsx")
+ne_mod_3 <- read_excel("data/10Mar20_Normative_effects_groups_modified_2.xlsx")
 
 # Data files
-cc <- read_excel("Covercrops_AgEvidence.xlsx", sheet = "Results")
-nm <- read_excel("NutrientMgmt_AgEvidence.xlsx", sheet = "Results")
-pm <- read_excel("PestMgmt_AgEvidence.xlsx", sheet = "Results")
-till <- read_excel("Tillage_AgEvidence.xlsx", sheet = "Results")
+cc <- read_excel("data/Covercrops_AgEvidence.xlsx", sheet = "Results")
+nm <- read_excel("data/NutrientMgmt_AgEvidence.xlsx", sheet = "Results")
+pm <- read_excel("data/PestMgmt_AgEvidence.xlsx", sheet = "Results")
+till <- read_excel("data/Tillage_AgEvidence.xlsx", sheet = "Results")
 
 # Create lists for filtering out
 filtered_rv_units <- c("^#$", "(arcsine)", "log10")
@@ -150,8 +153,9 @@ pm <- pm %>%
   mutate(per_change = round(per_change, digits = 2)) %>%
   grouping()
 
-write.csv(cc, "/Users/emilymiley/Desktop/TNC_cc_15Apr20.csv")
-write.csv(till, "/Users/emilymiley/Desktop/TNC_till_15Apr20.csv")
-write.csv(nm, "/Users/emilymiley/Desktop/TNC_nm_15Apr20.csv")
-write.csv(pm, "/Users/emilymiley/Desktop/TNC_pm_15Apr20.csv")
+write.csv(cc, paste0("filtered-data/Covercrops_AgEvidence_EMscript",Sys.Date(),".csv"))
+write.csv(till, paste0("filtered-data/Tillage_AgEvidence_EMscript",Sys.Date(),".csv"))
+write.csv(nm, paste0("filtered-data/NutrientMgmt_AgEvidence_EMscript",Sys.Date(),".csv"))
+write.csv(pm, paste0("filtered-data/PestMgmt_AgEvidence_EMscript",Sys.Date(),".csv"))
 
+rm(list=ls())
