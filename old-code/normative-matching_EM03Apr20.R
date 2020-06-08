@@ -154,9 +154,9 @@ pm <- pm %>%
   mutate(per_change = round(per_change, digits = 2)) %>%
   grouping()
 
-write.csv(cc, paste0("filtered-data/Covercrops_AgEvidence_EMscript",Sys.Date(),".csv"))
-write.csv(till, paste0("filtered-data/Tillage_AgEvidence_EMscript",Sys.Date(),".csv"))
-write.csv(nm, paste0("filtered-data/NutrientMgmt_AgEvidence_EMscript",Sys.Date(),".csv"))
-write.csv(pm, paste0("filtered-data/PestMgmt_AgEvidence_EMscript",Sys.Date(),".csv"))
+write.csv(cc, paste0("filtered-data/Covercrops_AgEvidence_EMscript_",Sys.Date(),".csv"))
+write.csv(till, paste0("filtered-data/Tillage_AgEvidence_EMscript_",Sys.Date(),".csv"))
+write.csv(nm, paste0("filtered-data/NutrientMgmt_AgEvidence_EMscript_",Sys.Date(),".csv"))
+write.csv(pm, paste0("filtered-data/PestMgmt_AgEvidence_EMscript_",Sys.Date(),".csv"))
 
 rm(list=ls())
