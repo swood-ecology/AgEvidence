@@ -3,6 +3,13 @@ ne.mods <- function(data) {
   data %>%
     mutate(
       group_level2 =
+        ifelse(group_level3 == "Water infiltration",
+               "Physical Properties",
+               group_level2
+        )
+    ) %>%
+    mutate(
+      group_level2 =
         ifelse(group_level2 == "Corn root biomass",
                "Corn root development",
                group_level2
