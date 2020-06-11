@@ -8,15 +8,14 @@ library(readxl)
 source('processing-functions.R')
 
 #### READ DATA ####
-# Normative effects files
-ne_mod_3 <- read_excel("data/10Mar20_Normative_effects_groups_modified_2.xlsx")
+# Normative effects file
+ne <- read_excel("data/normative-effects.xlsx")
 
 # Data files
 cc <- read_excel("data/Covercrops_AgEvidence.xlsx", sheet = "Results")
 nm <- read_excel("data/NutrientMgmt_AgEvidence.xlsx", sheet = "Results")
 pm <- read_excel("data/PestMgmt_AgEvidence.xlsx", sheet = "Results")
 till <- read_excel("data/Tillage_AgEvidence.xlsx", sheet = "Results")
-
 
 #### MANIPULATE DATA ####
 # Create lists for filtering out
@@ -45,11 +44,13 @@ till <- till %>%
 pm <- pm %>%
   filter(!rv_units %in% filtered_rv_units)
 
-#### GL1 RENAMING ####
-pm <- pm %>%
-  mutate(review = "Pest Management")
-ne_mod_3 <- ne.mods(ne_mod_3) 
+#### NE RENAMING ####
+ne <- ne.mods(ne) 
   
+#### GL1 RENAMING ####
+cc <- cc %>%
+  mutate(review="Cover Crops")
+
 #### GL2 RENAMING ####
 cc <- gl2.rename(cc) 
 till <- gl2.rename(till)
@@ -63,17 +64,10 @@ nm <- gl3.rename(nm)
 pm <- gl3.rename(pm)
 
 #### GENERATE NEW COLUMNS FOR GL AND NE ####
-# Combine the two spellings of the cover crop review categories
-ne_mod_3 <- ne_mod_3 %>%
-  mutate(Review=
-           ifelse(Review=="Cover Crops",
-                  "Cover crop",
-                  Review))
-
 # Create new columns by calling grouping() function
 cc <- cc %>% 
-  full_join(ne_mod_3 %>%
-              filter(Review =="Cover crop")) %>%
+  full_join(ne %>%
+              filter(Review =="Cover Crops")) %>%
   select(-NOTES,-Review) %>%
   mutate(per_change = ifelse(grepl("%", rv_units), 
                              (trt2_value-trt1_value), 
@@ -82,7 +76,7 @@ cc <- cc %>%
   grouping()
 
 till <- till %>% 
-  full_join(ne_mod_3 %>%
+  full_join(ne %>%
               filter(Review=="Tillage")) %>%
   select(-NOTES,-Review) %>%
   mutate(per_change = ifelse(grepl("%", rv_units), 
@@ -92,7 +86,7 @@ till <- till %>%
   grouping()
 
 nm <- nm %>% 
-  full_join(ne_mod_3 %>%
+  full_join(ne %>%
               filter(Review=="Nutrient Management")) %>%
   select(-NOTES,-Review) %>%
   mutate(per_change = ifelse(grepl("%", rv_units), 
@@ -102,8 +96,8 @@ nm <- nm %>%
   grouping()
 
 pm <- pm %>% 
-  full_join(ne_mod_3 %>%
-              filter(Review=="Early Season Pest Management")) %>%
+  full_join(ne %>%
+              filter(Review=="Pest Management")) %>%
   select(-NOTES,-Review) %>%
   mutate(per_change = ifelse(grepl("%", rv_units), 
                              (trt2_value-trt1_value), 
