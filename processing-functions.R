@@ -304,6 +304,10 @@ ne.mods <- function(data) {
         ifelse(group_level3 == "Western corn rootworm (# days for 50% emergence)" | group_level3 == "Western corn rootworm (#)",
                "Western corn rootworm",
                group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        group_level3 %>% str_to_title()
     )
 }
 
@@ -636,6 +640,10 @@ gl3.rename <- function(data) {
         ifelse(group_level3 == "Western corn rootworm (# days for 50% emergence)" | group_level3 == "Western corn rootworm (#)",
                "Western corn rootworm",
                group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        group_level3 %>% str_to_title()
     )
 }
 
