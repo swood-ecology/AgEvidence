@@ -48,6 +48,30 @@ ne.mods <- function(data) {
     ) %>%
     mutate(
       group_level3 =
+        ifelse(group_level3 == "Ammonium (NH4)",
+               "Ammonium",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Nitrate (NO3)",
+               "Nitrate",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Nitric oxide (NO)",
+               "Nitric oxide",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Air-filled pores",
+               "Air-filled pore space",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
         ifelse(group_level3 == "Invertebrate foliar community (#)" | group_level3 == "Invertebrate foliar community (diversity)",
                "Aboveground invertebrates",
                group_level3)
@@ -308,6 +332,18 @@ ne.mods <- function(data) {
     mutate(
       group_level3 =
         group_level3 %>% str_to_title()
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Ph",
+               "pH",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Cec",
+               "CEC",
+               group_level3)
     )
 }
 
@@ -384,6 +420,30 @@ gl3.rename <- function(data) {
     ) %>%
     mutate(
       group_level3 =
+        ifelse(group_level3 == "Ammonium (NH4)",
+               "Ammonium",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Nitrate (NO3)",
+               "Nitrate",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Nitric oxide (NO)",
+               "Nitric oxide",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Air-filled pores",
+               "Air-filled pore space",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
         ifelse(group_level3 == "Invertebrate foliar community (#)" | group_level3 == "Invertebrate foliar community (diversity)",
                "Aboveground invertebrates",
                group_level3)
@@ -644,6 +704,18 @@ gl3.rename <- function(data) {
     mutate(
       group_level3 =
         group_level3 %>% str_to_title()
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Ph",
+               "pH",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Cec",
+               "CEC",
+               group_level3)
     )
 }
 
