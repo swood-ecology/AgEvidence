@@ -36,12 +36,6 @@ ne.mods <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Methane (CH4)",
-               "Methane oxidation",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
         ifelse(group_level3 == "Methane and carbon dioxide (CH4 + CO2)",
                "Methane + Carbon dioxide",
                group_level3)
@@ -378,6 +372,12 @@ gl2.rename <- function(data) {
     ) %>%
     mutate(
       group_level2 =
+        ifelse(rv == "soil methane oxidation (CH4-C) in in April" | rv == "soil methane oxidation (CH4-C) in in August",
+               "Biotic Factors",
+               group_level2)
+      ) %>%
+    mutate(
+      group_level2 =
         ifelse(group_level2 == "Corn root biomass",
                "Corn root development",
                group_level2
@@ -408,7 +408,7 @@ gl3.rename <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Methane (CH4)",
+        ifelse(rv == "soil methane oxidation (CH4-C) in in April" | rv == "soil methane oxidation (CH4-C) in in August",
                "Methane oxidation",
                group_level3)
     ) %>%

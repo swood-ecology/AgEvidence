@@ -51,6 +51,14 @@ ne <- ne.mods(ne)
 cc <- cc %>%
   mutate(review="Cover Crops")
 
+till <- till %>%
+  mutate(
+    group_level1 =
+      ifelse(rv == "soil methane oxidation (CH4-C) in in April" | rv == "soil methane oxidation (CH4-C) in in August",
+             "Other Soil Properties",
+             group_level1)
+  )
+
 #### GL2 RENAMING ####
 cc <- gl2.rename(cc) 
 till <- gl2.rename(till)
