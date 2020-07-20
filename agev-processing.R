@@ -54,10 +54,24 @@ cc <- cc %>%
 till <- till %>%
   mutate(
     group_level1 =
-      ifelse(rv == "soil methane oxidation (CH4-C) in in April" | rv == "soil methane oxidation (CH4-C) in in August",
+      ifelse(rv == "soil methane oxidation (CH4-C) in in April" | rv == "soil methane oxidation (CH4-C) in in August" |
+               rv == "water extractable organic carbon (0-5 cm)" | rv == "water extractable organic carbon (5-20 cm)" |
+               rv == "active carbon concentration" | rv == "maximum mineralizable soil carbon (Michaelis-Menten equation)" |
+               rv == "mineralizable soil carbon" | rv == "natural abundance of 13-C in soil (delta 13-C)",
              "Other Soil Properties",
              group_level1)
   )
+
+cc <- cc %>%
+  mutate(
+  group_level1 =
+    ifelse(rv == "water extractable organic carbon (0-5 cm)" | rv == "water extractable organic carbon (5-20 cm)" |
+             rv == "active carbon concentration" | rv == "maximum mineralizable soil carbon (Michaelis-Menten equation)" |
+           rv == "mineralizable soil carbon" | rv == "natural abudance of 13-C in soil (delta 13-C)",
+           "Other Soil Properties",
+           group_level1)
+)
+  
 
 #### GL2 RENAMING ####
 cc <- gl2.rename(cc) 

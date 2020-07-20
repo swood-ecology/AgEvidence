@@ -338,6 +338,12 @@ ne.mods <- function(data) {
         ifelse(group_level3 == "Cec",
                "CEC",
                group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Natural Abundance Of 13c",
+               "Natural Abundance of 13C",
+               group_level3)
     )
 }
 
@@ -378,6 +384,14 @@ gl2.rename <- function(data) {
       ) %>%
     mutate(
       group_level2 =
+        ifelse(rv == "water extractable organic carbon (0-5 cm)" | rv == "water extractable organic carbon (5-20 cm)" |
+                 rv == "active carbon concentration" | rv == "maximum mineralizable soil carbon (Michaelis-Menten equation)" |
+               rv == "mineralizable soil carbon" | rv == "natural abundance of 13-C in soil (delta 13-C)",
+               "Chemical Properties",
+               group_level2)
+    ) %>%
+    mutate(
+      group_level2 =
         ifelse(group_level2 == "Corn root biomass",
                "Corn root development",
                group_level2
@@ -410,6 +424,20 @@ gl3.rename <- function(data) {
       group_level3 =
         ifelse(rv == "soil methane oxidation (CH4-C) in in April" | rv == "soil methane oxidation (CH4-C) in in August",
                "Methane oxidation",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(rv == "water extractable organic carbon (0-5 cm)" | rv == "water extractable organic carbon (5-20 cm)" |
+                 rv == "active carbon concentration" | rv == "maximum mineralizable soil carbon (Michaelis-Menten equation)" |
+               rv == "mineralizable soil carbon",
+               "Labile carbon",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(rv == "natural abundance of 13-C in soil (delta 13-C)",
+               "Natural abundance of 13C",
                group_level3)
     ) %>%
     mutate(
@@ -715,6 +743,12 @@ gl3.rename <- function(data) {
       group_level3 =
         ifelse(group_level3 == "Cec",
                "CEC",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Natural Abundance Of 13c",
+               "Natural Abundance of 13C",
                group_level3)
     )
 }
