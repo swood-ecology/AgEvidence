@@ -132,5 +132,4 @@ write.csv(cc, paste0("filtered-data/Covercrops_AgEvidence_",Sys.Date(),".csv"))
 write.csv(till, paste0("filtered-data/Tillage_AgEvidence_",Sys.Date(),".csv"))
 write.csv(nm, paste0("filtered-data/NutrientMgmt_AgEvidence_",Sys.Date(),".csv"))
 write.csv(pm, paste0("filtered-data/PestMgmt_AgEvidence_",Sys.Date(),".csv"))
-write.csv(ne, paste0("filtered-data/NormativeEffects_AgEvidence_",Sys.Date(),".csv"))
 
