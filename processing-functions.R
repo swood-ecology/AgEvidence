@@ -387,8 +387,14 @@ gl2.rename <- function(data) {
         ifelse(rv == "water extractable organic carbon (0-5 cm)" | rv == "water extractable organic carbon (5-20 cm)" |
                  rv == "active carbon concentration" | rv == "maximum mineralizable soil carbon (Michaelis-Menten equation)" |
                rv == "mineralizable soil carbon" | rv == "natural abundance of 13-C in soil (delta 13-C)" | 
-                 rv == "delta 13 C in soil",
+                 rv == "delta 13 C in soil" | rv =="eroded soil organic carbon stock (C3-C) in topsoil",
                "Chemical Properties",
+               group_level2)
+    ) %>%
+    mutate(
+      group_level2 =
+        ifelse(rv =="eroded soil organic carbon stock (C3-C) in topsoil",
+               "Physical Properties",
                group_level2)
     ) %>%
     mutate(
@@ -439,6 +445,12 @@ gl3.rename <- function(data) {
       group_level3 =
         ifelse(rv == "natural abundance of 13-C in soil (delta 13-C)" | rv == "delta 13 C in soil",
                "Natural abundance of 13C",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(rv == "eroded soil organic carbon stock (C3-C) in topsoil",
+               "Erosion",
                group_level3)
     ) %>%
     mutate(

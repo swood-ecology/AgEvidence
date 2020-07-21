@@ -58,7 +58,7 @@ till <- till %>%
                rv == "water extractable organic carbon (0-5 cm)" | rv == "water extractable organic carbon (5-20 cm)" |
                rv == "active carbon concentration" | rv == "maximum mineralizable soil carbon (Michaelis-Menten equation)" |
                rv == "mineralizable soil carbon" | rv == "natural abundance of 13-C in soil (delta 13-C)" | 
-               rv == "delta 13 C in soil",
+               rv == "delta 13 C in soil" | rv == "eroded soil organic carbon stock (C3-C) in topsoil",
              "Other Soil Properties",
              group_level1)
   )
