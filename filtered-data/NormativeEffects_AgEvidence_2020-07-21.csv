@@ -1,0 +1,210 @@
+"","Review","group_level1","group_level2","norm_interp2","group_level3","norm_interp3","group_level1_alt","group_level2_alt","norm_interp2_alt","norm_interp3_alt","NOTES"
+"1","Cover Crops","Other Soil Properties","Soil Structure","Positive","Aggregate Size","assumed societal benefit",NA,NA,NA,NA,NA
+"2","Cover Crops","Other Soil Properties","Soil Structure","Positive","Aggregate Stability","assumed societal benefit",NA,NA,NA,NA,NA
+"3","Cover Crops","Other Soil Properties","Soil Structure","Positive","Air-Filled Pore Space","assumed societal benefit",NA,NA,NA,NA,"Air-filled pores -> Air-filled pore space"
+"4","Cover Crops","Soil Nutrients","Nitrogen","Dependent on other factors","Ammonium","dependent on other factors",NA,NA,NA,NA,NA
+"5","Cover Crops","Climate Mitigation","Carbon Emissions","Negative","Carbon Dioxide","assumed societal harm",NA,NA,NA,NA,NA
+"6","Cover Crops","Other Soil Properties","Physical Properties","Dependent on other factors","Clay Content","dependent on other factors",NA,NA,NA,NA,NA
+"7","Cover Crops","Pests","Weeds","Negative","Cocklebur","assumed societal harm",NA,NA,NA,NA,NA
+"8","Cover Crops","Other Soil Properties","Physical Properties","Dependent on other factors","Compaction","assumed societal harm","Other Soil Properties","Soil Structure","Positive","assumed societal harm",NA
+"9","Cover Crops","Crop Yields","Grain Production","Positive","Corn","assumed societal benefit",NA,NA,NA,NA,NA
+"10","Cover Crops","Crop Yields","Stand Count","Positive","Corn","assumed societal benefit",NA,NA,NA,NA,NA
+"11","Cover Crops","Crop Yields","Grain Quality","Positive","Corn Nitrogen Content","assumed societal benefit",NA,NA,NA,NA,NA
+"12","Cover Crops","Pests","Invertebrate Pests","Negative","Corn Rootworm","assumed societal harm",NA,NA,NA,NA,NA
+"13","Cover Crops","Crop Yields","Crop Growth","Positive","Corn Stalk Biomass","assumed societal benefit",NA,NA,NA,NA,NA
+"14","Cover Crops","Crop Yields","Crop Nitrogen Content","Positive","Corn Stalk Nitrogen Content","assumed societal benefit",NA,NA,NA,NA,NA
+"15","Cover Crops","Pests","Crop Damage","Negative","Damage Caused By Seed Corn Maggot","assumed societal harm","Crop Yields","Crop Damage","Negative","assumed societal harm",NA
+"16","Cover Crops","Pests","Weeds","Negative","Dead Nettle","assumed societal harm",NA,NA,NA,NA,NA
+"17","Cover Crops","Water Quality","Drainage","Positive","Drainage","assumed societal benefit",NA,NA,NA,NA,NA
+"18","Cover Crops","Other Soil Properties","Biotic Factors","Positive","Enzyme Activity","assumed societal benefit",NA,NA,NA,NA,NA
+"19","Cover Crops","Other Soil Properties","Physical Properties","Dependent on other factors","Erosion","assumed societal harm",NA,NA,NA,NA,NA
+"20","Cover Crops","Pests","Weeds","Negative","Foxtail","assumed societal harm",NA,NA,NA,NA,NA
+"21","Cover Crops","Pests","Pest Natural Enemies","Positive","Aboveground Invertebrates","assumed societal benefit",NA,NA,NA,NA,NA
+"22","Cover Crops","Pests","Pest Natural Enemies","Positive","Aboveground Invertebrates","assumed societal benefit",NA,NA,NA,NA,NA
+"23","Cover Crops","Pests","Pest Natural Enemies","Positive","Invertebrate Non-Predator & Pests","assumed societal benefit",NA,NA,NA,NA,NA
+"24","Cover Crops","Pests","Pest Natural Enemies","Positive","Invertebrate Predators","assumed societal benefit",NA,NA,NA,NA,NA
+"25","Cover Crops","Pests","Pest Natural Enemies","Positive","Invertebrate Predator (Activity)","assumed societal benefit",NA,NA,NA,NA,NA
+"26","Cover Crops","Pests","Pest Natural Enemies","Positive","Invertebrate Soil Community","assumed societal benefit","Other Soil Properties","Biotic Factors","Positive","assumed societal benefit",NA
+"27","Cover Crops","Pests","Pest Natural Enemies","Positive","Invertebrate Soil Community (Diversity)","assumed societal benefit","Other Soil Properties","Biotic Factors","Positive","assumed societal benefit",NA
+"28","Cover Crops","Other Soil Properties","Biotic Factors","Positive","Microbial Biomass","assumed societal benefit",NA,NA,NA,NA,NA
+"29","Cover Crops","Water Quality","Nutrient Runoff","Negative","Nitrate","assumed societal harm",NA,NA,NA,NA,NA
+"30","Cover Crops","Soil Nutrients","Nitrogen","Dependent on other factors","Nitrate","dependent on other factors",NA,NA,NA,NA,NA
+"31","Cover Crops","Climate Mitigation","Growing Season Nitrogen Emissions","Negative","Nitrous Oxide","assumed societal harm",NA,NA,NA,NA,NA
+"32","Cover Crops","Pests","Pathogens","Negative","Pathogens","assumed societal harm",NA,NA,NA,NA,NA
+"33","Cover Crops","Other Soil Properties","Chemical Properties","Dependent on other factors","pH","dependent on other factors",NA,NA,NA,NA,NA
+"34","Cover Crops","Water Quality","Nutrient Runoff","Negative","Phosphorus","assumed societal harm",NA,NA,NA,NA,NA
+"35","Cover Crops","Soil Nutrients","Phosphorus & Potassium","Dependent on other factors","Phosphorus","dependent on other factors",NA,NA,NA,NA,NA
+"36","Cover Crops","Pests","Weeds","Negative","Pigweed","assumed societal harm",NA,NA,NA,NA,NA
+"37","Cover Crops","Soil Nutrients","Phosphorus & Potassium","Dependent on other factors","Potassium","assumed societal benefit",NA,NA,NA,NA,NA
+"38","Cover Crops","Other Soil Properties","Physical Properties","Dependent on other factors","Sand Content","dependent on other factors",NA,NA,NA,NA,NA
+"39","Cover Crops","Pests","Invertebrate Pests","Negative","Seedcorn Maggot","assumed societal harm",NA,NA,NA,NA,NA
+"40","Cover Crops","Other Soil Properties","Physical Properties","Dependent on other factors","Silt Content","dependent on other factors",NA,NA,NA,NA,NA
+"41","Cover Crops","Other Soil Properties","Physical Properties","Dependent on other factors","Soil Bulk Density","assumed societal harm",NA,NA,NA,NA,"Soil bulk density' -> ""Bulk density"""
+"42","Cover Crops","Other Soil Properties","Abiotic Factors","Dependent on other factors","Soil Moisture","dependent on other factors",NA,NA,NA,NA,NA
+"43","Cover Crops","Climate Mitigation","Carbon Storage","Positive","Soil Organic Carbon","assumed societal benefit","Other Soil Properties","Chemical Properties","Dependent on other factors","assumed societal benefit",NA
+"44","Cover Crops","Other Soil Properties","Chemical Properties","Dependent on other factors","Soil Organic Matter Content","assumed societal benefit","Climate Mitigation","Carbon Storage","Positive","assumed societal benefit",NA
+"45","Cover Crops","Other Soil Properties","Abiotic Factors","Dependent on other factors","Soil Temperature","dependent on other factors",NA,NA,NA,NA,NA
+"46","Cover Crops","Crop Yields","Grain Production","Positive","Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"47","Cover Crops","Crop Yields","Stand Count","Positive","Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"48","Cover Crops","Pests","Invertebrate Pests","Negative","Soybean Aphid","assumed societal harm",NA,NA,NA,NA,NA
+"49","Cover Crops","Pests","Nematodes","Negative","Soybean Cyst Nematode","assumed societal harm",NA,NA,NA,NA,NA
+"50","Cover Crops","Crop Yields","Crop Nitrogen Content","Positive","Soybean Stalk Nitrogen Content","assumed societal benefit",NA,NA,NA,NA,NA
+"51","Cover Crops","Soil Nutrients","Nitrogen","Dependent on other factors","Total Nitrogen","dependent on other factors",NA,NA,NA,NA,NA
+"52","Cover Crops","Other Soil Properties","Soil Structure","Positive","Total Pore Space","assumed societal benefit",NA,NA,NA,NA,NA
+"53","Cover Crops","Water Quality","Flow Quantity","Negative","Water Discharge","assumed societal harm",NA,NA,NA,NA,NA
+"54","Cover Crops","Other Soil Properties","Soil Structure","Positive","Water-Filled Pore Space","dependent on other factors",NA,NA,NA,NA,NA
+"55","Cover Crops","Pests","Weeds","Negative","Waterhemp","assumed societal harm",NA,NA,NA,NA,NA
+"56","Cover Crops","Pests","Weeds","Negative","Weed Community","assumed societal harm",NA,NA,NA,NA,"Change 'Water"" to 'Water discharge'"
+"57","Cover Crops","Pests","Weeds","Negative","Weeed Community (Biomass)","assumed societal harm",NA,NA,NA,NA,NA
+"58","Cover Crops","Crop Yields","Crop Growth","Positive","Corn Root Biomass","assumed societal benefit",NA,NA,NA,NA,NA
+"59","Cover Crops","Pests","Crop Damage","Negative","Damage Caused By Corn Rootworm","Assumed societal harm","Crop Yields","Crop Damage","Negative","assumed societal harm",NA
+"60","Pest Management","Pests","Invertebrate Pests","Negative","Bean Leaf Beetles On Soybeans","assumed societal harm",NA,NA,NA,NA,NA
+"61","Pest Management","Pests","Pathogens","Negative","Bean Pod Mottle Virus","assumed societal harm",NA,NA,NA,NA,NA
+"62","Pest Management","Crop Yields","Grain Production","Positive","Corn","assumed societal benefit",NA,NA,NA,NA,NA
+"63","Pest Management","Crop Yields","Stand Count","Positive","Corn","assumed societal benefit",NA,NA,NA,NA,NA
+"64","Pest Management","Crop Yields","Crop Damage","Negative","Corn Lodging","assumed societal harm",NA,NA,NA,NA,NA
+"65","Pest Management","Crop Yields","Crop Growth","Positive","Corn (Height)","assumed societal benefit",NA,NA,NA,NA,NA
+"66","Pest Management","Pests","Pathogens","Negative","Corn (Infection Of Leaf Tissue)","assumed societal harm","Crop Yields","Crop Damage","Negative","assumed societal harm",NA
+"67","Pest Management","Pests","Pathogens","Negative","Corn (Infection Of Roots)","assumed societal harm","Crop Yields","Crop Damage","Negative","assumed societal harm",NA
+"68","Pest Management","Crop Yields","Crop Growth","Positive","Corn (Reduction In Vigor)","assumed societal harm",NA,NA,NA,NA,NA
+"69","Pest Management","Crop Yields","Crop Damage","Negative","Crop Damaged By Invertebrates","assumed societal harm","Pests","Invertebrate Pests","Negative","assumed societal harm",NA
+"70","Pest Management","Pests","Natural Enemies","Positive","Invertebrate Predators In Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"71","Pest Management","Pests","Invertebrate Pests","Negative","Northern Corn Rootworm","assumed societal harm",NA,NA,NA,NA,NA
+"72","Pest Management","Pests","Invertebrate Pests","Negative","Seedcorn Maggot","assumed societal harm",NA,NA,NA,NA,NA
+"73","Pest Management","Crop Yields","Grain Production","Positive","Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"74","Pest Management","Crop Yields","Grain Quality","Positive","Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"75","Pest Management","Crop Yields","Stand Count","Positive","Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"76","Pest Management","Crop Yields","Crop Damage","Negative","Soybean Lodging","assumed societal harm",NA,NA,NA,NA,NA
+"77","Pest Management","Crop Yields","Crop Growth","Positive","Soybean (Greenness/Chlorophyll Content)","assumed societal benefit",NA,NA,NA,NA,NA
+"78","Pest Management","Crop Yields","Crop Growth","Positive","Soybean (Greenness/Chlorophyll Content)","assumed societal benefit",NA,NA,NA,NA,NA
+"79","Pest Management","Crop Yields","Crop Growth","Positive","Soybean (Height)","assumed societal benefit",NA,NA,NA,NA,NA
+"80","Pest Management","Pests","Pathogens","Negative","Soybean (Infection Of Leaf Tissue)","assumed societal harm","Crop Yields","Crop Damage","Negative","assumed societal harm",NA
+"81","Pest Management","Crop Yields","Crop Growth","Positive","Soybean (Seedling Development)","assumed societal benefit",NA,NA,NA,NA,"NOTE: Can this also display in Climate Mitigation > Carbon Storage?"
+"82","Pest Management","Pests","Invertebrate Pests","Negative","Soybean Aphids (Cumulative Aphid Days)","assumed societal harm",NA,NA,NA,NA,NA
+"83","Pest Management","Other Soil Properties","Biotic Factors","Positive","Soybean Mycorrhizal Colonization","assumed societal benefit",NA,NA,NA,NA,NA
+"84","Pest Management","Pests","Pathogens","Negative","Soybeans (Pathogens In Soil)","assumed societal harm",NA,NA,NA,NA,NA
+"85","Pest Management","Pests","Invertebrate Pests","Negative","Western Corn Rootworm","dependent on other factors",NA,NA,NA,NA,NA
+"86","Pest Management","Pests","Invertebrate Pests","Negative","Western Corn Rootworm","assumed societal harm",NA,NA,NA,NA,"Change 'Corn and soybean tissue (biomass)' to 'Corn and soybean tissue'"
+"87","Nutrient Management","Crop Yields","Grain Yields","Positive","Corn","assumed societal benefit",NA,NA,NA,NA,NA
+"88","Nutrient Management","Crop Yields","Stand Count","Positive","Corn","assumed societal benefit",NA,NA,NA,NA,NA
+"89","Nutrient Management","Crop Yields","Crop Growth","Positive","Corn Aboveground Biomass","assumed societal benefit",NA,NA,NA,NA,NA
+"90","Nutrient Management","Crop Yields","Grain Quality","Positive","Corn Nitrogen Uptake","assumed societal benefit",NA,NA,NA,NA,NA
+"91","Nutrient Management","Crop Yields","Crop Nutrient Content","Positive","Corn Stalk Nitrogen Content","assumed societal benefit",NA,NA,NA,NA,NA
+"92","Nutrient Management","Crop Yields","Crop Damage","Negative","Corn Stand Count Damage","assumed societal harm",NA,NA,NA,NA,NA
+"93","Nutrient Management","Crop Yields","Crop Nutrient Content","Positive","Crop Nitrogen Use Efficiency","assumed societal benefit",NA,NA,NA,NA,NA
+"94","Nutrient Management","Soil Nutrients","Ammonium","Dependent on other factors","Early Season","dependent on other factors",NA,NA,NA,NA,NA
+"95","Nutrient Management","Soil Nutrients","Nitrate","Dependent on other factors","Early Season","dependent on other factors",NA,NA,NA,NA,NA
+"96","Nutrient Management","Soil Nutrients","Ammonium","Dependent on other factors","Late Season","dependent on other factors",NA,NA,NA,NA,NA
+"97","Nutrient Management","Soil Nutrients","Nitrate","Dependent on other factors","Late Season","dependent on other factors",NA,NA,NA,NA,NA
+"98","Nutrient Management","Soil Nutrients","Ammonium","Dependent on other factors","Mid Season","dependent on other factors",NA,NA,NA,NA,NA
+"99","Nutrient Management","Soil Nutrients","Nitrate","Dependent on other factors","Mid Season","dependent on other factors",NA,NA,NA,NA,NA
+"100","Nutrient Management","Water Quality","Nutrient Runoff","Negative","Nitrate","assumed societal harm",NA,NA,NA,NA,NA
+"101","Nutrient Management","Climate Mitigation","Growing Season Nitrogen Emissions","Negative","Nitric Oxide","assumed societal harm",NA,NA,NA,NA,NA
+"102","Nutrient Management","Climate Mitigation","Growing Season Nitrogen Emissions","Negative","Nitrous Oxide","assumed societal harm",NA,NA,NA,NA,"*N20 -> N2O [currently there's a zero in place of the 'O']"
+"103","Nutrient Management","Crop Yields","Grain Yields","Positive","Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"104","Nutrient Management","Crop Yields","Crop Growth","Positive","Soybean Aboveground Biomass","assumed societal benefit",NA,NA,NA,NA,"NOTE: Can this also display in Climate Mitigation > Carbon Storage?"
+"105","Nutrient Management","Crop Yields","Grain Quality","Positive","Soybean Nitrogen Uptake","assumed societal benefit",NA,NA,NA,NA,NA
+"106","Nutrient Management","Crop Yields","Grain Quality","Positive","Soybean Oil, Fiber, & Protein","assumed societal benefit",NA,NA,NA,NA,NA
+"107","Nutrient Management","Crop Yields","Crop Nutrient Content","Positive","Soybean Stalk Nitrogen Content","assumed societal benefit",NA,NA,NA,NA,NA
+"108","Nutrient Management","Soil Nutrients","Nitrogen","Dependent on other factors","Total Nitrogen","dependent on other factors",NA,NA,NA,NA,NA
+"109","Nutrient Management","Water Quality","Flow Quantity","Negative","Water Discharge","assumed societal harm",NA,NA,NA,NA,NA
+"110","Tillage","Other Soil Properties","Soil Structure","Positive","Aggregate Size","assumed societal benefit",NA,NA,NA,NA,NA
+"111","Tillage","Other Soil Properties","Soil Structure","Positive","Aggregate Stability","assumed societal benefit",NA,NA,NA,NA,NA
+"112","Tillage","Other Soil Properties","Soil Structure","Positive","Air-Filled Pore Space","assumed societal benefit",NA,NA,NA,NA,NA
+"113","Tillage","Pests","Weeds","Negative","Amaranthus","assumed societal harm",NA,NA,NA,NA,NA
+"114","Tillage","Soil Nutrients","Nitrogen","Dependent on other factors","Ammonium","dependent on other factors",NA,NA,NA,NA,NA
+"115","Tillage","Pests","Weeds","Negative","Broadleafs","assumed societal harm",NA,NA,NA,NA,NA
+"116","Tillage","Other Soil Properties","Physical Properties","Dependent on other factors","Bulk Density","assumed societal harm","Other Soil Properties","Soil Structure","Positive","assumed societal harm",NA
+"117","Tillage","Soil Nutrients","Nitrogen","Dependent on other factors","C To N Ratio","assumed societal harm",NA,NA,NA,NA,NA
+"118","Tillage","Soil Nutrients","Micro-nutrients","Positive","Calcium","assumed societal benefit",NA,NA,NA,NA,NA
+"119","Tillage","Climate Mitigation","Carbon Emissions","Negative","Carbon Dioxide","assumed societal harm",NA,NA,NA,NA,NA
+"120","Tillage","Other Soil Properties","Chemical Properties","Dependent on other factors","CEC","assumed societal benefit",NA,NA,NA,NA,NA
+"121","Tillage","Other Soil Properties","Physical Properties","Dependent on other factors","Clay Content","dependent on other factors",NA,NA,NA,NA,NA
+"122","Tillage","Other Soil Properties","Physical Properties","Dependent on other factors","Compaction","assumed societal harm","Other Soil Properties","Soil Structure","Positive","assumed societal harm",NA
+"123","Tillage","Crop Yields","Grain Quality","Positive","Corn","assumed societal benefit",NA,NA,NA,NA,NA
+"124","Tillage","Crop Yields","Grain Yields","Positive","Corn","assumed societal benefit",NA,NA,NA,NA,NA
+"125","Tillage","Crop Yields","Stand Count","Positive","Corn","assumed societal benefit",NA,NA,NA,NA,NA
+"126","Tillage","Crop Yields","Water Use","Negative","Corn","assumed societal harm",NA,NA,NA,NA,NA
+"127","Tillage","Crop Yields","Crop Growth","Positive","Corn (Height)","assumed societal benefit",NA,NA,NA,NA,NA
+"128","Tillage","Crop Yields","Grain Yields","Positive","Corn And Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"129","Tillage","Crop Yields","Crop Growth","Positive","Corn And Soybean Tissue (Biomass)","assumed societal benefit",NA,NA,NA,NA,NA
+"130","Tillage","Crop Yields","Crop Growth","Positive","Corn And Soybean Tissue (Biomass)","assumed societal benefit",NA,NA,NA,NA,NA
+"131","Tillage","Pests","Invertebrate Pests","Negative","Corn Borer","assumed societal harm",NA,NA,NA,NA,NA
+"132","Tillage","Pests","Pathogens","Negative","Corn Infections","assumed societal harm","Crop Yields","Crop Damage","Negative","assumed societal harm",NA
+"133","Tillage","Other Soil Properties","Biotic Factors","Positive","Corn Mycorrhizal Colonization","assumed societal benefit",NA,NA,NA,NA,NA
+"134","Tillage","Crop Yields","Crop Growth","Positive","Corn Root Biomass","assumed societal benefit",NA,NA,NA,NA,NA
+"135","Tillage","Pests","Invertebrate Pests","Negative","Corn Rootworm","assumed societal harm",NA,NA,NA,NA,NA
+"136","Tillage","Crop Yields","Crop Damage","Negative","Corn Stand Count Damage","assumed societal harm",NA,NA,NA,NA,NA
+"137","Tillage","Crop Yields","Crop Growth","Positive","Corn Stover Biomass","assumed societal benefit",NA,NA,NA,NA,NA
+"138","Tillage","Crop Yields","Crop Damage","Negative","Crop Damaged By Invertebrates","assumed societal harm","Pests","Invertebrate Pests","Negative","assumed societal harm",NA
+"139","Tillage","Soil Nutrients","Nitrogen","Dependent on other factors","Crop Derived N","assumed societal benefit",NA,NA,NA,NA,NA
+"140","Tillage","Other Soil Properties","Biotic Factors","Dependent on other factors","Decomposition Rate Of Surface Residue","dependent on other factors",NA,NA,NA,NA,NA
+"141","Tillage","Water Quality","Nutrient Runoff","Negative","Dissovled Organic Carbon","assumed societal harm",NA,NA,NA,NA,NA
+"142","Tillage","Pests","Non-Predators & Pests","Dependent on other factors","Earthworms","dependent on other factors",NA,NA,NA,NA,NA
+"143","Tillage","Other Soil Properties","Biotic Factors","Positive","Enzyme Activity","assumed societal benefit",NA,NA,NA,NA,NA
+"144","Tillage","Other Soil Properties","Physical Properties","Dependent on other factors","Erosion","assumed societal harm",NA,NA,NA,NA,NA
+"145","Tillage","Pests","Weeds","Negative","Fall Panicum","assumed societal harm",NA,NA,NA,NA,NA
+"146","Tillage","Other Soil Properties","Biotic Factors","Positive","Fungal Abundance","assumed societal benefit",NA,NA,NA,NA,NA
+"147","Tillage","Pests","Invertebrate Pests","Negative","General Pests","assumed societal harm",NA,NA,NA,NA,NA
+"148","Tillage","Crop Yields","Corn Nutrient Content","Positive","Grain Nitrogen","assumed societal benefit",NA,NA,NA,NA,NA
+"149","Tillage","Pests","Weeds","Negative","Grasses","assumed societal harm",NA,NA,NA,NA,NA
+"150","Tillage","Pests","Nematodes","Negative","Herbivores","assumed societal harm",NA,NA,NA,NA,NA
+"151","Tillage","Pests","Non-Predators & Pests","Dependent on other factors","Invertebrates","dependent on other factors","Other Soil Properties","Biotic Factors","Positive","assumed societal benefit",NA
+"152","Tillage","Pests","Weeds","Negative","Lambsquarters","assumed societal harm",NA,NA,NA,NA,NA
+"153","Tillage","Soil Nutrients","Micro-nutrients","Positive","Magnesium","assumed societal benefit",NA,NA,NA,NA,NA
+"154","Tillage","Water Quality","Nutrient Runoff","Negative","Manure","assumed societal harm",NA,NA,NA,NA,NA
+"155","Tillage","Climate Mitigation","Carbon Emissions","Negative","Methane (Ch4)","assumed societal harm",NA,NA,NA,NA,NA
+"156","Tillage","Climate Mitigation","Carbon Emissions","Negative","Methane + Carbon Dioxide","assumed societal harm",NA,NA,NA,NA,NA
+"157","Tillage","Other Soil Properties","Biotic Factors","Positive","Microbial Biomass","assumed societal benefit",NA,NA,NA,NA,NA
+"158","Tillage","Water Quality","Nutrient Runoff","Negative","Micro-Nutrients","assumed societal harm",NA,NA,NA,NA,NA
+"159","Tillage","Soil Nutrients","Micro-nutrients","Positive","Misc. Micro-Nutrients","assumed societal benefit",NA,NA,NA,NA,NA
+"160","Tillage","Other Soil Properties","Abiotic Factors","Dependent on other factors","Moisture Content","dependent on other factors",NA,NA,NA,NA,NA
+"161","Tillage","Soil Nutrients","Nitrogen","Dependent on other factors","N Content Of Soil Organic Matter","assumed societal benefit",NA,NA,NA,NA,NA
+"162","Tillage","Pests","Pest Natural Enemies","Positive","Natural Enemies","assumed societal benefit",NA,NA,NA,NA,NA
+"163","Tillage","Pests","Pest Natural Enemies","Positive","Natural Enemy (Activity)","assumed societal benefit",NA,NA,NA,NA,NA
+"164","Tillage","Pests","Nematodes","Negative","Nematode Community","dependent on other factors","Other Soil Properties","Biotic Factors","Positive","assumed societal benefit",NA
+"165","Tillage","Pests","Non-Predators & Pests","Dependent on other factors","Nematodes","dependent on other factors","Other Soil Properties","Biotic Factors","Positive","assumed societal benefit",NA
+"166","Tillage","Water Quality","Nutrient Runoff","Negative","Nitrate","assumed societal harm",NA,NA,NA,NA,NA
+"167","Tillage","Soil Nutrients","Nitrogen","Dependent on other factors","Nitrate","dependent on other factors",NA,NA,NA,NA,NA
+"168","Tillage","Climate Mitigation","Growing Season Nitrogen Emissions","Negative","Nitrous Oxide","assumed societal harm",NA,NA,NA,NA,NA
+"169","Tillage","Water Quality","Agrochemical Runoff","Negative","Pesticides","assumed societal harm",NA,NA,NA,NA,NA
+"170","Tillage","Other Soil Properties","Chemical Properties","Dependent on other factors","pH","dependent on other factors",NA,NA,NA,NA,NA
+"171","Tillage","Water Quality","Nutrient Runoff","Negative","Phosphorus","assumed societal harm",NA,NA,NA,NA,NA
+"172","Tillage","Soil Nutrients","Phosphorus & Potassium","Dependent on other factors","Phosphorus","dependent on other factors",NA,NA,NA,NA,NA
+"173","Tillage","Soil Nutrients","Phosphorus & Potassium","Dependent on other factors","Potassium","assumed societal benefit",NA,NA,NA,NA,NA
+"174","Tillage","Other Soil Properties","Biotic Factors","Dependent on other factors","Carbon Dioxide","dependent on other factors","Climate Mitigation","Carbon Emissions","Negative","dependent on other factors",NA
+"175","Tillage","Crop Yields","Corn Nutrient Content","Positive","Root Nitrogen","assumed societal benefit",NA,NA,NA,NA,NA
+"176","Tillage","Other Soil Properties","Physical Properties","Dependent on other factors","Sand Content","dependent on other factors",NA,NA,NA,NA,NA
+"177","Tillage","Water Quality","Sediment Runoff","Negative","Sediment Runoff","assumed societal harm",NA,NA,NA,NA,NA
+"178","Tillage","Pests","Invertebrate Pests","Negative","Seedcorn Maggot","assumed societal harm",NA,NA,NA,NA,NA
+"179","Tillage","Other Soil Properties","Physical Properties","Dependent on other factors","Silt Content","dependent on other factors",NA,NA,NA,NA,NA
+"180","Tillage","Climate Mitigation","Carbon Storage","Positive","Soil Organic Carbon","assumed societal benefit","Other Soil Properties","Chemical Properties","Dependent on other factors","assumed societal benefit",NA
+"181","Tillage","Climate Mitigation","Carbon Storage","Positive","Soil Organic Carbon Derived From Corn","assumed societal benefit","Other Soil Properties","Chemical Properties","Dependent on other factors","assumed societal benefit",NA
+"182","Tillage","Other Soil Properties","Chemical Properties","Dependent on other factors","Soil Organic Matter Content","assumed societal benefit","Climate Mitigation","Carbon Storage","Positive","assumed societal benefit",NA
+"183","Tillage","Crop Yields","Grain Quality","Positive","Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"184","Tillage","Crop Yields","Grain Yields","Positive","Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"185","Tillage","Crop Yields","Stand Count","Positive","Soybean","assumed societal benefit",NA,NA,NA,NA,NA
+"186","Tillage","Crop Yields","Water Use","Negative","Soybean","assumed societal harm",NA,NA,NA,NA,NA
+"187","Tillage","Crop Yields","Crop Growth","Positive","Soybean (Height)","assumed societal benefit",NA,NA,NA,NA,NA
+"188","Tillage","Pests","Invertebrate Pests","Negative","Soybean Aphid","assumed societal harm",NA,NA,NA,NA,NA
+"189","Tillage","Pests","Nematodes","Negative","Soybean Cyst Nematode","assumed societal harm",NA,NA,NA,NA,NA
+"190","Tillage","Pests","Pathogens","Negative","Soybean Infections","assumed societal harm","Crop Yields","Crop Damage","Negative","assumed societal harm",NA
+"191","Tillage","Pests","Pathogens","Negative","Soybean Infections","assumed societal harm","Crop Yields","Crop Damage","Negative","assumed societal harm",NA
+"192","Tillage","Other Soil Properties","Biotic Factors","Positive","Soybean Mycorrhizal Colonization","assumed societal benefit",NA,NA,NA,NA,NA
+"193","Tillage","Crop Yields","Crop Growth","Positive","Soybean Tissue (Biomass)","assumed societal benefit",NA,NA,NA,NA,NA
+"194","Tillage","Crop Yields","Corn Nutrient Content","Positive","Stover Micro-Nutrients","assumed societal benefit",NA,NA,NA,NA,NA
+"195","Tillage","Crop Yields","Corn Nutrient Content","Positive","Stover Nitrogen","assumed societal benefit",NA,NA,NA,NA,NA
+"196","Tillage","Crop Yields","Corn Nutrient Content","Positive","Stover Phosphorus","assumed societal benefit",NA,NA,NA,NA,NA
+"197","Tillage","Other Soil Properties","Physical Properties","Dependent on other factors","Surface Residue Coverage","assumed societal benefit",NA,NA,NA,NA,NA
+"198","Tillage","Other Soil Properties","Abiotic Factors","Dependent on other factors","Temperature","dependent on other factors",NA,NA,NA,NA,NA
+"199","Tillage","Crop Yields","Soybean Nutrient Content","Positive","Tissue Nitrogen","assumed societal benefit",NA,NA,NA,NA,NA
+"200","Tillage","Crop Yields","Soybean Nutrient Content","Positive","Tissue Phosphorus","assumed societal benefit",NA,NA,NA,NA,NA
+"201","Tillage","Soil Nutrients","Nitrogen","Dependent on other factors","Total Nitrogen","dependent on other factors",NA,NA,NA,NA,NA
+"202","Tillage","Other Soil Properties","Soil Structure","Positive","Total Pore Space","assumed societal benefit",NA,NA,NA,NA,NA
+"203","Tillage","Pests","Weeds","Negative","Velvetleaf","assumed societal harm",NA,NA,NA,NA,NA
+"204","Tillage","Water Quality","Flow Quantity","Negative","Water","assumed societal harm",NA,NA,NA,NA,"Water - change to 'Water discharge'"
+"205","Tillage","Other Soil Properties","Physical Properties","Dependent on other factors","Water Infiltration","assumed societal benefit",NA,NA,NA,NA,NA
+"206","Tillage","Other Soil Properties","Soil Structure","Positive","Water-Filled Pore Space","dependent on other factors",NA,NA,NA,NA,NA
+"207","Tillage","Pests","Weeds","Negative","Weed Community","assumed societal harm",NA,NA,NA,NA,NA
+"208","Tillage","Pests","Weeds","Negative","Weed Community (Diversity)","dependent on other factors",NA,NA,NA,NA,NA
+"209","Tillage","Other Soil Properties","Biotic Factors","Dependent on other factors","Methane Oxidation","Dependent on other factors",NA,NA,NA,NA,NA
