@@ -86,6 +86,13 @@ till <- gl3.rename(till)
 nm <- gl3.rename(nm)
 pm <- gl3.rename(pm)
 
+#### MARKDOWN FOR MEASURED VARIABLE AND UNITS ####
+cc <- mkdown(cc) 
+till <- mkdown(till)
+nm <- mkdown(nm)
+pm <- mkdown(pm)
+
+
 #### GENERATE NEW COLUMNS FOR GL AND NE ####
 # Create new columns by calling grouping() function
 cc <- cc %>% 

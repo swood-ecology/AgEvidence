@@ -1,4 +1,6 @@
 #### FUNCTIONS ####
+
+# Make changes to the normative grouping files
 ne.mods <- function(data) {
   data %>%
     mutate(
@@ -347,7 +349,58 @@ ne.mods <- function(data) {
     )
 }
 
-# Function to change the GL2 changes in the raw data
+# Code markdown style into the data for HTML rendering
+mkdown <- function(data){
+  data$rv <- data %>%
+    select(rv) %>% as_vector() %>% 
+    str_replace_all(
+      c("NH4-N"="NH~4~-N",
+        "NH4"="NH~4~",
+        "NO3-N"="NO~3~-N",
+        "NO3"="NO~3~",
+        "N2O"="N~2~O",
+        "N2O-N"="N~2~O-N",
+        "CO2-C"="CO~2~-C",
+        "CO2"="CO~2~",
+        "CH4"="CH~4~",
+        "CH4-C"="CH~4~-C"
+        )
+      )
+  data$'rv_units' <- data %>%
+    select('rv_units') %>% as_vector() %>%
+    str_replace_all(
+      c("\\^3"="^3^",
+        "\\^2"="^2^",
+        "\\^-1"="^-1^",
+        "\\^1/2"="^1/2^",
+        "CO2-C"="CO~2~-C",
+        "NO3-Nconc"="NO~3~-N~conc~",
+        "NO3-Nyield"="NO~3~-N~yield~",
+        "N2O-N"="N~2~O-N",
+        "micrograms N2O/g  soil/hr"="\\mugrams N~2~O/g",
+        "NO3-N"="NO~3~-N",
+        "CO2"="CO~2~",
+        "H2O"="H~2~O",
+        "# (log10(x+1))"="# (log~10~(x+1))",
+        "0/00"="\\text{\textperthousand}",
+        "theta"="\\theta",
+        "lambda"="\\lambda",
+        "alpha"="\\alpha",
+        "micro"="\\mu",
+        "delta-13C"="\\delta^13^C",
+        "CH4-C"="CH~4~-C",
+        "NH4-N"="NH~4~-N",
+        "NA"="",
+        "NH4"="NH~4~",
+        "NO3"="NO~3~",
+        "N2O"="N~2~O",
+        "CH4"="CH~4~"
+      )
+    )
+  return(data)
+}
+
+# Assorted changes to the GL2s
 gl2.rename <- function(data) {
   # Original functions
   data %>%
@@ -413,6 +466,7 @@ gl2.rename <- function(data) {
     ) 
 }
 
+# Assorted changes to the GL3s
 gl3.rename <- function(data) {
   data %>%
     mutate(
@@ -766,8 +820,7 @@ gl3.rename <- function(data) {
     )
 }
 
-# Function to generate two separate columns
-# based on GLs and NEs
+# Generate two separate columns based on GLs and NEs
 grouping <- function(data) {
   data %>%
     mutate(grouping=
