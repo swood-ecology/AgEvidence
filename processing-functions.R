@@ -400,6 +400,12 @@ mkdown <- function(data){
 gl2.rename <- function(data) {
   # Original functions
   data %>%
+    mutate(
+      group_level2 =
+        ifelse(rv == "greenhouse gas intensity (N2O/grain)",
+               "Growing Season Nitrogen Emissions",
+               group_level2)
+    ) %>%
     mutate(group_level2 =
              ifelse(group_level1=="Other Soil Properties" & 
                       (group_level3=="Aggregate size"|group_level3=="Aggregate stability"|
@@ -465,6 +471,12 @@ gl2.rename <- function(data) {
 # Assorted changes to the GL3s
 gl3.rename <- function(data) {
   data %>%
+    mutate(
+      group_level3 =
+        ifelse(rv == "greenhouse gas intensity (N2O/grain)",
+               "Nitrous oxide",
+               group_level3)
+    ) %>%
     mutate(
       group_level3 =
         ifelse(group_level3 == "Respiration" | group_level3 == "Carbon Dioxide (CO2)" | group_level3 == "Carbon dioxide (CO2)",

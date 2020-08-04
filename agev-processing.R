@@ -92,7 +92,6 @@ till <- mkdown(till)
 nm <- mkdown(nm)
 pm <- mkdown(pm)
 
-
 #### GENERATE NEW COLUMNS FOR GL AND NE ####
 # Create new columns by calling grouping() function
 cc <- cc %>% 
