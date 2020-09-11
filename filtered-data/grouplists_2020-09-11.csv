@@ -1,0 +1,61 @@
+,group_level1,group_level2,group_level3
+1,Climate Mitigation,Carbon Emissions,Carbon dioxide (CO2)
+2,Climate Mitigation,Carbon Storage,Soil organic carbon
+3,Climate Mitigation,NA,NA
+4,Climate Mitigation,Nitrogen Emissions,Nitrous oxide (N2O)
+5,Crop Yields,Crop Growth,Corn root biomass
+6,Crop Yields,Crop Growth,Corn stalk biomass
+7,Crop Yields,Crop Nitrogen Content,Corn stalk nitrogen content
+8,Crop Yields,Crop Nitrogen Content,Soybean stalk nitrogen content
+9,Crop Yields,Grain Production,Corn
+10,Crop Yields,Grain Production,Soybean
+11,Crop Yields,Grain Quality,Corn nitrogen content
+12,Crop Yields,Stand Count,Corn
+13,Crop Yields,Stand Count,Soybean
+14,Other Soil Properties,Abiotic Factors,Soil moisture
+15,Other Soil Properties,Abiotic Factors,Soil temperature
+16,Other Soil Properties,Biotic Factors,Enzyme activity
+17,Other Soil Properties,Biotic Factors,Microbial biomass
+18,Other Soil Properties,Chemical Properties,pH
+19,Other Soil Properties,Physical Properties,Aggregate size
+20,Other Soil Properties,Physical Properties,Aggregate stability
+21,Other Soil Properties,Physical Properties,Air-filled pores
+22,Other Soil Properties,Physical Properties,Clay content
+23,Other Soil Properties,Physical Properties,Compaction
+24,Other Soil Properties,Physical Properties,Erosion
+25,Other Soil Properties,Physical Properties,Sand content
+26,Other Soil Properties,Physical Properties,Silt content
+27,Other Soil Properties,Physical Properties,Soil bulk density
+28,Other Soil Properties,Physical Properties,Soil organic matter content
+29,Other Soil Properties,Physical Properties,Total pore space
+30,Other Soil Properties,Physical Properties,Water-filled pore space
+31,Pests,Crop Damage,Damage caused by corn rootworm
+32,Pests,Crop Damage,Damage caused by seed corn maggot
+33,Pests,Invertebrate Pests,Corn rootworm (#)
+34,Pests,Invertebrate Pests,Seedcorn maggot (#)
+35,Pests,Invertebrate Pests,Soybean aphid (#)
+36,Pests,Nematodes,Soybean cyst nematode (#)
+37,Pests,Pathogens,Pathogens
+38,Pests,Pest Natural Enemies,Invertebrate foliar community (#)
+39,Pests,Pest Natural Enemies,Invertebrate foliar community (diversity)
+40,Pests,Pest Natural Enemies,Invertebrate non-predator & pests (#)
+41,Pests,Pest Natural Enemies,Invertebrate predator (#)
+42,Pests,Pest Natural Enemies,Invertebrate predator (activity)
+43,Pests,Pest Natural Enemies,Invertebrate soil community (#)
+44,Pests,Pest Natural Enemies,Invertebrate soil community (diversity)
+45,Pests,Weeds,Cocklebur (#)
+46,Pests,Weeds,Dead nettle (#)
+47,Pests,Weeds,Foxtail (#)
+48,Pests,Weeds,Pigweed (#)
+49,Pests,Weeds,Waterhemp (#)
+50,Pests,Weeds,Weed community (#)
+51,Pests,Weeds,Weeed community (biomass)
+52,Soil Nutrients,Nitrogen,Ammonium (NH4)
+53,Soil Nutrients,Nitrogen,Nitrate (NO3)
+54,Soil Nutrients,Nitrogen,Total nitrogen
+55,Soil Nutrients,Phosphorus & Potassium,Phosphorus
+56,Soil Nutrients,Phosphorus & Potassium,Potassium
+57,Water Quality,Drainage,Drainage
+58,Water Quality,Flow Quantity,Water discharge
+59,Water Quality,Nutrient Runoff,Nitrate
+60,Water Quality,Nutrient Runoff,Phosphorus
