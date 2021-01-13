@@ -31,12 +31,6 @@ ne.mods <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Methane and carbon dioxide (CH4 + CO2)",
-               "Methane + Carbon dioxide",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
         ifelse(group_level3 == "Ammonium (NH4)",
                "Ammonium",
                group_level3)
@@ -489,12 +483,6 @@ gl3.rename <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Methane and carbon dioxide",
-               "Methane + Carbon dioxide",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
         ifelse(rv == "water extractable organic carbon (0-5 cm)" | rv == "water extractable organic carbon (5-20 cm)" |
                  rv == "active carbon concentration" | rv == "maximum mineralizable soil carbon (Michaelis-Menten equation)" |
                rv == "mineralizable soil carbon",
@@ -511,12 +499,6 @@ gl3.rename <- function(data) {
       group_level3 =
         ifelse(rv == "eroded soil organic carbon stock (C3-C) in topsoil",
                "Erosion",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Methane and carbon dioxide (CH4 + CO2)",
-               "Methane + Carbon dioxide",
                group_level3)
     ) %>%
     mutate(
