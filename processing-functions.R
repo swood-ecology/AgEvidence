@@ -465,12 +465,6 @@ gl3.rename <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Corn Height",
-               "Corn (height)",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
         ifelse(group_level3 == "Nitrous oxide (N20)" | group_level3 == "Nitrous oxide (N2O)",
                "Nitrous oxide",
                group_level3)
@@ -505,12 +499,6 @@ gl3.rename <- function(data) {
       group_level3 =
         ifelse(group_level3 == "Soil moisture",
                "Moisture content",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Soybean Height",
-               "Soybean (height)",
                group_level3)
     ) %>%
     mutate(
