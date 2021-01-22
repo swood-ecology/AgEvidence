@@ -23,10 +23,15 @@ nm_groups <- nm %>%
   select(group_level1, group_level2, group_level3) %>% unique
 pm_groups <- pm %>% 
   select(group_level1, group_level2, group_level3) %>% unique
-till_groups <- cc %>% 
+till_groups <- till %>% 
   select(group_level1, group_level2, group_level3) %>% unique
 
-group_list <- join_all(list(cc_groups, nm_groups, pm_groups, till_groups))
+
+
+
+group_list1 <- full_join(cc_groups, nm_groups)
+group_list2 <- full_join(pm_groups, till_groups)
+group_list <- full_join(group_list1, group_list2)
 
 # Export csv
 write.csv(group_list, paste0("filtered-data/grouplists_",Sys.Date(),".csv"))
