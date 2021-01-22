@@ -29,7 +29,9 @@ till_groups <- till %>%
 
 
 
-group_list <- join_all(list(cc_groups, nm_groups, pm_groups, till_groups))
+group_list1 <- full_join(cc_groups, nm_groups)
+group_list2 <- full_join(pm_groups, till_groups)
+group_list <- full_join(group_list1, group_list2)
 
 # Export csv
 write.csv(group_list, paste0("filtered-data/grouplists_",Sys.Date(),".csv"))
