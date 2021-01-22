@@ -134,6 +134,22 @@ pm <- pm %>%
   mutate(per_change = round(per_change, digits = 2)) %>%
   grouping()
 
+
+#### REMOVE OBSERVATIONS
+# Remove observations from studies that have rates of change between negative and positive
+# Calculation % change between negative and positive creates counterintuitive results
+RV <- c("rate of soil organic carbon change in corn-corn-soybean rotation",  
+        "rate of soil organic carbon change in corn-soybean rotation",  
+        "annual rate of soil organic carbon change across three crop rotations", 
+        "rate of soil organic carbon change across three crop rotations")
+
+cc <- cc %>% filter(!rv %in% RV)
+till <- till %>% filter(!rv %in% RV)
+nm <- nm %>% filter(!rv %in% RV)
+pm <- pm %>% filter(!rv %in% RV)
+
+
+#### WRITE FILES
 write.csv(cc, paste0("filtered-data/Covercrops_AgEvidence_",Sys.Date(),".csv"))
 write.csv(till, paste0("filtered-data/Tillage_AgEvidence_",Sys.Date(),".csv"))
 write.csv(nm, paste0("filtered-data/NutrientMgmt_AgEvidence_",Sys.Date(),".csv"))
