@@ -23,8 +23,11 @@ nm_groups <- nm %>%
   select(group_level1, group_level2, group_level3) %>% unique
 pm_groups <- pm %>% 
   select(group_level1, group_level2, group_level3) %>% unique
-till_groups <- cc %>% 
+till_groups <- till %>% 
   select(group_level1, group_level2, group_level3) %>% unique
+
+
+
 
 group_list <- join_all(list(cc_groups, nm_groups, pm_groups, till_groups))
 
