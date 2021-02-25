@@ -135,6 +135,13 @@ pm <- pm %>%
   grouping()
 
 
+#### CONVERT RATES OF CHANGE
+# Avoid problems where negative rates of change create positive results
+cc <- sign.correction(cc)
+till <- sign.correction(till)
+nm <- sign.correction(nm)
+pm <- sign.correction(pm)
+
 #### REMOVE OBSERVATIONS
 # Remove observations from studies that have rates of change between negative and positive
 # Calculation % change between negative and positive creates counterintuitive results
