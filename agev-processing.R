@@ -145,9 +145,9 @@ pm <- sign.correction(pm)
 #### REMOVE OBSERVATIONS
 # Remove observations from studies that have rates of change between negative and positive
 # Calculation % change between negative and positive creates counterintuitive results
-RV <- c("rate of soil organic carbon change in corn-corn-soybean rotation",  
-        "rate of soil organic carbon change in corn-soybean rotation",  
-        "annual rate of soil organic carbon change across three crop rotations", 
+RV <- c("rate of soil organic carbon change in corn-corn-soybean rotation",
+        "rate of soil organic carbon change in corn-soybean rotation",
+        "annual rate of soil organic carbon change across three crop rotations",
         "rate of soil organic carbon change across three crop rotations")
 
 cc <- cc %>% filter(!rv %in% RV)

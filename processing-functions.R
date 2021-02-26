@@ -852,6 +852,12 @@ sign.correction <- function(data) {
                     per_change * -1,
                     per_change
                     )
+           ) %>%
+    mutate(per_change=
+             ifelse(trt1_value < 0 & trt2_value > 0,
+                    abs(per_change),
+                    per_change
+                    )
            )
 }
 
