@@ -843,3 +843,21 @@ grouping <- function(data) {
              )
     )
 }
+
+# Make sure a negative change doesn't become positive because of sign switching
+sign.correction <- function(data) {
+  data %>%
+    mutate(per_change=
+             ifelse(trt2_value < trt1_value & per_change > 0, 
+                    per_change * -1,
+                    per_change
+                    )
+           ) %>%
+    mutate(per_change=
+             ifelse(trt1_value < 0 & trt2_value > 0,
+                    abs(per_change),
+                    per_change
+                    )
+           )
+}
+
