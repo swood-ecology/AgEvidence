@@ -13,7 +13,7 @@ ne <- read_excel("data/normative-effects-Kenya.xlsx")
 
 # Data files
 cc <- read_excel("data/ContinuousCover_Kenya.xlsx", sheet = "Results")
-nm <- read_excel("data/NutrientMgmt_Kenya.xlsx", sheet = "Results")
+nm <- read_excel("data/NutrientMgmt2_Kenya.xlsx", sheet = "Results")
 till <- read_excel("data/Tillage_Kenya.xlsx", sheet = "Results")
 
 #### MANIPULATE DATA ####
@@ -104,8 +104,8 @@ till <- till %>%
 
 nm <- nm %>% 
   full_join(ne %>%
-              filter(Review=="Nutrient Management")) %>%
-  select(-NOTES,-Review) %>%
+              filter(Review=="Nutrient Amendments")) %>%
+  select(-Review) %>%
   mutate(per_change = ifelse(grepl("%", rv_units), 
                              (trt2_value-trt1_value), 
                              (trt2_value-trt1_value)/(trt1_value)*100)) %>%
