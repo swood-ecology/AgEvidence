@@ -13,7 +13,7 @@ ne <- read_excel("data/normative-effects-Kenya.xlsx")
 
 # Data files
 cc <- read_excel("data/ContinuousCover_Kenya.xlsx", sheet = "Results")
-nm <- read_excel("data/NutrientMgmt2_Kenya.xlsx", sheet = "Results")
+nm <- read_excel("data/NutrientMgmt_AgEvidenceKenya_Kate.xlsx", sheet = "Results")
 till <- read_excel("data/Tillage_Kenya.xlsx", sheet = "Results")
 
 #### MANIPULATE DATA ####
@@ -61,6 +61,11 @@ cc <- cc %>%
            group_level1)
 )
   
+#### GL1 RENAMING ####
+cc <- gl1.rename(cc) 
+till <- gl1.rename(till)
+nm <- gl1.rename(nm)
+
 
 #### GL2 RENAMING ####
 cc <- gl2.rename(cc) 
