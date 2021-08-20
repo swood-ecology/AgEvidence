@@ -459,6 +459,12 @@ gl3.rename <- function(data) {
     ) %>%
     mutate(
       group_level3 =
+        ifelse(rv == "Ammonia",
+               "Volatilized Ammonia",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
         ifelse(group_level3 == "Respiration" | group_level3 == "Carbon Dioxide (CO2)" | group_level3 == "Carbon dioxide (CO2)",
                "Carbon dioxide",
                group_level3)
