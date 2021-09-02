@@ -53,7 +53,6 @@ nm_tb <- as_tibble(nm) %>% select(
   paper_id:trtmt_splitC_levels,DESCRIPTIO
 )
 
-
 # Write files
 write.csv(cc_tb,"data/ContinuousCover_EcoRegions.csv")
 write.csv(till_tb,"data/Tillage_EcoRegions.csv")

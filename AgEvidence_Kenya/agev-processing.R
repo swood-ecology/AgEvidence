@@ -47,30 +47,6 @@ rm(cc.unique);rm(nm.unique);rm(till.unique)
 #### NE RENAMING ####
 ne <- ne.mods(ne) 
   
-#### GL1 RENAMING ####
-cc <- cc %>%
-  mutate(review="Continuous Cover") %>%
-  mutate(
-    group_level1 =
-      ifelse(rv == "water extractable organic carbon (0-5 cm)" | rv == "water extractable organic carbon (5-20 cm)" |
-               rv == "active carbon concentration" | rv == "maximum mineralizable soil carbon (Michaelis-Menten equation)" |
-               rv == "mineralizable soil carbon" | rv == "natural abudance of 13-C in soil (delta 13-C)" | rv == "delta 13 C in soil",
-             "Other Soil Properties",
-             group_level1)
-  )
-
-#till <- till %>%
- # mutate(
-  #  group_level1 =
-   #   ifelse(rv == "soil methane oxidation (CH4-C) in in April" | rv == "soil methane oxidation (CH4-C) in in August" |
-    #           rv == "water extractable organic carbon (0-5 cm)" | rv == "water extractable organic carbon (5-20 cm)" |
-     #          rv == "active carbon concentration" | rv == "maximum mineralizable soil carbon (Michaelis-Menten equation)" |
-      #         rv == "mineralizable soil carbon" | rv == "natural abundance of 13-C in soil (delta 13-C)" | 
-       #        rv == "delta 13 C in soil" | rv == "eroded soil organic carbon stock (C3-C) in topsoil",
-        #     "Other Soil Properties",
-         #    group_level1)
-#  )
-
 #### GL2 RENAMING ####
 cc <- gl2.rename(cc) 
 till <- gl2.rename(till)
@@ -92,16 +68,18 @@ cc <- cc %>%
   full_join(ne %>%
               filter(Review =="Continuous Cover")) %>%
   select(-Review) %>%
+  mutate(group_level1_alt = na_if(group_level1_alt, "NA")) %>%
   mutate(per_change = ifelse(grepl("%", rv_units), 
                              (trt2_value-trt1_value), 
                              (trt2_value-trt1_value)/(trt1_value)*100)) %>%
   mutate(per_change = round(per_change, digits = 2)) %>%
   grouping()
 
-X <- till %>% 
+till <- till %>% 
   full_join(ne %>% 
               filter(Review=="Tillage")) %>%
   select(-Review) %>%
+  mutate(group_level1_alt = na_if(group_level1_alt, "NA")) %>%
   mutate(per_change = ifelse(grepl("%", rv_units), 
                              (trt2_value-trt1_value), 
                              (trt2_value-trt1_value)/(trt1_value)*100)) %>%
@@ -112,13 +90,12 @@ nm <- nm %>%
   full_join(ne %>%
               filter(Review=="Nutrient Amendments")) %>%
   select(-Review) %>%
+  mutate(group_level1_alt = na_if(group_level1_alt, "NA")) %>%
   mutate(per_change = ifelse(grepl("%", rv_units), 
                              (trt2_value-trt1_value), 
                              (trt2_value-trt1_value)/(trt1_value)*100)) %>%
   mutate(per_change = round(per_change, digits = 2)) %>%
   grouping()
-
-
 
 #### CONVERT RATES OF CHANGE
 # Avoid problems where negative rates of change create positive results
@@ -127,19 +104,18 @@ till <- sign.correction(till)
 nm <- sign.correction(nm)
 
 
-#### REMOVE OBSERVATIONS
-# Remove observations from studies that have rates of change between negative and positive
-# Calculation % change between negative and positive creates counterintuitive results
-RV <- c("rate of soil organic carbon change in corn-corn-soybean rotation",
-        "rate of soil organic carbon change in corn-soybean rotation",
-        "annual rate of soil organic carbon change across three crop rotations",
-        "rate of soil organic carbon change across three crop rotations")
-
-cc <- cc %>% filter(!rv %in% RV)
-till <- till %>% filter(!rv %in% RV)
-nm <- nm %>% filter(!rv %in% RV)
-pm <- pm %>% filter(!rv %in% RV)
-
+# #### REMOVE OBSERVATIONS
+# # Remove observations from studies that have rates of change between negative and positive
+# # Calculation % change between negative and positive creates counterintuitive results
+# RV <- c("rate of soil organic carbon change in corn-corn-soybean rotation",
+#         "rate of soil organic carbon change in corn-soybean rotation",
+#         "annual rate of soil organic carbon change across three crop rotations",
+#         "rate of soil organic carbon change across three crop rotations")
+# 
+# cc <- cc %>% filter(!rv %in% RV)
+# till <- till %>% filter(!rv %in% RV)
+# nm <- nm %>% filter(!rv %in% RV)
+# pm <- pm %>% filter(!rv %in% RV)
 
 #### WRITE FILES
 write.csv(cc, paste0("filtered-data/Covercrops_Kenya_",Sys.Date(),".csv"))

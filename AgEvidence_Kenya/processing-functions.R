@@ -4,20 +4,6 @@
 ne.mods <- function(data) {
   data %>%
     mutate(
-      group_level2 =
-        ifelse(group_level3 == "Water infiltration",
-               "Physical Properties",
-               group_level2
-        )
-    ) %>%
-    mutate(
-      group_level2 =
-        ifelse(group_level2 == "Corn root biomass",
-               "Corn root development",
-               group_level2
-        )
-    ) %>%
-    mutate(
       group_level3 =
         ifelse(group_level3 == "Respiration" | group_level3 == "Carbon Dioxide (CO2)" | group_level3 == "Carbon dioxide (CO2)",
                "Carbon dioxide",
@@ -31,148 +17,9 @@ ne.mods <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Ammonium (NH4)",
-               "Ammonium",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Nitrate (NO3)",
-               "Nitrate",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
         ifelse(group_level3 == "Nitric oxide (NO)",
                "Nitric oxide",
                group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Air-filled pores",
-               "Air-filled pore space",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Invertebrate foliar community (#)" | group_level3 == "Invertebrate foliar community (diversity)",
-               "Aboveground invertebrates",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Early season (crop stages: preplanting to V6)",
-               "Early season",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Mid season (crop stages: V7 to R1)",
-               "Mid season",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Late season (crop stages: harvest & post harvest)",
-               "Late season",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Western corn rootworm (# days for 50% emergence)",
-               "Western corn rootworm",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Amaranthus (#)",
-               "Amaranthus",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Bean leaf beetles on soybeans (#)",
-               "Bean leaf beetles on soybeans",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Broadleafs (#)",
-               "Broadleafs",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Cocklebur (#)",
-               "Cocklebur",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Corn (# lodged)",
-               "Corn lodging",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Corn borer (#)",
-               "Corn borer",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Corn rootworm (#)",
-               "Corn rootworm",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Dead nettle (#)",
-               "Dead nettle",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Earthworms (#)",
-               "Earthworms",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Fall Panicum (#)",
-               "Fall panicum",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Foxtail (#)",
-               "Foxtail",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "General pests (#)",
-               "General pests",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Grasses (#)",
-               "Grasses",
-               group_level3
-        )
     ) %>%
     mutate(
       group_level3 =
@@ -183,43 +30,8 @@ ne.mods <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Invertebrate non-predator & pests (#)",
-               "Invertebrate non-predator & pests",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Invertebrate predator (#)",
-               "Invertebrate predators",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Invertebrate predators in soybean (#)",
-               "Invertebrate predators in soybean",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Invertebrate soil community (#)",
-               "Invertebrate soil community",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
         ifelse(group_level3 == "Invertebrates (#)",
                "Invertebrates",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Lambsquarters (#)",
-               "Lambsquarters",
                group_level3
         )
     ) %>%
@@ -246,20 +58,6 @@ ne.mods <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Northern corn rootworm (#)",
-               "Northern corn rootworm",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Pigweed (#)",
-               "Pigweed",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
         ifelse(group_level3 == "Seed corn maggot (#)" | group_level3 == "Seedcorn maggot (#)",
                "Seedcorn maggot",
                group_level3
@@ -267,49 +65,8 @@ ne.mods <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Soybean (# lodged)",
-               "Soybean lodging",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Soybean aphid (#)",
-               "Soybean aphid",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Soybean cyst nematode (#)",
-               "Soybean cyst nematode",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Velvetleaf (#)",
-               "Velvetleaf",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Waterhemp (#)",
-               "Waterhemp",
-               group_level3
-        )
-    ) %>%
-    mutate(
-      group_level3 =
         ifelse(group_level3 == "Weed community (#)",
                "Weed community",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
-        ifelse(group_level3 == "Western corn rootworm (# days for 50% emergence)" | group_level3 == "Western corn rootworm (#)",
-               "Western corn rootworm",
                group_level3)
     ) %>%
     mutate(
@@ -393,6 +150,12 @@ gl2.rename <- function(data) {
                "Nitrogen Emissions",
                group_level2)
     ) %>%
+    mutate(
+      group_level2 =
+        ifelse(group_level2 == "Storage",
+               "Carbon Storage",
+               group_level2)
+    ) %>%
     mutate(group_level2 =
              ifelse(group_level1=="Other Soil Properties" & 
                       (group_level3=="Aggregate size"|group_level3=="Aggregate stability"|
@@ -401,14 +164,29 @@ gl2.rename <- function(data) {
                     "Soil Structure",
                     group_level2)
     ) %>%
+    mutate(
+      group_level2 =
+        ifelse(group_level2 == "Micronutrients",
+               "Micro-nutrients",
+               group_level2)
+    ) %>%
     mutate(group_level2 = 
              ifelse(group_level1=="Other Soil Properties" & 
                       group_level3=="Decomposition rate of surface residue",
                     "Biotic Factors",
                     group_level2)) %>%
     mutate(group_level2 = 
+             ifelse(group_level2=="Crop Quality" & 
+                      group_level3=="Maize",
+                    "Plant Nutrient Content",
+                    group_level2)) %>%
+    mutate(group_level2 = 
              ifelse(group_level1=="Other Soil Properties" & group_level3=="Soil organic matter content",
                     "Chemical Properties",
+                    group_level2)) %>%
+    mutate(group_level2 = 
+             ifelse(group_level2=="Crop Biomass",
+                    "Crop Growth",
                     group_level2)) %>%
     # New functions
     mutate(
@@ -459,10 +237,14 @@ gl3.rename <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(rv == "Ammonia",
+        ifelse(group_level3 == "Ammonia",
                "Volatilized Ammonia",
-               group_level3)
-    ) %>%
+               group_level3)) %>%
+      mutate(
+        group_level3 =
+          ifelse(group_level2 == "Plant Nutrient Content" & group_level3 == "Nitrogen content",
+                 "Crop Nitrogen Content",
+                 group_level3)) %>%
     mutate(
       group_level3 =
         ifelse(group_level3 == "Respiration" | group_level3 == "Carbon Dioxide (CO2)" | group_level3 == "Carbon dioxide (CO2)",
@@ -503,12 +285,6 @@ gl3.rename <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "Soil moisture",
-               "Moisture content",
-               group_level3)
-    ) %>%
-    mutate(
-      group_level3 =
         ifelse(group_level3 == "Soybean Tissue Biomass",
                "Soybean aboveground biomass",
                group_level3)
@@ -527,6 +303,12 @@ gl3.rename <- function(data) {
     ) %>%
     mutate(
       group_level3 =
+        ifelse(group_level2 == "Nutrient Runoff" & group_level3 == "Nitrate",
+               "Nitrogen",
+               group_level3)
+    ) %>%
+    mutate(
+      group_level3 =
         ifelse(group_level3 == "Nitric oxide (NO)",
                "Nitric oxide",
                group_level3)
@@ -540,7 +322,7 @@ gl3.rename <- function(data) {
     mutate(
       group_level3 =
         ifelse(group_level3 == "Temperature",
-               "Soil temperature",
+               "Soil Temperature",
                group_level3)
     ) %>%
     mutate(
@@ -674,6 +456,34 @@ gl3.rename <- function(data) {
       group_level3 =
         ifelse(group_level3 == "Herbivores (#)",
                "Herbivores",
+               group_level3
+        )
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Bacterivores (#)",
+               "Bacterivores",
+               group_level3
+        )
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Omnivores (#)",
+               "Omnivores",
+               group_level3
+        )
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Fungivores (#)",
+               "Fungivores",
+               group_level3
+        )
+    ) %>%
+    mutate(
+      group_level3 =
+        ifelse(group_level3 == "Predators (#)",
+               "Predators",
                group_level3
         )
     ) %>%
