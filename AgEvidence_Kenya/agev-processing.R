@@ -20,7 +20,6 @@ till <- read_excel("data/Tillage_Kenya_081721.xlsx", sheet = "Results")
 # Create lists for filtering out
 filtered_rv_units <- c("^#$", "(arcsine)", "log10")
 
-
 # Filter data files before data checking
 cc <- cc  %>%
   filter(!is.na(trt1_value)) %>%
@@ -34,7 +33,17 @@ till <- till %>%
   filter(!is.na(trt1_value)) %>%
   filter(!rv_units %in% filtered_rv_units)
 
+# Get and write list of unique studies
+cc.unique <- cc %>% select(paper_id) %>% unique()
+nm.unique <- nm %>% select(paper_id) %>% unique()
+till.unique <- till %>% select(paper_id) %>% unique()
 
+write.csv(cc.unique,"spatial-data/cc-points-to-map.csv")
+write.csv(nm.unique,"spatial-data/nm-points-to-map.csv")
+write.csv(till.unique,"spatial-data/till-points-to-map.csv")
+
+rm(cc.unique);rm(nm.unique);rm(till.unique)
+                
 #### NE RENAMING ####
 ne <- ne.mods(ne) 
   
