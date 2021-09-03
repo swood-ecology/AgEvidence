@@ -54,6 +54,6 @@ nm_tb <- as_tibble(nm) %>% select(
 )
 
 # Write files
-write.csv(cc_tb,"data/ContinuousCover_EcoRegions.csv")
-write.csv(till_tb,"data/Tillage_EcoRegions.csv")
-write.csv(nm_tb,"data/NutrientManagement_EcoRegions.csv")
+write.csv(cc_tb,"data/ContinuousCover_FarmingSystems.csv")
+write.csv(till_tb,"data/Tillage_FarmingSystems.csv")
+write.csv(nm_tb,"data/NutrientManagement_FarmingSystems.csv")

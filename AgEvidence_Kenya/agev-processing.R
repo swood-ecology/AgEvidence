@@ -65,8 +65,9 @@ nm <- mkdown(nm)
 #### GENERATE NEW COLUMNS FOR GL AND NE ####
 # Create new columns by calling grouping() function
 cc <- cc %>% 
-  full_join(ne %>%
-              filter(Review =="Continuous Cover")) %>%
+  inner_join(ne %>%
+              filter(Review =="Continuous Cover") %>% 
+               unique()) %>%
   select(-Review) %>%
   mutate(group_level1_alt = na_if(group_level1_alt, "NA")) %>%
   mutate(per_change = ifelse(grepl("%", rv_units), 
@@ -76,7 +77,7 @@ cc <- cc %>%
   grouping()
 
 till <- till %>% 
-  full_join(ne %>% 
+  left_join(ne %>% 
               filter(Review=="Tillage")) %>%
   select(-Review) %>%
   mutate(group_level1_alt = na_if(group_level1_alt, "NA")) %>%
@@ -87,7 +88,7 @@ till <- till %>%
   grouping()
 
 nm <- nm %>% 
-  full_join(ne %>%
+  left_join(ne %>%
               filter(Review=="Nutrient Amendments")) %>%
   select(-Review) %>%
   mutate(group_level1_alt = na_if(group_level1_alt, "NA")) %>%
@@ -118,7 +119,7 @@ nm <- sign.correction(nm)
 # pm <- pm %>% filter(!rv %in% RV)
 
 #### WRITE FILES
-write.csv(cc, paste0("filtered-data/Covercrops_Kenya_",Sys.Date(),".csv"))
+write.csv(cc, paste0("filtered-data/ContinuousCover_Kenya_",Sys.Date(),".csv"))
 write.csv(till, paste0("filtered-data/Tillage_Kenya_",Sys.Date(),".csv"))
 write.csv(nm, paste0("filtered-data/NutrientMgmt_Kenya_",Sys.Date(),".csv"))
 
