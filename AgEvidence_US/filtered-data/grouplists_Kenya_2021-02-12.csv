@@ -1,0 +1,248 @@
+,group_level1,group_level2,group_level3
+1,Other Soil Properties,Abiotic Factors,Soil moisture
+177,Crop Yields,Cover Crop,Nitrogen content
+178,Crop Yields,Cover Crop,Height
+4,Pests,Weeds,Cocklebur (#)
+5,Pests,Weeds,Dead nettle (#)
+6,Pests,Nematodes,Soybean cyst nematode (#)
+7,Water Quality,Flow Quantity,Drainage
+8,Water Quality,Nutrient Runoff,Dissolved organic carbon
+9,Water Quality,Nutrient Runoff,Micro-nutrients
+10,Water Quality,Nutrient Runoff,Ammonium
+11,Pests,Weeds,Foxtail (#)
+12,Water Quality,Nutrient Runoff,Nitrate
+13,Soil Nutrients,Nitrogen,Ammonium
+14,Pests,Weeds,Pigweed (#)
+15,Pests,Weeds,Waterhemp (#)
+16,Other Soil Properties,Chemical Properties,pH
+17,Soil Nutrients,Phosphorus & Potassium,Phosphorus
+18,Other Soil Properties,Soil Structure,Aggregate size
+19,Climate Mitigation,Carbon Storage,Soil organic carbon
+20,Pests,Weeds,Weed community (#)
+21,Pests,Crop Damage,Damage caused by seed corn maggot
+22,Pests,Invertebrate Pests,Seedcorn maggot (#)
+23,Pests,Pest Natural Enemies,Invertebrate foliar community (#)
+24,Pests,Crop Damage,Damage caused by corn rootworm
+25,Pests,Invertebrate Pests,Corn rootworm (#)
+26,Pests,Invertebrate Pests,Soybean aphid (#)
+27,Other Soil Properties,Soil Structure,Aggregate stability
+179,Crop Yields,Cover Crop,Carbon content
+29,Other Soil Properties,Physical Properties,Water infiltration
+30,Other Soil Properties,Soil Structure,Air-filled pore space
+31,Other Soil Properties,Physical Properties,Clay content
+32,Soil Nutrients,Phosphorus & Potassium,Potassium
+33,Other Soil Properties,Biotic Factors,Microbial biomass
+180,Crop Yields,Cover Crop,Aboveground biomass
+35,Pests,Pest Natural Enemies,Invertebrate foliar community diversity
+99,Crop Yields,Crop Damage,Corn stand count damage
+37,Soil Nutrients,Nitrogen,Nitrate
+38,Climate Mitigation,Carbon Emissions,Carbon dioxide
+109,Crop Yields,Crop Damage,Crop damaged by invertebrates
+119,Crop Yields,Crop Damage,Corn (# lodged)
+122,Crop Yields,Crop Damage,Soybean (# lodged)
+42,Other Soil Properties,Physical Properties,Compaction
+43,Other Soil Properties,Physical Properties,Erosion
+44,Other Soil Properties,Physical Properties,Sand content
+45,Other Soil Properties,Physical Properties,Silt content
+46,Pests,Pest Natural Enemies,Invertebrate non-predator & pests (#)
+47,Other Soil Properties,Biotic Factors,Enzyme activity
+48,Other Soil Properties,Physical Properties,Soil bulk density
+49,Pests,Weeds,Weed community biomass
+242,Crop Yields,Crop Damage,Cowpea yield loss due to pests
+51,Soil Nutrients,Nitrogen,Total nitrogen
+52,Pests,Pest Natural Enemies,Invertebrate predator (#)
+53,Pests,Pest Natural Enemies,Invertebrate predator activity
+54,Pests,Pest Natural Enemies,Invertebrate soil community (#)
+55,Pests,Pest Natural Enemies,Invertebrate soil community diversity
+56,Other Soil Properties,Abiotic Factors,Temperature
+57,Pests,Pathogens,Soybean infections
+58,Other Soil Properties,Chemical Properties,Soil organic matter content
+59,Soil Nutrients,Micro-nutrients,Misc. micro-nutrients
+60,Other Soil Properties,Chemical Properties,CEC
+61,Soil Nutrients,Micro-nutrients,Calcium
+62,Soil Nutrients,Nitrogen,Total Nitrogen
+63,Climate Mitigation,Carbon Storage,Soil Organic Carbon
+64,Other Soil Properties,Physical Properties,Silt Content
+65,Other Soil Properties,Soil Structure,Aggregate Stability
+66,Water Quality,Sediment Runoff,Sediment runoff
+28,Crop Yields,Crop Growth,Corn stalk biomass
+68,Soil Nutrients,Nitrogen,N content of soil organic matter
+69,Other Soil Properties,Abiotic Factors,Evapotranspiration
+70,Climate Mitigation,Nitrogen Emissions,Offseason nitrous oxide
+71,Climate Mitigation,Carbon Emissions,Methane
+36,Crop Yields,Crop Growth,Corn height
+41,Crop Yields,Crop Growth,Corn root biomass
+74,Pests,Weeds,Waterhemp control
+75,Water Quality,Nutrient Runoff,Phosphorus
+76,Pests,Non-Predators & Pests,Earthworms
+77,Other Soil Properties,Physical Properties,Soil Bulk Density
+67,Crop Yields,Crop Growth,Corn Stalk Biomass
+79,Soil Nutrients,Nitrogen,C to N ratio
+80,Soil Nutrients,Micro-nutrients,Magnesium
+81,Climate Mitigation,Nitrogen Emissions,Growing season nitrous oxide
+82,Climate Mitigation,Nitrogen Emissions,Annual nitrous oxide emissions
+78,Crop Yields,Crop Growth,Corn sap flow
+84,Other Soil Properties,Biotic Factors,Decomposition rate of buried residue
+85,Other Soil Properties,Soil Structure,Total pore space
+86,Other Soil Properties,Soil Structure,Water-filled pore space
+87,Other Soil Properties,Biotic Factors,Microbial residues
+88,Pests,Weeds,Weed community control
+89,Pests,Pathogens,Corn infections
+83,Crop Yields,Crop Growth,Soybean aboveground biomass
+90,Crop Yields,Crop Growth,Soybean height
+94,Crop Yields,Crop Growth,Corn aboveground biomass
+93,Soil Nutrients,Nitrate,Late season (crop stages: harvest & post harvest)
+113,Crop Yields,Crop Growth,Soybean seedling development
+95,Soil Nutrients,Ammonium,Late season (crop stages: harvest & post harvest)
+96,Climate Mitigation,Nitrogen Emissions,Nitric oxide
+114,Crop Yields,Crop Growth,Corn reduction in vigor
+98,Water Quality,Flow Quantity,Water discharge
+118,Crop Yields,Crop Growth,Soybean chlorophyll content
+100,Soil Nutrients,Ammonium,Early season (crop stages: preplanting to V6)
+101,Soil Nutrients,Nitrate,Early season (crop stages: preplanting to V6)
+102,Soil Nutrients,Ammonium,Mid season (crop stages: V7 to R1)
+103,Soil Nutrients,Nitrate,Mid season (crop stages: V7 to R1)
+126,Crop Yields,Crop Growth,Soybean root biomass
+143,Crop Yields,Crop Growth,Corn stover biomass
+164,Crop Yields,Crop Growth,Corn and soybean aboveground biomass
+107,Pests,Pathogens,Corn root infections
+108,Pests,Pathogens,Corn leaf tissue infections
+181,Crop Yields,Crop Growth,Corn stalk nitrogen content
+110,Pests,Invertebrate Pests,Soybean aphids (cumulative aphid days)
+111,Pests,Natural Enemies,Invertebrate predators in soybean (#)
+112,Pests,Invertebrate Pests,Seed corn maggot (#)
+190,Crop Yields,Crop Growth,Maize stalk biomass
+192,Crop Yields,Crop Growth,Aboveground biomass
+115,Pests,Invertebrate Pests,Northern corn rootworm (#)
+116,Pests,Invertebrate Pests,Western corn rootworm (# days for 50% emergence)
+117,Pests,Invertebrate Pests,Western corn rootworm (#)
+211,Crop Yields,Crop Growth,Tree diameter
+220,Crop Yields,Crop Growth,Bean aboveground biomass
+120,Other Soil Properties,Biotic Factors,Soybean mycorrhizal colonization
+223,Crop Yields,Crop Growth,Coffee aboveground biomass
+239,Crop Yields,Crop Growth,Root biomass
+123,Pests,Pathogens,Pathogens in soil under soybean
+124,Pests,Pathogens,Bean pod mottle virus
+125,Pests,Invertebrate Pests,Bean leaf beetles on soybeans (#)
+235,Crop Yields,Fodder Yields,Napier grass
+236,Crop Yields,Fodder Yields,Leucaena
+128,Other Soil Properties,Physical Properties,Water-filled pore space
+129,Other Soil Properties,Physical Properties,Bulk density
+130,Other Soil Properties,Physical Properties,Air-filled pore space
+131,Other Soil Properties,Physical Properties,Aggregate stability
+132,Other Soil Properties,Physical Properties,Total pore space
+133,Other Soil Properties,Physical Properties,Surface residue coverage
+134,Other Soil Properties,Physical Properties,Aggregate size
+135,Pests,Pest Natural Enemies,Natural enemy activity
+137,Pests,Invertebrate Pests,Corn borer (#)
+138,Pests,Weeds,Velvetleaf (#)
+139,Pests,Weeds,Fall Panicum (#)
+140,Pests,Weeds,Lambsquarters (#)
+141,Pests,Weeds,Amaranthus (#)
+142,Pests,Weeds,Weed community diversity
+237,Crop Yields,Fodder Yields,Blue pea
+144,Pests,Pest Natural Enemies,Natural enemy (#)
+145,NA,NA,NA
+34,Crop Yields,Grain Quality,Corn grain nitrogen content
+72,Crop Yields,Grain Quality,Soybean grain nitrogen content
+91,Crop Yields,Grain Quality,Corn grain weight & moisture content
+92,Crop Yields,Grain Quality,"Corn oil, fiber, & protein"
+150,Pests,Invertebrate Pests,General pests (#)
+151,Pests,Weeds,Broadleafs (#)
+152,Water Quality,Flow Quantity,Water
+153,Pests,Non-Predators & Pests,Earthworms (#)
+154,Other Soil Properties,Biotic Factors,Respiration
+155,Pests,Weeds,Grasses (#)
+156,Pests,Non-Predators & Pests,Invertebrates (#)
+157,Climate Mitigation,Carbon Storage,Soil organic carbon derived from corn
+158,Water Quality,Agrochemical Runoff,Pesticides
+105,Crop Yields,Grain Quality,"Soybean oil, fiber, & protein"
+121,Crop Yields,Grain Quality,Soybean grain weight & moisture content
+161,Water Quality,Nutrient Runoff,Manure
+162,Water Quality,Nutrient Runoff,Dissovled organic carbon
+163,Soil Nutrients,Nitrogen,Crop derived N
+146,Crop Yields,Grain Quality,Soybean grain potassium content
+165,Pests,Non-Predators & Pests,Nematodes (#)
+166,Pests,Nematodes,Nematode community (#)
+167,Pests,Nematodes,Herbivores (#)
+168,Other Soil Properties,Biotic Factors,Corn mycorrhizal colonization
+147,Crop Yields,Grain Quality,Soybean grain phosphorus content
+170,Other Soil Properties,Biotic Factors,Fungal biomass
+171,Other Soil Properties,Biotic Factors,Decomposition rate of surface residues
+148,Crop Yields,Grain Quality,Corn grain potassium content
+149,Crop Yields,Grain Quality,Corn grain phosphorus content
+2,Crop Yields,Grain Yields,Soybean
+175,Climate Mitigation,Carbon Emissions,Methane and carbon dioxide
+3,Crop Yields,Grain Yields,Corn
+169,Crop Yields,Grain Yields,Corn and soybean
+189,Crop Yields,Grain Yields,Maize
+202,Crop Yields,Grain Yields,Sorghum
+203,Crop Yields,Grain Yields,Maize (LER)
+204,Crop Yields,Grain Yields,Sorghum (LER)
+182,Other Soil Properties,Biotic Factors,Microbial diversity
+183,Other Soil Properties,Chemical Properties,Pesticide retention
+184,Pests,Nematodes,Plant-parasitic
+185,Other Soil Properties,Chemical Properties,Calcium
+186,Pests,Nematodes,Nematode community diversity
+187,Pests,Nematodes,Nematode community maturity index
+188,Pests,Nematodes,Nematode community activity
+205,Crop Yields,Grain Yields,Cowpea (LER)
+212,Crop Yields,Grain Yields,Maize grain yields
+191,Pests,Weeds,Striga (#)
+213,Crop Yields,Grain Yields,Mung bean grain yields
+219,Crop Yields,Grain Yields,Beans
+221,Crop Yields,Grain Yields,Bean
+222,Crop Yields,Grain Yields,Coffee
+224,Crop Yields,Grain Yields,Sweet potato yields
+197,Water Quality,Nutrient Runoff,Nitrogen
+198,Climate Mitigation,Nitrogen Emissions,Ammonia
+199,Pests,Crop Damage,Damage caused by stem-borer
+200,Economics,Yields,Pest Damage
+201,Pests,Crop Damage,Damage caused by pod-borer
+225,Crop Yields,Grain Yields,Beans yields
+226,Crop Yields,Grain Yields,Peas yields
+227,Crop Yields,Grain Yields,Potato yields
+228,Crop Yields,Grain Yields,Carrot yields
+206,Pests,Crop Damage,Damage caused by sorghum shootfly
+207,Pests,Invertebrate Pests,Sorghum stem-borers
+208,Pests,Invertebrate Pests,Cowpea thrips
+209,Pests,Invertebrate Pests,Cowpea aphids
+210,Pests,Invertebrate Pests,Cowpea pod-borers
+229,Crop Yields,Grain Yields,Cabbage yields
+230,Crop Yields,Grain Yields,Tomato yields
+231,Crop Yields,Grain Yields,Kale yields
+214,Pests,Weeds,Weed Biomass
+215,Pests,Crop Damage,Damage due to leaf spot
+216,Climate Mitigation,Surface Winds,Wind velocity
+232,Crop Yields,Grain Yields,Soybean grain yields
+218,Pests,Crop Damage,Beans damaged by nematodes
+233,Crop Yields,Grain Yields,Millet grain yields
+234,Crop Yields,Grain Yields,Sorghum grain yields
+241,Crop Yields,Grain Yields,Cowpea yields
+243,Crop Yields,Heritability,Cowpea
+217,Crop Yields,Improved Fallow,Aboveground biomass
+127,Crop Yields,Pesticide Uptake,Soybean
+50,Crop Yields,Plant Nutrient Content,Corn stalk nitrogen content
+73,Crop Yields,Plant Nutrient Content,Soybean tissue nitrogen content
+97,Crop Yields,Plant Nutrient Content,Corn nitrogen use efficiency
+104,Crop Yields,Plant Nutrient Content,Soybean tissue phosphorus content
+106,Crop Yields,Plant Nutrient Content,Soybean phosphorus use efficiency
+172,Crop Yields,Plant Nutrient Content,Corn phosphorus use efficiency
+173,Crop Yields,Plant Nutrient Content,Corn root nitrogen content
+174,Crop Yields,Plant Nutrient Content,Corn stalk micro-nutrient content
+176,Crop Yields,Plant Nutrient Content,Corn stalk phosphorus content
+193,Crop Yields,Plant Nutrient Content,Crop carbon content
+194,Crop Yields,Plant Nutrient Content,Crop nitrogen content
+195,Crop Yields,Plant Nutrient Content,Crop lignin content
+196,Crop Yields,Plant Nutrient Content,Crop micro-nutrient content
+238,NA,NA,NA
+240,Crop Yields,Plant Nutrient Content,Root nitrogen content
+39,Crop Yields,Stand Count,Soybean
+40,Crop Yields,Stand Count,Corn
+159,Crop Yields,Water Use,Soybean
+160,Crop Yields,Water Use,Corn
+244,Climate Mitigation,Carbon Storage,Erosion of Soil Organic Carbon
+245,Soil Nutrients,Nitrogen,Erosion of Nitrogen
+246,Soil Nutrients,Phosphorus & Potassium,Erosion of Phosphorus
+247,Soil Nutrients,Phosphorus & Potassium,Erosion of Potassium
+248,Water Quality,Nutrient Runoff,Potassium
