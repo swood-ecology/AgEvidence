@@ -11,9 +11,9 @@ library(plyr)
 
 
 # Data files
-cc <- read_excel("data/ContinuousCover_Kenya.xlsx", sheet = "Results")
-nm <- read_excel("data/NutrientMgmt_AgEvidenceKenya_Kate.xlsx", sheet = "Results")
-till <- read_excel("data/Tillage_Kenya.xlsx", sheet="Results")
+cc <- read_excel("data/ContinuousCover_Kenya_081721.xlsx", sheet = "Results")
+nm <- read_excel("data/NutrientMgmt_Kenya_CURRENT_081721.xlsx", sheet = "Results")
+till <- read_excel("data/Tillage_Kenya_081721.xlsx", sheet="Results")
 
 
 # Generate nested grouping lists
@@ -32,5 +32,10 @@ group_lista <- full_join(group_list1, till_groups)
 write.csv(group_lista, paste0("filtered-data/grouplists_Kenya_",Sys.Date(),".csv"))
 
 write.csv(till_groups, paste0("filtered-data/tilllists_Kenya_",Sys.Date(),".csv"))
+
+
+# Generate list of group discrepancies
+unique(unlist(strsplit(as.character(cc$trt2_name), ",")))
+unique(unlist(strsplit(as.character(nm$trt2_name), ";")))
 
           
