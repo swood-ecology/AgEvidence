@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #### SET WORKING DIRECTORY ####
 require(funr)
 setwd(funr::get_script_path())
@@ -125,7 +124,6 @@ write.csv(till, paste0("filtered-data/Tillage_Kenya_",Sys.Date(),".csv"))
 write.csv(nm, paste0("filtered-data/NutrientMgmt_Kenya_",Sys.Date(),".csv"))
 
 
-=======
 #### SET WORKING DIRECTORY ####
 require(funr)
 setwd(funr::get_script_path())
@@ -272,6 +270,3 @@ pm <- pm %>% filter(!rv %in% RV)
 write.csv(cc, paste0("filtered-data/Covercrops_Kenya_",Sys.Date(),".csv"))
 write.csv(till, paste0("filtered-data/Tillage_Kenya_",Sys.Date(),".csv"))
 write.csv(nm, paste0("filtered-data/NutrientMgmt_Kenya_",Sys.Date(),".csv"))
-
-
->>>>>>> 8e390f071e004b7d538ca56d5ffb6bfc3fcb7a11

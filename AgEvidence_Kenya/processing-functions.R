@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #### FUNCTIONS ####
 
 # Make changes to the normative grouping files
@@ -678,7 +677,6 @@ sign.correction <- function(data) {
            )
 }
 
-=======
 #### FUNCTIONS ####
 
 # Make changes to the normative grouping files
@@ -1018,7 +1016,7 @@ gl3.rename <- function(data) {
     ) %>%
     mutate(
       group_level3 =
-        ifelse(group_level3 == "French bean yield loss due to pests" | "Yield loss due to pests",
+        ifelse(group_level3 == "French bean yield loss due to pests" | group_level3 == "Yield loss due to pests",
                "Damage from pests",
                group_level3)
     ) %>%
@@ -1153,6 +1151,3 @@ sign.correction <- function(data) {
                     )
            )
 }
-
-
->>>>>>> 8e390f071e004b7d538ca56d5ffb6bfc3fcb7a11
