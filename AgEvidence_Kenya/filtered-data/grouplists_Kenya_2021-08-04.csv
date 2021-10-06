@@ -1,0 +1,167 @@
+group_level1,group_level2,group_level3,Completed
+Climate Mitigation,Carbon Emissions,Carbon dioxide,
+Climate Mitigation,Carbon Emissions,Methane,
+Climate Mitigation,Carbon Emissions,Total greenhouse gas emissions,GL3: Total greenhouse gas emissions -> Total greenhouse gas
+Climate Mitigation,Carbon Storage,Loss of soil organic carbon,GL2: Carbon Storage -> Carbon Emissions
+Climate Mitigation,Carbon Storage,Soil organic carbon,
+Climate Mitigation,Nitrogen Emissions,Ammonia,"GL3: ammonia, Volatilized Ammonia -> Volatilized ammonia"
+Climate Mitigation,Nitrogen Emissions,Volatilized Ammonia,
+Climate Mitigation,Nitrogen Emissions,Annual nitrous oxide emissions,
+Climate Mitigation,Nitrogen Emissions,Growing season nitrous oxide,
+Climate Mitigation,Storage,Soil organic carbon,GL2: Storage -> Carbon Storage
+Climate Mitigation,Surface Winds,Wind velocity,
+Climate Mitigation,Temperature,Canopy temperature,
+Crop Yields,Crop Growth,Aboveground biomass,
+Crop Yields,Crop Growth,Crop chlorophyll content,
+Crop Yields,Crop Growth,Maize root biomass,GL3: Maize root biomass -> Belowground biomass
+Crop Yields,Crop Biomass,Maize stalk biomass,GL2: Crop Biomass -> Crop Growth
+Crop Yields,Crop Growth,Maize stalk biomass,GL3: Maize stalk biomass -> Aboveground biomass
+Crop Yields,Crop Growth,Plant height,
+Crop Yields,Crop Growth,Root biomass,GL3: Root biomass -> Belowground biomass
+Crop Yields,Crop Growth,Tree diameter,
+Crop Yields,Crop Quality,Grain weight & moisture content,
+Crop Yields,Crop Quality,Maize,
+Crop Yields,Crop Water Content,Leaves,
+Crop Yields,Fodder Yields,Blue pea,GL2:  Fodder Yields && Grain Yields  -> Yields; GL3: Blue pea -> Blue pea (Fodder)
+Crop Yields,Fodder Yields,Leucaena,GL3: Leucaena -> Leucaena (Fodder)
+Crop Yields,Fodder Yields,Napier grass,GL3: Napier grass -> Napier grass (Fodder)
+Crop Yields,Grain Yields,Beans,
+Crop Yields,Grain Yields,Cabbage,
+Crop Yields,Grain Yields,Carrot,
+Crop Yields,Grain Yields,Coffee,
+Crop Yields,Grain Yields,Cowpea,
+Crop Yields,Grain Yields,Cowpea (LER),GL3: Ler -> LER
+Crop Yields,Grain Yields,French bean,
+Crop Yields,Grain Yields,Kale,
+Crop Yields,Grain Yields,Maize,
+Crop Yields,Grain Yields,Maize (LER),
+Crop Yields,Grain Yields,Millet,
+Crop Yields,Grain Yields,Mung bean,
+Crop Yields,Grain Yields,Peas,
+Crop Yields,Grain Yields,Potato,
+Crop Yields,Grain Yields,Sorghum,
+Crop Yields,Grain Yields,Sorghum (LER),
+Crop Yields,Grain Yields,Soybean,
+Crop Yields,Grain Yields,Sweet potato,
+Crop Yields,Grain Yields,Tomato,
+Crop Yields,Yields,African nightshade vegetable,
+Crop Yields,Yields,Beans,
+Crop Yields,Yields,Maize,
+Crop Yields,Yields,Potato,
+Crop Yields,Yields,Potato (LER),
+Crop Yields,Yields,Soybean,
+Crop Yields,Heritability,Cowpea,
+Crop Yields,Improved Fallow,Aboveground biomass,
+Crop Yields,Crop Growth,Maize stalk nitrogen content,"GL2: when GL3 = Maize stalk nitrogen content, GL2 -> Plant Nutrient Content; GL3: Maize stalk nitrogen content -> Crop nitrogen content"
+Crop Yields,Plant Nutrient Content,C to N ratio,
+Crop Yields,Plant Nutrient Content,Carbon content,GL3: Carbon content -> Crop carbon content
+Crop Yields,Plant Nutrient Content,Crop carbon content,
+Crop Yields,Plant Nutrient Content,Crop light use efficiency,
+Crop Yields,Plant Nutrient Content,Crop lignin content,
+Crop Yields,Plant Nutrient Content,Crop micro-nutrient content,
+Crop Yields,Plant Nutrient Content,Crop nitrogen content,
+Crop Yields,Plant Nutrient Content,Crop nitrogen use efficiency,
+Crop Yields,Plant Nutrient Content,Crop phosphorus content,
+Crop Yields,Plant Nutrient Content,Crop potassium content,
+Crop Yields,Plant Nutrient Content,Maize stalk phosphorus content,GL3: Maize stalk phosphorus content -> Crop phosphorus content
+Crop Yields,Plant Nutrient Content,Maize stalk potassium content,GL3: Maize stalk potassium content -> Crop potassium content
+Crop Yields,Plant Nutrient Content,Nitrogen content,GL3: Nitrogen content -> Crop nitrogen content
+Crop Yields,Plant Nutrient Content,Root nitrogen content,GL3: Root nitrogen content -> Crop nitrogen content
+Crop Yields,Stand Count,Crop,
+Crop Yields,Water Use,Crop,
+Economics,Efficiency,Nitrous oxide emission economic intensity,
+Economics,Expenses,Benefit-cost ratio,"When GL3 = Benefit-cost ratio, GL2: Expenses -> Income"
+Economics,Expenses,Economic Loss From Pest Damage,
+Economics,Expenses,Fertilizers,
+Economics,Expenses,Gross output,
+Economics,Expenses,Labor,
+Economics,Expenses,Total costs,
+Economics,Income,Marginal rate of return,
+Economics,Income,Net income,
+Economics,Yields,Pest Damage," GL2: Yields -> Expenses, When GL3 = Pest Damage && Economic Loss from Pest Damage -> Economic loss from pest damage"
+Other Soil Properties,Abiotic Factors,Evapotranspiration,
+Other Soil Properties,Abiotic Factors,Light intensity,
+Other Soil Properties,Abiotic Factors,Soil moisture,
+Other Soil Properties,Abiotic Factors,Temperature,
+Other Soil Properties,Biotic Factors,Carbon decomposition rate in buried residues,GL3: Carbon decomposition rate in buried residues -> Carbon decomposition rate of buried residues
+Other Soil Properties,Biotic Factors,Carbon decomposition rate of buried residues,
+Other Soil Properties,Biotic Factors,Decomposition rate of buried residue,
+Other Soil Properties,Biotic Factors,Enzyme activity,
+Other Soil Properties,Biotic Factors,Microbial Biomass,
+Other Soil Properties,Biotic Factors,Microbial biomass,
+Other Soil Properties,Biotic Factors,Nitrogen decomposition rate in buried residues,GL3: Nitrogen decomposition rate in buried residues -> Nitrogen decomposition rate of buried residues
+Other Soil Properties,Biotic Factors,Nitrogen decomposition rate of buried residues,
+Other Soil Properties,Biotic Factors,Phosphorous decomposition rate in buried residues,GL3: Phosphorus decomposition rate in buried residues -> Phosphorus decomposition rate of buried residues
+Other Soil Properties,Biotic Factors,Phosphorus decomposition rate of buried residues,
+Other Soil Properties,Biotic Factors,Respiration,
+Other Soil Properties,Chemical Properties,CEC,
+Other Soil Properties,Chemical Properties,pH,
+Other Soil Properties,Chemical Properties,Soil organic matter content,
+Other Soil Properties,Physical Properties,Bulk density,
+Other Soil Properties,Physical Properties,Clay content,
+Other Soil Properties,Physical Properties,Erosion,
+Other Soil Properties,Physical Properties,Sand content,
+Other Soil Properties,Physical Properties,Silt content,
+Other Soil Properties,Physical Properties,Soil bulk density,GL3: Soil bulk density -> Bulk density
+Other Soil Properties,Physical Properties,Soil organic matter content,
+Other Soil Properties,Physical Properties,Water infiltration,
+Other Soil Properties,Soil Structure,Aggregate size,
+Other Soil Properties,Soil Structure,Aggregate Size,GL3: Aggregate Size -> Aggregate size
+Other Soil Properties,Soil Structure,Aggregate stability,
+Crop Yields,Crop Damage,French bean yield loss due to pests,"GL1: Crop Yields -> Pests, GL3: French bean yield loss due to pests | Yield loss due to pests-> Damage from pests"
+Crop Yields,Crop Damage,Yield loss due to pests,GL1: Crop Yields -> Pests
+Pests,Crop Damage,Damage from fall armyworm,
+Pests,Crop Damage,Damage from leaf spot,
+Pests,Crop Damage,Damage from nematodes,
+Pests,Crop Damage,Damage from pod-borer,
+Pests,Crop Damage,Damage from sorghum shootfly,
+Pests,Crop Damage,Damage from stem-borer,
+Pests,Crop Damage,Damage from termites,
+Pests,Pathogens,Crop Infections,"GL2: Pathogens -> Crop Damage, GL3: Crop Infections | Crop mycotoxin infections -> Damage from pathogens"
+Pests,Pathogens,Crop mycotoxin infections,"GL2: Pathogens -> Crop Damage, GL3: Crop Infections | Crop mycotoxin infections -> Damage from pathogens"
+Pests,Invertebrate Pests,Aphids,GL2: Invertebrate Pests -> Invertebrates
+Pests,Invertebrate Pests,Pod-borers,GL2: Invertebrate Pests -> Invertebrates
+Pests,Invertebrate Pests,Stem-borers,GL2: Invertebrate Pests -> Invertebrates
+Pests,Invertebrate Pests,Termites,GL2: Invertebrate Pests -> Invertebrates
+Pests,Invertebrate Pests,Thrips,GL2: Invertebrate Pests -> Invertebrates
+Pests,Nematodes,Bacterivores (#),GL3: Bacterivores (#) -> Bactivorous nematodes
+Pests,Nematodes,Fungivores (#),"GL3: Fungivores (#) -> Fungivorous nematodes, GL2: Nematodes -> Non-Pests"
+Pests,Nematodes,Herbivores (#),GL3: Herbivores (#) -> Plant-parasitic
+Pests,Nematodes,Nematode community (#),"GL2: Nematodes -> Non-Pests, GL3: Nematode community (#) -> Nematode community"
+Pests,Nematodes,Nematode community activity,GL2: Nematodes -> Non-Pests
+Pests,Nematodes,Nematode community diversity,GL2: Nematodes -> Non-Pests
+Pests,Nematodes,Nematode community maturity index,GL2: Nematodes -> Non-Pests
+Pests,Nematodes,Omnivores (#),"GL2: Nematodes -> Non-Pests, GL3: Omnivores (#) -> Omnivorous nematodes"
+Pests,Nematodes,Plant-parasitic,
+Pests,Nematodes,Predators (#),"GL2: Nematodes -> Pest Natural Enemies, GL3: Predators (#) -> Predacious nematodes"
+Pests,Non-Predators & Pests,Earthworms,GL2: Non-Predator & Pests -> Non-Pests
+Pests,Non-Predators & Pests,Invertebrates,GL2: Non-Predator & Pests -> Non-Pests
+Pests,Pest Natural Enemies,Natural enemy (#),GL3: Natural enemy (#) -> Predacious invertebrates
+Pests,Weeds,Broadleaves,
+Pests,Weeds,Grasses,
+Pests,Weeds,Striga (#),GL3: Striga (#) -> Striga
+Pests,Weeds,Weed biomass,
+Pests,Weeds,Weed community diversity,
+Soil Nutrients,Micronutrients,Calcium,GL2: Micronutrients -> Micro-Nutrients
+Soil Nutrients,Micronutrients,Magnesium,GL2: Micronutrients -> Micro-Nutrients
+Soil Nutrients,Micronutrients,Misc. micro-nutrients,GL2: Micronutrients -> Micro-Nutrients
+Soil Nutrients,Micro-nutrients,Calcium,GL2: Micro-nutrients -> Micro-Nutrients
+Soil Nutrients,Micro-nutrients,Magnesium,GL2: Micro-nutrients -> Micro-Nutrients
+Soil Nutrients,Micro-nutrients,Misc. micro-nutrients,GL2: Micro-nutrients -> Micro-Nutrients
+Soil Nutrients,Nitrogen,Ammonium,
+Soil Nutrients,Nitrogen,C to N ratio,
+Soil Nutrients,Nitrogen,Nitrate,
+Soil Nutrients,Nitrogen,Nitrogen losses,
+Soil Nutrients,Nitrogen,Total nitrogen,
+Soil Nutrients,Nitrogen,total nitrogen,GL3: total nitrogen -> Total nitrogen
+Soil Nutrients,Phosphorus & Potassium,Phosphorus,
+Soil Nutrients,Phosphorus & Potassium,Phosphorus losses,
+Soil Nutrients,Phosphorus & Potassium,Potassium,
+Soil Nutrients,Phosphorus & Potassium,Potassium losses,
+Water Quality,Flow Quantity,Drainage,
+Water Quality,Flow Quantity,Water,GL3: Water -> Water discharge
+Water Quality,Flow Quantity,Water discharge,
+Water Quality,Nutrient Runoff,Nitrogen,
+Water Quality,Nutrient Runoff,Phosphorus,
+Water Quality,Nutrient Runoff,Potassium,
+Water Quality,Sediment Runoff,Sediment runoff,
