@@ -16,6 +16,7 @@ cc <- read_excel("data/ContinuousCover_Kenya_081721.xlsx", sheet = "Results")
 nm <- read_excel("data/NutrientMgmt_Kenya_CURRENT_081721.xlsx", sheet = "Results")
 till <- read_excel("data/Tillage_Kenya_081721.xlsx", sheet = "Results")
 
+
 #### MANIPULATE DATA ####
 # Create lists for filtering out
 filtered_rv_units <- c("^#$", "(arcsine)", "log10")
@@ -32,6 +33,7 @@ nm <- nm  %>%
 till <- till %>%
   filter(!is.na(trt1_value)) %>%
   filter(!rv_units %in% filtered_rv_units)
+
 
 # Get and write list of unique studies
 cc.unique <- cc %>% select(paper_id) %>% unique()
@@ -104,19 +106,6 @@ cc <- sign.correction(cc)
 till <- sign.correction(till)
 nm <- sign.correction(nm)
 
-
-# #### REMOVE OBSERVATIONS
-# # Remove observations from studies that have rates of change between negative and positive
-# # Calculation % change between negative and positive creates counterintuitive results
-# RV <- c("rate of soil organic carbon change in corn-corn-soybean rotation",
-#         "rate of soil organic carbon change in corn-soybean rotation",
-#         "annual rate of soil organic carbon change across three crop rotations",
-#         "rate of soil organic carbon change across three crop rotations")
-# 
-# cc <- cc %>% filter(!rv %in% RV)
-# till <- till %>% filter(!rv %in% RV)
-# nm <- nm %>% filter(!rv %in% RV)
-# pm <- pm %>% filter(!rv %in% RV)
 
 #### WRITE FILES
 write.csv(cc, paste0("filtered-data/ContinuousCover_Kenya_",Sys.Date(),".csv"))
