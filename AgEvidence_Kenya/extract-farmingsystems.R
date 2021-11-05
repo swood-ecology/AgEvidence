@@ -2,8 +2,9 @@ library(tidyverse)
 library(sf)
 library(readxl)
 
-# SETWD
-setwd("/Users/stephen.wood/Box Sync/Work/The Nature Conservancy/Provide Food & Water/Food Systems Science Team/AgEvidence/code-and-data/AgEvidence_Kenya")
+#### SET WORKING DIRECTORY ####
+require(funr)
+setwd(funr::get_script_path())
 
 # Define variables
 cc.name <- "data/ContinuousCover_Kenya_081721.xlsx"
