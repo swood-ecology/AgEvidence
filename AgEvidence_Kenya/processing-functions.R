@@ -166,8 +166,8 @@ gl2.rename <- function(data) {
     ) %>%
     mutate(
       group_level2 =
-        ifelse(group_level2 == "Micronutrients",
-               "Micro-nutrients",
+        ifelse(group_level2 == "Micro-nutrients",
+               "Micronutrients",
                group_level2)
     ) %>%
     mutate(group_level2 = 

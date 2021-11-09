@@ -39,7 +39,7 @@ till <- read_excel("data/Tillage_Kenya_081721.xlsx", sheet="Results")
 
 # Generate list of group discrepancies
 unique(unlist(strsplit(as.character(cc$mgmt_intention), ";")))
-unique(unlist(strsplit(as.character(nm$group_level3), ";")))
+unique(unlist(strsplit(as.character(nm$group_level2), ";")))
 unique(unlist(strsplit(as.character(till$group_level3), ";")))
 
           
