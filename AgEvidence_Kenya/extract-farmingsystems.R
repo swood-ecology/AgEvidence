@@ -54,6 +54,15 @@ nm_tb <- as_tibble(nm) %>% select(
   paper_id:trtmt_splitC_levels,DESCRIPTIO
 )
 
+#Rename Coastal artisanal fishing to Coastal
+
+nm_tb$DESCRIPTIO <- ifelse(nm_tb$DESCRIPTIO == "Coastal artisanal fishing",
+                           "Coastal", nm_tb$DESCRIPTIO)
+cc_tb$DESCRIPTIO <- ifelse(cc_tb$DESCRIPTIO == "Coastal artisanal fishing",
+                           "Coastal", cc_tb$DESCRIPTIO)
+till_tb$DESCRIPTIO <- ifelse(till_tb$DESCRIPTIO == "Coastal artisanal fishing",
+                           "Coastal", till_tb$DESCRIPTIO)
+
 # Write files
 write.csv(cc_tb,"data/ContinuousCover_FarmingSystems.csv")
 write.csv(till_tb,"data/Tillage_FarmingSystems.csv")
