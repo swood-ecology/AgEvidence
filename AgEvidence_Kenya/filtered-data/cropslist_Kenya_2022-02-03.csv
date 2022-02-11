@@ -1,51 +1,26 @@
-"","crops"
-"1","sweet potato"
-"2","maize"
-"3","potato"
-"4"," lima bean"
-"5"," dolichos"
-"6"," cowpea"
-"7"," sorghum"
-"8","sorghum"
-"9","Acacia albida"
-"10","cowpea"
-"11","bean"
-"12","natural fallow"
-"13"," bean"
-"14","coffee"
-"15","napier grass (Pennisetum purpureum)"
-"16"," Leucaena leucocephala"
-"17","Acaia saligna"
-"18"," maize"
-"19","maize-bean"
-"20","french bean"
-"21"," beans"
-"22","maize-bean intercrop"
-"23","kale"
-"24"," soybean"
-"25","rice"
-"26","NA"
-"27","maize (baby corn and grain maize)"
-"28"," part of 3 year-6 season crop rotation"
-"29","soybean"
-"30"," tephorosia-maize"
-"31"," maize-soybean intercrop"
-"32","African nightshade (Solanum scabrum)"
-"33","beans"
-"34",NA
-"35"," maize-Tephrosia candida"
-"36","maize-bush bean"
-"37"," maize-soybean"
-"38"," maize-bean"
-"39"," maize bean intercrop"
-"40"," soybean-maize"
-"41"," maize-soybean intercropped"
-"42","maize (long rains)"
-"43"," soybean (short rains)"
-"44","maize-bean intercropped"
-"45"," maize-pigeon pea"
-"46"," maize-bean intercropped with mucuna as relay intercrop with maize after bean harvest"
-"47"," maize, bean, maucuna strip intercropping rotation"
-"48","continuous cereal"
-"49"," soybean-maize rotation"
-"50"," soybean-maize intercropping"
+,crops
+1,sweet potato
+2,maize
+3,potato
+4,lima bean
+5,dolichos
+6,cowpea
+7,sorghum
+8,Acacia albida
+9,bean
+10,coffee
+11,napier grass (Pennisetum purpureum)
+12,Leucaena leucocephala
+13,Acaia saligna
+14,french bean
+15,kale
+16,soybean
+17,rice
+18,African nightshade (Solanum scabrum)
+,
+,crop combinations
+1,maize-bean
+2,maize-Tephrosia candida
+3,maize-soybean
+4,maize-pigeon pea
+5,"maize, bean, maucuna strip intercropping rotation"
