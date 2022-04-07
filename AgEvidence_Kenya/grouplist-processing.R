@@ -42,4 +42,19 @@ unique(unlist(strsplit(as.character(cc$mgmt_intention), ";")))
 unique(unlist(strsplit(as.character(nm$group_level2), ";")))
 unique(unlist(strsplit(as.character(till$group_level3), ";")))
 
+#Generate list of unique crops
+# Data files - Cash crop tab
+cc_crops <- read_excel("data/ContinuousCover_Kenya_081721.xlsx", sheet = "CashCrop")
+nm_crops <- read_excel("data/NutrientMgmt_Kenya_CURRENT_081721.xlsx", sheet = "CashCrop")
+till_crops <- read_excel("data/Tillage_Kenya_081721.xlsx", sheet="CashCrop")
+
+cc_cropslist <- unique(unlist(strsplit(as.character(cc_crops$control_species), ";")))
+nm_cropslist <- unique(unlist(strsplit(as.character(nm_crops$control_species), ";")))
+till_cropslist <- unique(unlist(strsplit(as.character(till_crops$cash_species), ";")))
+
+crops <- unique(c(as.character(cc_cropslist), as.character(nm_cropslist), as.character(till_cropslist)))
+cropslist <- as.data.frame(crops)
+
+# Export csv
+write.csv(cropslist, paste0("filtered-data/cropslist_Kenya_",Sys.Date(),".csv"))
           
