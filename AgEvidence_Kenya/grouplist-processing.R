@@ -8,7 +8,7 @@ setwd(funr::get_script_path())
 library(tidyverse)
 library(readxl)
 library(plyr)
-
+library(ggplot2)
 
 # Data files
 cc <- read_excel("data/ContinuousCover_Kenya_081721.xlsx", sheet = "Results")
@@ -55,6 +55,35 @@ till_cropslist <- unique(unlist(strsplit(as.character(till_crops$cash_species), 
 crops <- unique(c(as.character(cc_cropslist), as.character(nm_cropslist), as.character(till_cropslist)))
 cropslist <- as.data.frame(crops)
 
-# Export csv
+# Export csv with today's date pasted into file name
+#write.csv(dataframe, paste0("folder/filename_"),Sys.Date(),".csv"))
 write.csv(cropslist, paste0("filtered-data/cropslist_Kenya_",Sys.Date(),".csv"))
+
+
+
+###########################################
+
+# Data files
+sitedata <- read_excel("/Users/lesley.atwood/Desktop/Active projects/AgEvidence/AgEvidenceSiteData.xlsx", 
+                       sheet = "Dataset1")
+
+#new cols
+sitedata$GeoPrac <- paste(sitedata$Geography, sep=", ", sitedata$Practice)
+
+#Split by Geography
+US <- sitedata[sitedata$Geography %in% "US",]
+Kenya <- sitedata[sitedata$Geography %in% "Kenya",]
+
+
+USplot <- boxplot(UniquePageviews~Practice, data = US )
+ #Tillage, Covercrops, NM, Pests
+
+Kenyaplot <- boxplot(UniquePageviews~Practice, data = Kenya )
+ #NutrientMgmt, Tillage, ContinousCover
+
+
+
+
+
+
           
