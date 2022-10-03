@@ -12,6 +12,8 @@ library(stringr)
 
 #### READ DATA ####
 
+##need to update data file names####
+
 # Data files
 cc <- read.csv("filtered-data/ContinuousCover_Kenya_2021-12-02.csv")
 nm <- read.csv("filtered-data/NutrientMgmt_Kenya_2021-12-02.csv")

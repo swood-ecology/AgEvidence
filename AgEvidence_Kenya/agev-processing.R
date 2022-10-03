@@ -12,9 +12,9 @@ source('processing-functions.R')
 ne <- read_excel("data/normative-effects-Kenya.xlsx")
 
 # Data files
-cc <- read_excel("data/ContinuousCover_Kenya_081721.xlsx", sheet = "Results")
-nm <- read_excel("data/NutrientMgmt_Kenya_CURRENT_081721.xlsx", sheet = "Results")
-till <- read_excel("data/Tillage_Kenya_081721.xlsx", sheet = "Results")
+cc <- read_excel("data/ContinuousCover_Kenya_complete.xlsx", sheet = "Results")
+nm <- read_excel("data/NutrientMgmt_Kenya_CURRENT_complete.xlsx", sheet = "Results")
+till <- read_excel("data/Tillage_Kenya_complete.xlsx", sheet = "Results")
 
 
 #### MANIPULATE DATA ####

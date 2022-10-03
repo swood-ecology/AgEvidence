@@ -1,6 +1,9 @@
 # Update the nutrient management trt1_names
+library(openxlsx)
+library(xlsx)
 
-nm_k <- read_excel("data/NutrientMgmt_Kenya_CURRENT_081721.xlsx", sheet = "Results")
+
+nm_k <- read_excel("data/NutrientMgmt_Kenya_complete.xlsx", sheet = "Results")
 nm_k$trt1_nameorg <- nm_k$trt1_name
 nm_k$trt2_nameorg <- nm_k$trt2_name
 
