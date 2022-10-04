@@ -12,16 +12,10 @@ nm_k <- read_excel("data/NutrientMgmt_Kenya_complete.xlsx", sheet = "Results")
 
 cc_k_new <- cc_k %>%
             filter(trt1_name != "alley crop", 
-                   trt1_name != "intercrop" %>% #drops 200 rows
-            filter(trt1_name == "monocrop" & trt2_name == "monocrop")
-            #something is happening in code above.
-
-cc_k_new2 <- filter(cc_k_new, ()
-      
-trts <- cc_k_new %>%
-        select(trt1_name, trt2_name) %>%
-        unique()
-
+                   trt1_name != "intercrop") %>% #drops 200 rows
+            mutate(trt_namescombo = paste(trt1_name, " ",trt2_name)) %>%
+            filter(trt_namescombo != "monocrop   monocrop") %>%
+            select(-trt_namescombo)
 
 
 # NM remove trt1_name == "NA"
