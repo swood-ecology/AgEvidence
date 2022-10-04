@@ -25,13 +25,14 @@ nm_k_web <- nm_k %>%
 
 
 #### CREATE UPDATED Website WORKBOOK FOR EACH REVIEW ####
+library(openxlsx)
 
 #Cover Crops
-cc_wb <- loadWorkbook("data/ContinuousCover_Kenya_081721.xlsx")
+cc_wb <- loadWorkbook("data/ContinuousCover_Kenya_website.xlsx")
 openxlsx::removeWorksheet(cc_wb, "Results")
 openxlsx::addWorksheet(cc_wb, "Results")
-openxlsx::writeData(cc_wb, "Results", filtered_cc)
-openxlsx::saveWorkbook(cc_wb, "KNBfiles/ContinuousCover_AgEKenya.xlsx", overwrite = T)
+openxlsx::writeData(cc_wb, "Results", cc_k_new)
+openxlsx::saveWorkbook(cc_wb, "data/ContinuousCover_AgEKenya_website2.xlsx", overwrite = T)
 
 #Nutrient Management
 nm_wb <- loadWorkbook("data/NutrientMgmt_Kenya_website.xlsx")
