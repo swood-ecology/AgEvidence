@@ -1,0 +1,205 @@
+rv,new_group_level1,new_group_level2,new_group_level3,group_level2,group_level3
+"benefit cost ratio, season 1",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit cost ratio, season 2",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit cost ratio, season 3",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit-cost ratio, Desmodium cut 12 weeks after planting maize, long rains",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit-cost ratio, Desmodium cut 12 weeks after planting maize, short rains",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit-cost ratio, Desmodium cut 18 weeks after planting maize, long rains",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit-cost ratio, Desmodium cut 18 weeks after planting maize, short rains",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit-cost ratio, Desmodium cut 9 weeks after planting maize, long rains",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit-cost ratio, Desmodium cut 9 weeks after planting maize, short rains",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit-cost ratio, long rains",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+benefits/costs ratio,,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"cumulative benfit-cost ratio, good fertility soils, crop residue added",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"cumulative benfit-cost ratio, good fertility soils, crop residue removed",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"cumulative benfit-cost ratio, medium fertility soils, crop residue added",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"cumulative benfit-cost ratio, medium fertility soils, crop residue removed",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"cumulative benfit-cost ratio, poor fertility soils, crop residue added",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"cumulative benfit-cost ratio, poor fertility soils, crop residue removed",,Economic Performance,Benefit Cost Ratio (GRTC),Expenses,Benefit-cost ratio
+"benefit to cost ratio (grosss benefits and total variable costs) , Leucaena anti-erosion plant barriers",,Economic Performance,Benefit Cost Ratio (GRVC),Expenses,Benefit-cost ratio
+"benefit to cost ratio (grosss benefits and total variable costs), Napier anti-erosion plant barriers",,Economic Performance,Benefit Cost Ratio (GRVC),Expenses,Benefit-cost ratio
+"benefit to cost ratio (grosss benefits and total variable costs), no anti-erosion plant barriers",,Economic Performance,Benefit Cost Ratio (GRVC),Expenses,Benefit-cost ratio
+benefit-cost ratio,,Economic Performance,Benefit Cost Ratio (GRVC),Expenses,Benefit-cost ratio
+"benefit-cost ratio, fertile site",,Economic Performance,Benefit Cost Ratio (NRTC),Expenses,Benefit-cost ratio
+"benefit-cost ratio, poor fertility site",,Economic Performance,Benefit Cost Ratio (NRTC),Expenses,Benefit-cost ratio
+"average seasonal gross margin, continuous maize, crop residue",,Income,Gross Margin,Expenses,Marginal rate of return
+"average seasonal gross margin, continuous maize, no crop residue",,Income,Gross Margin,Expenses,Marginal rate of return
+"average seasonal gross margin, maize-soybean intercrop, crop residue",,Income,Gross Margin,Expenses,Marginal rate of return
+"average seasonal gross margin, maize-soybean intercrop, no crop residue",,Income,Gross Margin,Expenses,Marginal rate of return
+"average seasonal gross margin, maize-soybean rotation, crop residue",,Income,Gross Margin,Expenses,Marginal rate of return
+"average seasonal gross margin, maize-soybean rotation, no crop residue",,Income,Gross Margin,Expenses,Marginal rate of return
+Common beans & soybean yield gross margins,,Income,Gross Margin,Income,Net income
+"cumulative gross benefits, good fertility soils, crop residue added",,Income,Gross Margin,Income,Net income
+"cumulative gross benefits, good fertility soils, crop residue removed",,Income,Gross Margin,Income,Net income
+"cumulative gross benefits, medium fertility soils, crop residue added",,Income,Gross Margin,Income,Net income
+"cumulative gross benefits, medium fertility soils, crop residue removed",,Income,Gross Margin,Income,Net income
+"cumulative gross benefits, poor fertility soils, crop residue added",,Income,Gross Margin,Income,Net income
+"cumulative gross benefits, poor fertility soils, crop residue removed",,Income,Gross Margin,Income,Net income
+"gross margin, conventional tillage, continuous maize",,Income,Gross Margin,Income,Net income
+"gross margin, conventional tillage, maize-soybean intercrop",,Income,Gross Margin,Income,Net income
+"gross margin, conventional tillage, maize-soybean rotation",,Income,Gross Margin,Income,Net income
+"gross margin, reduced tillage, continuous maize",,Income,Gross Margin,Income,Net income
+"gross margin, reduced tillage, maize-soybean intercrop",,Income,Gross Margin,Income,Net income
+"gross margin, reduced tillage, maize-soybean rotation",,Income,Gross Margin,Income,Net income
+Gross margins per hectare,,Income,Gross Margin,Income,Net income
+Maize yield gross margins,,Income,Gross Margin,Income,Net income
+"net benefits (difference between grosss benefits and
+total variable costs), Leucaena anti-erosion plant barriers",,Income,Gross Margin,Income,Net income
+"net benefits (difference between grosss benefits and
+total variable costs), Napier anti-erosion plant barriers",,Income,Gross Margin,Income,Net income
+"net benefits (difference between grosss benefits and
+total variable costs), no anti-erosion plant barriers",,Income,Gross Margin,Income,Net income
+"marginal rate of return for maize-bean intercropped system, long rains",,Income,Gross Margin,Income,Marginal rate of return
+"marginal rate of return for maize-bean intercropped system, short rains",,Income,Gross Margin,Income,Marginal rate of return
+"average seasonal gross revenue, continuous maize, crop residue",,Income,Gross Return,Income,Net income
+"average seasonal gross revenue, continuous maize, no crop residue",,Income,Gross Return,Income,Net income
+"average seasonal gross revenue, maize-soybean intercrop, crop residue",,Income,Gross Return,Income,Net income
+"average seasonal gross revenue, maize-soybean intercrop, no crop residue",,Income,Gross Return,Income,Net income
+"average seasonal gross revenue, maize-soybean rotation, crop residue",,Income,Gross Return,Income,Net income
+"average seasonal gross revenue, maize-soybean rotation, no crop residue",,Income,Gross Return,Income,Net income
+"gross revenue, conventional tillage,  crop residue added",,Income,Gross Return,Income,Net income
+"gross revenue, conventional tillage, no crop residue added",,Income,Gross Return,Income,Net income
+"gross revenue, reduced tillage, crop residue added",,Income,Gross Return,Income,Net income
+"gross revenue, reduced tillage, no crop residue added",,Income,Gross Return,Income,Net income
+maize revenue at $0.20/kg,,Income,Gross Return,Income,Net income
+"net income (returns to land), high fertility soil",,Income,Gross Return,Income,Net income
+"net income (returns to land), low fertility soil",,Income,Gross Return,Income,Net income
+"net income (returns to land), medium fertility soil",,Income,Gross Return,Income,Net income
+"net income of maize-bean intercropped system, long rains",,Income,Gross Return,Income,Net income
+"net income of maize-bean intercropped system, short rains",,Income,Gross Return,Income,Net income
+"profit by season, season 1",,Income,Gross Return,Income,Net income
+"profit by season, season 2",,Income,Gross Return,Income,Net income
+"profit by season, season 3",,Income,Gross Return,Income,Net income
+"profit by season, season 4",,Income,Gross Return,Income,Net income
+"profit by season, season 5",,Income,Gross Return,Income,Net income
+"profit by season, season 6",,Income,Gross Return,Income,Net income
+Total gross field benefits,,Income,Gross Return,Income,Net income
+"total profits, main seasons",,Income,Gross Return,Income,Net income
+"total profits, minor seasons",,Income,Gross Return,Income,Net income
+"total revenue, main seasons",,Income,Gross Return,Income,Net income
+"total revenue, minor seasons",,Income,Gross Return,Income,Net income
+"total value of produce (crop, livestock, tree)",,Income,Gross Return,Income,Net income
+gross output (1 USD = 103.85 Ksh),,Income,Gross Return,Expenses,Gross output
+nitrous oxide emission intensity (N2OEI),Climate Mitigation,Nitrogen Emissions,Growing season nitrous oxide,Efficiency,Nitrous oxide emission economic intensity
+"cumulative labor costs, good fertility soils, crop residue added",,Costs,Labour Cost,Expenses,Total costs
+"cumulative labor costs, good fertility soils, crop residue removed",,Costs,Labour Cost,Expenses,Total costs
+"cumulative labor costs, medium fertility soils, crop residue added",,Costs,Labour Cost,Expenses,Total costs
+"cumulative labor costs, medium fertility soils, crop residue removed",,Costs,Labour Cost,Expenses,Total costs
+"cumulative labor costs, poor fertility soils, crop residue added",,Costs,Labour Cost,Expenses,Total costs
+"cumulative labor costs, poor fertility soils, crop residue removed",,Costs,Labour Cost,Expenses,Total costs
+"cumulative labor hours, good fertility soils, crop residue added",,Costs,Labour Cost,Expenses,Labor
+"cumulative labor hours, good fertility soils, crop residue removed",,Costs,Labour Cost,Expenses,Labor
+"cumulative labor hours, medium fertility soils, crop residue added",,Costs,Labour Cost,Expenses,Labor
+"cumulative labor hours, medium fertility soils, crop residue removed",,Costs,Labour Cost,Expenses,Labor
+"cumulative labor hours, poor fertility soils, crop residue added",,Costs,Labour Cost,Expenses,Labor
+"cumulative labor hours, poor fertility soils, crop residue removed",,Costs,Labour Cost,Expenses,Labor
+labor costs,,Costs,Labour Cost,Expenses,Labor
+labor costs for weed control and land prepartion,,Costs,Labour Cost,Expenses,Labor
+"labor costs, fertile site",,Costs,Labour Cost,Expenses,Labor
+"labor costs, poor fertility site",,Costs,Labour Cost,Expenses,Labor
+labor requirements for the practice,,Costs,Labour Cost,Expenses,Labor
+"labour costs, first season",,Costs,Labour Cost,Expenses,Labor
+"labour costs, second through fourth seasons",,Costs,Labour Cost,Expenses,Labor
+total cost of labor (1 USD = 103.85 Ksh),,Costs,Labour Cost,Expenses,Labor
+"returns to labour, high fertility soil",,Costs,Labour Cost,Expenses,Labor
+"returns to labour, low fertility soil",,Costs,Labour Cost,Expenses,Labor
+"returns to labour, medium fertility soil",,Costs,Labour Cost,Expenses,Labor
+"percentage economic loss in maize, intercrop planted in alternate rows, major cropping season",Crop Yields,Yields,Maize,Yields,Pest Damage
+"percentage economic loss in maize, intercrop planted in alternate rows, minor cropping season",Crop Yields,Yields,Maize,Yields,Pest Damage
+"percentage economic loss in maize, intercrop planted in mixed rows, major cropping season",Crop Yields,Yields,Maize,Yields,Pest Damage
+"percentage economic loss in maize, intercrop planted in mixed rows, minor cropping season",Crop Yields,Yields,Maize,Yields,Pest Damage
+"percentage economic loss in maize, major cropping season",Crop Yields,Yields,Maize,Yields,Pest Damage
+"percentage economic loss in maize, minor cropping season",Crop Yields,Yields,Maize,Yields,Pest Damage
+"profit (discounted), maize-Crotalaria rotation",,Income,Net Return,Income,Net income
+"profit (discounted), maize-soybean rotation",,Income,Net Return,Income,Net income
+"profit (discounted), monocrop",,Income,Net Return,Income,Net income
+"profit (discounted), push pull system",,Income,Net Return,Income,Net income
+"net benefit, Desmodium cut 12 weeks after planting maize, long rains",,Income,Net Return,Income,Net income
+"net benefit, Desmodium cut 12 weeks after planting maize, short rains",,Income,Net Return,Income,Net income
+"net benefit, Desmodium cut 18 weeks after planting maize, long rains",,Income,Net Return,Income,Net income
+"net benefit, Desmodium cut 18 weeks after planting maize, short rains",,Income,Net Return,Income,Net income
+"net benefit, Desmodium cut 9 weeks after planting maize, long rains",,Income,Net Return,Income,Net income
+"net benefit, Desmodium cut 9 weeks after planting maize, short rains",,Income,Net Return,Income,Net income
+"net benefit, long rains",,Income,Net Return,Income,Net income
+net benefits,,Income,Net Return,Income,Net income
+"net benefits, fertile site",,Income,Net Return,Income,Net income
+"net benefits, maize-bean intercrop, conventional planting arrangement",,Income,Net Return,Income,Net income
+"net benefits, maize-bean intercrop, improved (MBILI) planting arrangement",,Income,Net Return,Income,Net income
+"net benefits, maize-cowpea intercrop, conventional planting arrangement",,Income,Net Return,Income,Net income
+"net benefits, maize-cowpea intercrop, improved (MBILI) planting arrangement",,Income,Net Return,Income,Net income
+"net benefits, maize-groundnut intercrop, conventional planting arrangement",,Income,Net Return,Income,Net income
+"net benefits, maize-groundnut intercrop, improved (MBILI) planting arrangement",,Income,Net Return,Income,Net income
+"net benefits, poor fertility site",,Income,Net Return,Income,Net income
+"percentage economic loss in sorghum main stem, intercrop planted in alternate rows, major cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum main stem, intercrop planted in alternate rows, minor cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum main stem, intercrop planted in mixed rows, major cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum main stem, intercrop planted in mixed rows, minor cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum main stem, major cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum main stem, minor cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum tillers, intercrop planted in alternate rows, major cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum tillers, intercrop planted in alternate rows, minor cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum tillers, intercrop planted in mixed rows, major cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum tillers, intercrop planted in mixed rows, minor cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum tillers, major cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"percentage economic loss in sorghum tillers, minor cropping season",Crop Yields,Yields,Sorghum,Yields,Pest Damage
+"cumulative total costs, good fertility soils, crop residue added",,Costs,Total Cost,Expenses,Total costs
+"cumulative total costs, good fertility soils, crop residue removed",,Costs,Total Cost,Expenses,Total costs
+"cumulative total costs, medium fertility soils, crop residue added",,Costs,Total Cost,Expenses,Total costs
+"cumulative total costs, medium fertility soils, crop residue removed",,Costs,Total Cost,Expenses,Total costs
+"cumulative total costs, poor fertility soils, crop residue added",,Costs,Total Cost,Expenses,Total costs
+"cumulative total costs, poor fertility soils, crop residue removed",,Costs,Total Cost,Expenses,Total costs
+total costs,,Costs,Total Cost,Expenses,Total costs
+"total costs, first season",,Costs,Total Cost,Expenses,Total costs
+"total costs, main seasons",,Costs,Total Cost,Expenses,Total costs
+"total costs, minor seasons",,Costs,Total Cost,Expenses,Total costs
+"total costs, season 3",,Costs,Total Cost,Expenses,Total costs
+"total costs, seasons 1 & 2",,Costs,Total Cost,Expenses,Total costs
+"total costs, second through fourth seasons",,Costs,Total Cost,Expenses,Total costs
+"total production cost of maize-bean intercropped system, long rains",,Costs,Total Cost,Expenses,Total costs
+"total production cost of maize-bean intercropped system, short rains",,Costs,Total Cost,Expenses,Total costs
+"costs, maize-bean intercrop, conventional planting arrangement",,Costs,Total Cost,Expenses,Total costs
+"costs, maize-bean intercrop, improved (MBILI) planting arrangement",,Costs,Total Cost,Expenses,Total costs
+"costs, maize-cowpea intercrop, conventional planting arrangement",,Costs,Total Cost,Expenses,Total costs
+"costs, maize-cowpea intercrop, improved (MBILI) planting arrangement",,Costs,Total Cost,Expenses,Total costs
+"costs, maize-groundnut intercrop, conventional planting arrangement",,Costs,Total Cost,Expenses,Total costs
+"costs, maize-groundnut intercrop, improved (MBILI) planting arrangement",,Costs,Total Cost,Expenses,Total costs
+average fertilizer cost for maize grain production,,Costs,Variable Cost,Expenses,Fertilizers
+"average seasonal total variable costs, continuous maize, crop residue",,Costs,Variable Cost,Expenses,Variable cost
+"average seasonal total variable costs, continuous maize, no crop residue",,Costs,Variable Cost,Expenses,Variable cost
+"average seasonal total variable costs, maize-soybean intercrop, crop residue",,Costs,Variable Cost,Expenses,Variable cost
+"average seasonal total variable costs, maize-soybean intercrop, no crop residue",,Costs,Variable Cost,Expenses,Variable cost
+"average seasonal total variable costs, maize-soybean rotation, crop residue",,Costs,Variable Cost,Expenses,Variable cost
+"average seasonal total variable costs, maize-soybean rotation, no crop residue",,Costs,Variable Cost,Expenses,Variable cost
+"Cost of seed, fertilizer, land clearing/preparation, inoculum, planting, weeding, and harvesting",,Costs,Variable Cost,Expenses,Variable cost
+"cumulative non-labor costs, good fertility soils, crop residue added",,Costs,Variable Cost,Expenses,Total costs
+"cumulative non-labor costs, good fertility soils, crop residue removed",,Costs,Variable Cost,Expenses,Total costs
+"cumulative non-labor costs, medium fertility soils, crop residue added",,Costs,Variable Cost,Expenses,Total costs
+"cumulative non-labor costs, medium fertility soils, crop residue removed",,Costs,Variable Cost,Expenses,Total costs
+"cumulative non-labor costs, poor fertility soils, crop residue added",,Costs,Variable Cost,Expenses,Total costs
+"cumulative non-labor costs, poor fertility soils, crop residue removed",,Costs,Variable Cost,Expenses,Total costs
+"input costs, season 3",,Costs,Variable Cost,Expenses,Variable cost
+"input costs, seasons 1 & 2",,Costs,Variable Cost,Expenses,Variable cost
+labor and material costs for weed control and land prepartion,,Costs,Variable Cost,Expenses,Total costs
+"non-labor costs, fertile site",,Costs,Variable Cost,Expenses,Total costs
+"non-labor costs, poor fertility site",,Costs,Variable Cost,Expenses,Total costs
+"seed and fertilizer costs, first season",,Costs,Variable Cost,Expenses,Fertilizers
+"seed and fertilizer costs, second through fourth seasons",,Costs,Variable Cost,Expenses,Fertilizers
+total variable costs (1 USD = 103.85 Ksh),,Costs,Variable Cost,Expenses,Total costs
+"total variable costs, conventional tillage, continuous maize",,Costs,Variable Cost,Expenses,Variable cost
+"total variable costs, conventional tillage, crop residue added",,Costs,Variable Cost,Expenses,Total costs
+"total variable costs, conventional tillage, crop residue added",,Costs,Variable Cost,Expenses,Marginal rate of return
+"total variable costs, conventional tillage, maize-soybean intercrop",,Costs,Variable Cost,Expenses,Variable cost
+"total variable costs, conventional tillage, maize-soybean rotation",,Costs,Variable Cost,Expenses,Variable cost
+"total variable costs, conventional tillage, no crop residue added",,Costs,Variable Cost,Expenses,Total costs
+"total variable costs, conventional tillage, no crop residue added",,Costs,Variable Cost,Expenses,Marginal rate of return
+"total variable costs, reduced tillage, continuous maize",,Costs,Variable Cost,Expenses,Variable cost
+"total variable costs, reduced tillage, crop residue added",,Costs,Variable Cost,Expenses,Total costs
+"total variable costs, reduced tillage, crop residue added",,Costs,Variable Cost,Expenses,Marginal rate of return
+"total variable costs, reduced tillage, maize-soybean intercrop",,Costs,Variable Cost,Expenses,Variable cost
+"total variable costs, reduced tillage, maize-soybean rotation",,Costs,Variable Cost,Expenses,Variable cost
+"total variable costs, reduced tillage, no crop residue added",,Costs,Variable Cost,Expenses,Total costs
+"total variable costs, reduced tillage, no crop residue added",,Costs,Variable Cost,Expenses,Marginal rate of return
+"variable cost, Leucaena anti-erosion plant barriers",,Costs,Variable Cost,Expenses,Variable cost
+"variable cost, Napier anti-erosion plant barriers",,Costs,Variable Cost,Expenses,Variable cost
+"variable cost, no anti-erosion plant barriers",,Costs,Variable Cost,Expenses,Variable cost
+"productivity of capital, Trench 2W",,Costs,Variable Cost,Income,Net income
