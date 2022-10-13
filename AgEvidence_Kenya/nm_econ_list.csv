@@ -1,0 +1,67 @@
+rv,group_level2,group_level3,new_group_level2,new_group_level3
+average fertilizer cost for maize grain production,Expenses,Fertilizers,Costs,Variable Cost
+total cost of labor (1 USD = 103.85 Ksh),Expenses,Labor,Costs,Labour Cost
+total variable costs (1 USD = 103.85 Ksh),Expenses,Total costs,Costs,Variable Cost
+gross output (1 USD = 103.85 Ksh),Expenses,Gross output,,
+benefit-cost ratio,Expenses,Benefit-cost ratio,,
+nitrous oxide emission intensity (N2OEI),Efficiency,Nitrous oxide emission economic intensity,,
+Maize yield gross margins,Income,Net income,Income,Gross Margin
+Common beans & soybean yield gross margins,Income,Net income,Income,Gross Margin
+Total gross field benefits,Income,Net income,Income,Gross Return
+"Cost of seed, fertilizer, land clearing/preparation, inoculum, planting, weeding, and harvesting",Expenses,Variable cost,Costs,Variable Cost
+Gross margins per hectare,Income,Net income,Income,Gross Margin
+"net income (returns to land), high fertility soil",Income,Net income,Income,Net Return
+"net income (returns to land), medium fertility soil",Income,Net income,Income,Net Return
+"net income (returns to land), low fertility soil",Income,Net income,Income,Net Return
+"returns to labour, high fertility soil",Expenses,Labor,,
+"returns to labour, medium fertility soil",Expenses,Labor,,
+"returns to labour, low fertility soil",Expenses,Labor,,
+"non-labor costs, fertile site",Expenses,Total costs,Costs,Variable Cost
+"non-labor costs, poor fertility site",Expenses,Total costs,Costs,Variable Cost
+"labor costs, fertile site",Expenses,Labor,Costs,Labour Cost
+"labor costs, poor fertility site",Expenses,Labor,Costs,Labour Cost
+"net benefits, fertile site",Income,Net income,,
+"net benefits, poor fertility site",Income,Net income,,
+"benefit-cost ratio, fertile site",Expenses,Benefit-cost ratio,,
+"benefit-cost ratio, poor fertility site",Expenses,Benefit-cost ratio,,
+total costs,Expenses,Total costs,Costs,Total Cost
+net benefits,Income,Net income,,
+benefits/costs ratio,Expenses,Benefit-cost ratio,,
+"total variable costs, reduced tillage, continuous maize",Expenses,Variable cost,Costs,Variable Cost
+"total variable costs, conventional tillage, continuous maize",Expenses,Variable cost,Costs,Variable Cost
+"total variable costs, reduced tillage, maize-soybean intercrop",Expenses,Variable cost,Costs,Variable Cost
+"total variable costs, conventional tillage, maize-soybean intercrop",Expenses,Variable cost,Costs,Variable Cost
+"total variable costs, reduced tillage, maize-soybean rotation",Expenses,Variable cost,Costs,Variable Cost
+"total variable costs, conventional tillage, maize-soybean rotation",Expenses,Variable cost,Costs,Variable Cost
+"gross margin, reduced tillage, continuous maize",Income,Net income,Income,Gross Margin
+"gross margin, conventional tillage, continuous maize",Income,Net income,Income,Gross Margin
+"gross margin, reduced tillage, maize-soybean intercrop",Income,Net income,Income,Gross Margin
+"gross margin, conventional tillage, maize-soybean intercrop",Income,Net income,Income,Gross Margin
+"gross margin, reduced tillage, maize-soybean rotation",Income,Net income,Income,Gross Margin
+"gross margin, conventional tillage, maize-soybean rotation",Income,Net income,Income,Gross Margin
+"profit (discounted), push pull system",Income,Net income,Income,Net Return
+"profit (discounted), monocrop",Income,Net income,Income,Net Return
+"profit (discounted), maize-soybean rotation",Income,Net income,Income,Net Return
+"profit (discounted), maize-Crotalaria rotation",Income,Net income,Income,Net Return
+labor requirements for the practice,Expenses,Labor,Costs,Labour Cost
+"productivity of capital, Trench 2W",Income,Net income,,
+"input costs, seasons 1 & 2",Expenses,Variable cost,Costs,Variable Cost
+"input costs, season 3",Expenses,Variable cost,Costs,Variable Cost
+labor costs,Expenses,Labor,Costs,Labour Cost
+"total costs, seasons 1 & 2",Expenses,Total costs,Costs,Total Cost
+"total costs, season 3",Expenses,Total costs,Costs,Total Cost
+"benefit cost ratio, season 1",Expenses,Benefit-cost ratio,,
+"benefit cost ratio, season 2",Expenses,Benefit-cost ratio,,
+"benefit cost ratio, season 3",Expenses,Benefit-cost ratio,,
+"net benefits, maize-bean intercrop, conventional planting arrangement",Income,Net income,,
+"net benefits, maize-bean intercrop, improved (MBILI) planting arrangement",Income,Net income,,
+"net benefits, maize-cowpea intercrop, conventional planting arrangement",Income,Net income,,
+"net benefits, maize-cowpea intercrop, improved (MBILI) planting arrangement",Income,Net income,,
+"net benefits, maize-groundnut intercrop, conventional planting arrangement",Income,Net income,,
+"net benefits, maize-groundnut intercrop, improved (MBILI) planting arrangement",Income,Net income,,
+"costs, maize-bean intercrop, conventional planting arrangement",Expenses,Total costs,Costs,Variable Cost
+"costs, maize-bean intercrop, improved (MBILI) planting arrangement",Expenses,Total costs,Costs,Variable Cost
+"costs, maize-cowpea intercrop, conventional planting arrangement",Expenses,Total costs,Costs,Variable Cost
+"costs, maize-cowpea intercrop, improved (MBILI) planting arrangement",Expenses,Total costs,Costs,Variable Cost
+"costs, maize-groundnut intercrop, conventional planting arrangement",Expenses,Total costs,Costs,Variable Cost
+"costs, maize-groundnut intercrop, improved (MBILI) planting arrangement",Expenses,Total costs,Costs,Variable Cost
