@@ -8,12 +8,12 @@ setwd(funr::get_script_path())
 library(tidyverse)
 library(readxl)
 library(plyr)
-
+library(ggplot2)
 
 # Data files
-cc <- read_excel("data/ContinuousCover_Kenya_081721.xlsx", sheet = "Results")
-nm <- read_excel("data/NutrientMgmt_Kenya_CURRENT_081721.xlsx", sheet = "Results")
-till <- read_excel("data/Tillage_Kenya_081721.xlsx", sheet="Results")
+cc <- read_excel("data/ContinuousCover_Kenya_complete.xlsx", sheet = "Results")
+nm <- read_excel("data/NutrientMgmt_Kenya_complete.xlsx", sheet = "Results")
+till <- read_excel("data/Tillage_Kenya_complete.xlsx", sheet="Results")
 
 
 # Generate nested grouping lists
@@ -31,11 +31,6 @@ group_lista <- full_join(group_list1, till_groups)
 # Export csv
 write.csv(group_lista, paste0("filtered-data/grouplists_Kenya_",Sys.Date(),".csv"))
 
-write.csv(till_groups, paste0("filtered-data/tilllists_Kenya_",Sys.Date(),".csv"))
-
-cc <- read_excel("data/ContinuousCover_Kenya_081721.xlsx", sheet = "Results")
-nm <- read_excel("data/NutrientMgmt_Kenya_CURRENT_081721.xlsx", sheet = "Results")
-till <- read_excel("data/Tillage_Kenya_081721.xlsx", sheet="Results")
 
 # Generate list of group discrepancies
 unique(unlist(strsplit(as.character(cc$mgmt_intention), ";")))
@@ -44,9 +39,9 @@ unique(unlist(strsplit(as.character(till$group_level3), ";")))
 
 #Generate list of unique crops
 # Data files - Cash crop tab
-cc_crops <- read_excel("data/ContinuousCover_Kenya_081721.xlsx", sheet = "CashCrop")
-nm_crops <- read_excel("data/NutrientMgmt_Kenya_CURRENT_081721.xlsx", sheet = "CashCrop")
-till_crops <- read_excel("data/Tillage_Kenya_081721.xlsx", sheet="CashCrop")
+cc_crops <- read_excel("data/ContinuousCover_Kenya_complete.xlsx", sheet = "CashCrop")
+nm_crops <- read_excel("data/NutrientMgmt_Kenya_complete.xlsx", sheet = "CashCrop")
+till_crops <- read_excel("data/Tillage_Kenya_complete.xlsx", sheet="CashCrop")
 
 cc_cropslist <- unique(unlist(strsplit(as.character(cc_crops$control_species), ";")))
 nm_cropslist <- unique(unlist(strsplit(as.character(nm_crops$control_species), ";")))
@@ -55,6 +50,35 @@ till_cropslist <- unique(unlist(strsplit(as.character(till_crops$cash_species), 
 crops <- unique(c(as.character(cc_cropslist), as.character(nm_cropslist), as.character(till_cropslist)))
 cropslist <- as.data.frame(crops)
 
-# Export csv
+# Export csv with today's date pasted into file name
+#write.csv(dataframe, paste0("folder/filename_"),Sys.Date(),".csv"))
 write.csv(cropslist, paste0("filtered-data/cropslist_Kenya_",Sys.Date(),".csv"))
+
+
+
+###########################################
+
+# Data files
+sitedata <- read_excel("/Users/lesley.atwood/Desktop/Active projects/AgEvidence/AgEvidenceSiteData.xlsx", 
+                       sheet = "Dataset1")
+
+#new cols
+sitedata$GeoPrac <- paste(sitedata$Geography, sep=", ", sitedata$Practice)
+
+#Split by Geography
+US <- sitedata[sitedata$Geography %in% "US",]
+Kenya <- sitedata[sitedata$Geography %in% "Kenya",]
+
+
+USplot <- boxplot(UniquePageviews~Practice, data = US )
+ #Tillage, Covercrops, NM, Pests
+
+Kenyaplot <- boxplot(UniquePageviews~Practice, data = Kenya )
+ #NutrientMgmt, Tillage, ContinousCover
+
+
+
+
+
+
           

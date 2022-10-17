@@ -7,9 +7,9 @@ require(funr)
 setwd(funr::get_script_path())
 
 # Define variables
-cc.name <- "data/ContinuousCover_Kenya_081721.xlsx"
-till.name <- "data/Tillage_Kenya_081721.xlsx"
-nm.name <- "data/NutrientMgmt_Kenya_CURRENT_081721.xlsx"
+cc.name <- "data/ContinuousCover_Kenya_complete.xlsx"
+till.name <- "data/Tillage_Kenya_complete.xlsx"
+nm.name <- "data/NutrientMgmt_Kenya_complete.xlsx"
 
 # Read in data filters
 cc_to_map <- read_csv("spatial-data/cc-points-to-map.csv", 
