@@ -1,0 +1,230 @@
+paper_id,duration,trt_id,year,cover_soilprep,cover_plantdate,cover_plantimplement,cover_fertilizer,cover_type,cover_mixture,cover_seeddensity,termination,herbicide,termination_timing,trt_other_description
+4000,2018-1,0,1;2,NA,NA,NA,NA,monocrop,sweet potato,120 vines planted 30 cm apart along ridge,NA,NA,NA,NA
+4000,2018-1,1,1;2,NA,NA,NA,NA,intercrop,sweet potato; maize,sweet potato planted on ridges at spacing of 30 cm by 60 cm between vines; maize planted in flat beds at spacing of 60 cm by 50 cm between maize,NA,NA,NA,NA
+4001,2017-2,0,1;2;3,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",monocrop,maize,NA,NA,NA,NA,NA
+4001,2017-2,1,1;2;3,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",intercrop,maize; bean,NA,NA,NA,NA,NA
+4001,2017-2,2,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",intercrop,maize; cowpea,NA,NA,NA,NA,NA
+4001,2017-2,3,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",intercrop,maize; green gam,NA,NA,NA,NA,NA
+4001,2017-2,4,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",intercrop,maize; groundnut,NA,NA,NA,NA,NA
+4001,2017-2,5,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",alley crop,maize; desmodium; brachiaria,NA,NA,NA,NA,NA
+4002,2017-2,0,1;2,NA,NA,NA,"50 kg ha-1 N, 90 kg P ha-1 , 100 kg K ha-1 and single topdressing with 50 kg N ha-1 in the form of calcium ammonium nitrate (26-0-0). Topdressing was done 15–25 days after potato emergence depending on the general soil moisture conditions",monocrop,potato,NA,NA,NA,NA,NA
+4002,2017-2,1,1;2,NA,NA,NA,"one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",monocrop,lima bean,NA,NA,NA,NA,NA
+4002,2017-2,2,1;2,NA,NA,NA,"one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",monocrop,dolichos,NA,NA,NA,NA,NA
+4002,2017-2,3,1;2,NA,NA,NA,"50 kg ha-1 N, 90 kg P ha-1 , 100 kg K ha-1 and single topdressing with 50 kg N ha-1 in the form of calcium ammonium nitrate (26-0-0). Topdressing was done 15–25 days after potato emergence depending on the general soil moisture conditions; one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",intercrop,potato; lima bean,NA,NA,NA,NA,NA
+4002,2017-2,4,1;2,NA,NA,NA,"50 kg ha-1 N, 90 kg P ha-1 , 100 kg K ha-1 and single topdressing with 50 kg N ha-1 in the form of calcium ammonium nitrate (26-0-0). Topdressing was done 15–25 days after potato emergence depending on the general soil moisture conditions; one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",intercrop,potato; dolichos,NA,NA,NA,NA,NA
+4003,1981-2,0,1;2,NA,NA,NA,NA,monocrop,maize,"40,000 plants/ha",NA,NA,NA,NA
+4003,1981-2,1,1;2,NA,NA,NA,NA,monocrop,cowpea,"120,000 plants/ha",NA,NA,NA,NA
+4003,1981-2,2,1;2,NA,NA,NA,NA,monocrop,sorghum,"80,000 plants/ha",NA,NA,NA,NA
+4003,1981-2,3,1;2,NA,NA,NA,NA,intercrop,maize; cowpea,1 maize: 3 cowpea,NA,NA,NA,NA
+4003,1981-2,4,1;2,NA,NA,NA,NA,intercrop,sorghum; cowpea,2 sorghum: 3 cowpea,NA,NA,NA,NA
+4003,1981-2,5,1;2,NA,NA,NA,NA,intercrop,maize; sorghum,1 maize: 2 sorghum,NA,NA,NA,NA
+4003,1981-2,6,1;2,NA,NA,NA,NA,intercrop,maize; cowpea; sorghum,1 maize: 2 sorghum: 3 cowpea,NA,NA,NA,NA
+4004,1983-3,0,1;2;3,NA,NA,NA,NA,monocrop,sorghum,NA,NA,NA,NA,NA
+4004,1983-3,1,1;2;3,NA,NA,NA,NA,intercrop,sorghum;maize,NA,NA,NA,NA,NA
+4004,1983-3,2,1;2;3,NA,NA,NA,NA,intercrop,sorghum; cowpea,NA,NA,NA,NA,NA
+4004,1983-3,3,1;2;3,NA,NA,NA,NA,intercrop,sorghum; cowpea; maize,NA,NA,NA,NA,NA
+4005,1982-6,0,1;2;3;4;5;6,NA,NA,NA,NA,tree monocrop,Acacia albida,"2,500 trees/ha with 4 m row spacings",NA,NA,NA,NA
+4005,1982-6,1,1;2;3;4;5;6,NA,NA,NA,100 kg/ha triple superphosphate to maize; 150 kg/ha calcium ammonium nitrate-CAN to maize,alley crop,Acacia albida; maize (long rains); green gram (short rains),"2,500 trees/ha with 4 m row spacings",NA,NA,NA,only 4 m row spacings included to match control layout
+4006,1988-2,0,1;2,NA,NA,NA,none,monocrop,cowpea,NA,NA,NA,NA,NA
+4006,1988-2,1,1;2,NA,NA,NA,100 kg/ha double superphosphate fertilizer to maize at planting and 150 kg/ha sulphate of ammonia top-dress to maize at about 4 weeks old,intercrop,cowpea; maize,NA,NA,NA,NA,NA
+4006,1988-2,2,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,untreated
+4006,1988-2,3,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,foliar insecticide (endosulfan 35 C.C) @ 0.15% L/ha at onset of flowering and continued weekly for 4 weeks until harvest
+4007,1986-2,0,1;2,NA,NA,NA,NA,monocrop,bean,NA,NA,NA,NA,NA
+4007,1986-2,1,1;2,NA,NA,NA,NA,intercrop,bean; maize,4 bean: 1 maize,NA,NA,NA,NA
+4007,1986-2,2,1;2,NA,NA,NA,NA,intercrop,bean; maize,2 bean: 1 maize,NA,NA,NA,NA
+4008,1995-1,0,1,NA,NA,NA,NA,monculture,maize,NA,NA,NA,NA,NA
+4008,1995-1,1,1,NA,NA,NA,NA,intercrop,maize; bean,NA,NA,NA,NA,NA
+4009,1995-3,0,1;2;3,NA,NA,NA,NA,native fallow,natural fallow,NA,NA,NA,NA,NA
+4009,1995-3,1,1;2;3,NA,NA,NA,NA,improved fallow,sesbania,NA,NA,NA,NA,NA
+4009,1995-3,2,1;2;3,NA,NA,NA,NA,improved fallow,crotalaria (Crotalaria agatiflora),NA,NA,NA,NA,NA
+4009,1995-3,3,1;2;3,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4009,1995-3,4,1;2;3,NA,NA,NA,NA,NA,NA,NA,6 month,NA,NA,NA
+4009,1995-3,5,1;2;3,NA,NA,NA,NA,NA,NA,NA,12 month,NA,NA,NA
+4010,1989-4,0,1;2;3;4,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4010,1989-4,1,1;2;3;4,NA,NA,NA,NA,intercrop,maize; cowpea,NA,NA,NA,NA,NA
+4010,1989-4,2,1;2;3;4,NA,NA,NA,NA,alley crop,Leucaena; maize,NA,NA,NA,NA,NA
+4010,1989-4,3,1;2;3;4,NA,NA,NA,NA,alley crop,Leucaena; maize; cowpea,NA,NA,NA,NA,NA
+4011,1990-1,0,1,NA,NA,NA,NA,monocrop,bean,NA,NA,NA,NA,NA
+4011,1990-1,1,1,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4011,1990-1,2,1,NA,NA,NA,NA,intercrop,bean; maize,NA,NA,NA,NA,NA
+4012,1987-5,0,1;2;3;4;5,NA,NA,NA,NA,monocrop,coffee,NA,NA,NA,NA,NA
+4012,1987-5,1,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; sweet potato,NA,NA,NA,NA,NA
+4012,1987-5,2,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; bean,NA,NA,NA,NA,NA
+4012,1987-5,3,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; peas,NA,NA,NA,NA,NA
+4012,1987-5,4,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; peas; maize,NA,NA,NA,NA,NA
+4012,1987-5,5,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; maize,NA,NA,NA,NA,NA
+4012,1987-5,6,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; bean; maize,NA,NA,NA,NA,NA
+4012,1987-5,7,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; potato,NA,NA,NA,NA,NA
+4012,1987-5,8,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; bean; potato,NA,NA,NA,NA,NA
+4012,1987-5,9,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; carrot,NA,NA,NA,NA,NA
+4012,1987-5,10,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; bean; carrot,NA,NA,NA,NA,NA
+4012,1987-5,11,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; cabbage,NA,NA,NA,NA,NA
+4012,1987-5,12,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; bean; cabbage,NA,NA,NA,NA,NA
+4012,1987-5,13,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; tomato,NA,NA,NA,NA,NA
+4012,1987-5,14,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; bean; tomato,NA,NA,NA,NA,NA
+4012,1987-5,15,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; kale,NA,NA,NA,NA,NA
+4012,1987-5,16,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; bean; kale,NA,NA,NA,NA,NA
+4012,1987-5,17,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; millet,NA,NA,NA,NA,NA
+4012,1987-5,18,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; sorghum,18,NA,NA,NA,NA
+4012,1987-5,19,1;2;3;4;5,NA,NA,NA,NA,alley crop,coffee; soybean,19,NA,NA,NA,NA
+4012,1987-5,20,1;2;3;4;5,NA,NA,NA,NA,monocrop,sweet potato,NA,NA,NA,NA,NA
+4012,1987-5,21,1;2;3;4;5,NA,NA,NA,NA,monocrop,beans,NA,NA,NA,NA,NA
+4012,1987-5,22,1;2;3;4;5,NA,NA,NA,NA,monocrop,peas,NA,NA,NA,NA,NA
+4012,1987-5,23,1;2;3;4;5,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4012,1987-5,24,1;2;3;4;5,NA,NA,NA,NA,monocrop,potato,NA,NA,NA,NA,NA
+4012,1987-5,25,1;2;3;4;5,NA,NA,NA,NA,monocrop,carrot,NA,NA,NA,NA,NA
+4012,1987-5,26,1;2;3;4;5,NA,NA,NA,NA,monocrop,cabbage,NA,NA,NA,NA,NA
+4012,1987-5,27,1;2;3;4;5,NA,NA,NA,NA,monocrop,tomato,NA,NA,NA,NA,NA
+4012,1987-5,28,1;2;3;4;5,NA,NA,NA,NA,monocrop,kale,NA,NA,NA,NA,NA
+4012,1987-5,29,1;2;3;4;5,NA,NA,NA,NA,monocrop,soybean,NA,NA,NA,NA,NA
+4012,1987-5,30,1;2;3;4;5,NA,NA,NA,NA,monocrop,millet,NA,NA,NA,NA,NA
+4012,1987-5,31,1;2;3;4;5,NA,NA,NA,NA,monocrop,sorghum,NA,NA,NA,NA,NA
+4013,1989-4,0,1;2;3;4,NA,NA,NA,NA,monocrop,napier grass,"20,000 transplants/ha",NA,NA,NA,NA
+4013,1989-4,1,1;2;3;4,NA,NA,NA,NA,monocrop,Leucaena leucocephala,"40,000 trees/ha",NA,NA,NA,NA
+4013,1989-4,2,1;2;3;4,NA,NA,NA,NA,alley crop,napier grass; Leucaena leucocephala,"16,000 transplants/ha; 8,000 trees/ha",NA,NA,NA,NA
+4013,1989-4,3,1;2;3;4,NA,NA,NA,NA,alley crop,napier grass; Leucaena leucocephala; blue pea,"16,000 transplants/ha; 8,000 trees/ha; 4 kg seeds/ha",NA,NA,NA,NA
+4013,1989-4,5,1;2;3;4,NA,NA,NA,NA,alley crop,Leucaena leucocephala; blue pea,NA,NA,NA,NA,NA
+4013,1989-4,4,1;2;3;4,NA,NA,NA,NA,intercrop,napier grass; Leucaena leucocephala; blue pea,NA,NA,NA,NA,NA
+4013,1989-4,6,1;2;3;4,NA,NA,NA,NA,monocrop,blue pea,NA,NA,NA,NA,NA
+4014,1995-2,0,1;2,NA,NA,NA,NA,monocrop,Acacia saligna,"2,500 trees/ha with 1 m between trees",NA,NA,NA,NA
+4014,1995-2,1,1;2,NA,NA,NA,NA,monocrop,sorghum,NA,NA,NA,NA,NA
+4014,1995-2,2,1;2,NA,NA,NA,NA,alley crop,Acacia saligna; sorghum,"2,500 trees/ha with 1 m between trees; 0.5 m apart with 0.25 m distance between plant rows",NA,NA,NA,NA
+4015,1986-2,0,1;2,NA,NA,NA,NA,monocrop,cowpea,NA,NA,NA,NA,NA
+4015,1986-2,1,1;2,NA,NA,NA,NA,intercrop,cowpea; maize,NA,NA,NA,NA,NA
+4015,1986-2,2,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,no insecticide
+4015,1986-2,3,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"insecticide, cypermethrin and dimethoate every 10 days"
+4016,1992-1,0,1,NA,NA,NA,NA,bare soil,fallow,NA,NA,NA,NA,NA
+4016,1992-1,1,1,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4016,1992-1,2,1,NA,NA,NA,NA,monocrop,bean,NA,NA,NA,NA,NA
+4016,1992-1,3,1,NA,NA,NA,NA,intercrop,maize; bean,NA,NA,NA,NA,NA
+4017,1981-9,0,1;2;3;4;5;6;7;8;9,NA,NA,NA,NA,monocrop,sorghum,NA,NA,NA,NA,NA
+4017,1981-9,1,1;2;3;4;5;6;7;8;9,NA,NA,NA,NA,monocrop,cowpea,NA,NA,NA,NA,NA
+4017,1981-9,2,1;2;3;4;5;6;7;8;9,NA,NA,NA,NA,intercrop,sorghum; cowpea,NA,NA,NA,NA,NA
+4017,1981-9,3,1;2;3;4;5;6;7;8;9,NA,NA,NA,NA,intercrop,sorghum; sorghum,NA,NA,NA,NA,Serena and IS4660 lines
+4018,42401,0,1;2,NA,NA,hand hoe,145 kg/ha of diammonium phosphate; maize 26 kg N/ha calcium ammonium nitrate at 4 and 7 weeks after sowing,intercrop,maize; bean,"0.75 m × 0.30 m spacing, 44444 maize plants/ha; 0.2 m btwn maize, 66666 bean plants/ha",NA,Karate; Redomil,NA,NA
+4018,42401,1,1;2,NA,NA,hand hoe,145 kg/ha of diammonium phosphate; maize 26 kg N/ha calcium ammonium nitrate at 4 and 7 weeks after sowing,alley crop,maize; bean; Calliandra,"0.75 m × 0.30 m spacing maize, 0.2 m bean btwn maize, 4 m × 0.50 m Caliandra",NA,Karate; Redomil,NA,hedgerows cut to 0.6m
+4019,2002-3,0,1;2;3,NA,NA,NA,NA,monocrop,sorghum,"30 cm in row, 60 cm row to row",NA,NA,NA,NA
+4019,2002-3,1,1;2;3,NA,NA,NA,NA,intercrop,sorghum; Desmodium intortum,"30 cm in row, 60 cm row to row; 60 cm to sorghum rows",NA,NA,NA,NA
+4020,35855,0,1;2;3,NA,NA,NA,NA,monocrop,maize,"25 cm in row, 75 cm row to row",NA,NA,NA,NA
+4020,35856,1,1;2,NA,NA,NA,NA,intercrop,maize; soybean,"25 cm in row with 75 cm row to row, alternating rows",NA,NA,NA,NA
+4020,35857,2,1;2,NA,NA,NA,NA,intercrop,maize; sun hemp,"25 cm in row with 75 cm row to row, alternating rows",NA,NA,NA,NA
+4020,35858,3,1;2,NA,NA,NA,NA,intercrop,maize; cowpea,"25 cm in row with 75 cm row to row, alternating rows",NA,NA,NA,NA
+4020,35859,4,1;2;3,NA,NA,NA,NA,alley crop,maize; Desmodium uncinatum,"25 cm in row with 75 cm row to row, alternating rows",NA,NA,NA,NA
+4020,35860,5,1;2,NA,NA,NA,NA,alley crop,maize; Desmodium intortum,"25 cm in row with 75 cm row to row, alternating rows",NA,NA,NA,NA
+4020,35861,6,2;3,NA,NA,NA,0 kg N/ha,NA,NA,NA,NA,NA,NA,NA
+4020,35862,7,2;3,NA,NA,NA,120 kg N/ha,NA,NA,NA,NA,NA,NA,NA
+4021,39814,0,1,NA,NA,NA,NA,monocrop,french bean,"50 x 10 cm (rows x plants), 10 rows; 30 cm between plants",NA,NA,NA,NA
+4021,39815,1,1,NA,NA,NA,NA,intercrop,french bean; sunflower,"50 x 10 cm (rows x plants), 10 rows; 30 cm between plants",NA,NA,NA,NA
+4021,39816,2,1,NA,NA,NA,NA,intercrop,french bean; baby corn,"50 x 10 cm (rows x plants), 10 rows; 30 cm between plants",NA,NA,NA,NA
+4021,39817,3,1,NA,NA,NA,NA,intercrop,french bean; irish potato,"50 x 10 cm (rows x plants), 10 rows; 30 cm between plants",NA,NA,NA,NA
+4021,39818,4,1,NA,NA,NA,NA,intercrop,french bean; sunflower; baby corn,"50 x 10 cm (rows x plants), 10 rows; 30 cm between plants",NA,NA,NA,NA
+4021,39819,5,1,NA,NA,NA,NA,intercrop,french bean; sunflower; irish potato,"50 x 10 cm (rows x plants), 10 rows; 30 cm between plants",NA,NA,NA,NA
+4022,2016-3,0,1;2;3,NA,NA,NA,NA,monocrop,potato,30 cm in row and 75 cm between rows,NA,NA,NA,NA
+4022,2016-3,1,1;2;3,NA,NA,NA,NA,monocrop,lima bean,20 cm in row and 75 cm between rows,NA,NA,NA,NA
+4022,2016-3,2,1;2;3,NA,NA,NA,NA,monocrop,dolichos,20 cm in row and 75 cm between rows,NA,NA,NA,NA
+4022,2016-3,3,1;2;3,NA,NA,NA,NA,intercrop,potato; lima bean,"30 cm in row and 75 cm between rows, potatoes; 20 cm in row and 75 cm between rows, lima bean",NA,NA,NA,NA
+4022,2016-3,4,1;2;3,NA,NA,NA,NA,intercrop,potato; dolichos,"30 cm in row and 75 cm between rows, potatoes; 20 cm in row and 75 cm between rows, dolicho",NA,NA,NA,NA
+4023,2003-15,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4023,2003-15,1,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15,NA,NA,NA,NA,monocrop,bean,NA,NA,NA,NA,NA
+4023,2003-15,2,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15,NA,NA,NA,NA,intercrop,maize;bean,NA,NA,NA,NA,NA
+4024,2014-2,0,1;2,NA,NA,NA,NA,bare soil,bareground,NA,NA,NA,NA,NA
+4024,2014-2,1,1;2,NA,NA,NA,NA,monocrop,potato,90 cm between the rows and 30 cm within the row,NA,NA,NA,NA
+4024,2014-2,2,1;2,NA,NA,NA,NA,intercrop,potato;garden pea,90 cm between the rows and 30 cm within the rows while the legume beans were intercropped in a single row between the rows of potato at a spacing of 25 cm,NA,NA,NA,NA
+4024,2014-2,3,1;2,NA,NA,NA,NA,intercrop,potato;climbing bean,90 cm between the rows and 30 cm within the rows while the legume beans were intercropped in a single row between the rows of potato at a spacing of 25 cm,NA,NA,NA,NA
+4024,2014-2,4,1;2,NA,NA,NA,NA,intercrop,potato;dolichos,90 cm between the rows and 30 cm within the rows while the legume beans were intercropped in a single row between the rows of potato at a spacing of 25 cm,NA,NA,NA,NA
+4025,2011-3,0,1;2;3,NA,NA,NA,NA,monocrop,maize,"53,333/ha",NA,NA,NA,NA
+4025,2011-3,1,1;2;3,NA,NA,NA,NA,intercrop,maize;Desmodium uncinatum,NA,NA,NA,NA,NA
+4025,2011-3,2,1;2;3,NA,NA,NA,NA,intercrop,maize;peanut,"53,333 maize/ha;533,333 peanut/ha",NA,NA,NA,NA
+4026,2015-1,0,1,NA,NA,NA,NA,monocrop,sorghum,"interrow spacing of 60 cm, intrarow spacing of 30 cm",NA,NA,NA,NA
+4026,2015-1,1,1,NA,NA,NA,NA,intercrop,sorghum;Desmodium intortum,"interrow spacing of 60 cm, intrarow spacing of 30 cm; Desmodium palnted between sorghum rows",NA,NA,NA,NA
+4026,2015-1,2,1,NA,NA,NA,NA,intercrop,sorghum;Desmodium uncinatum,"interrow spacing of 60 cm, intrarow spacing of 30 cm; Desmodium palnted between sorghum rows",NA,NA,NA,NA
+4026,2015-1,3,1,NA,NA,NA,NA,intercrop,sorghum;Desmodium incanum,"interrow spacing of 60 cm, intrarow spacing of 30 cm; Desmodium palnted between sorghum rows",NA,NA,NA,NA
+4026,2015-1,4,1,NA,NA,NA,NA,intercrop,sorghum;Desmodium ramosissimum,"interrow spacing of 60 cm, intrarow spacing of 30 cm; Desmodium palnted between sorghum rows",NA,NA,NA,NA
+4027,1996-2,0,1;2,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4027,1996-2,1,1;2,NA,NA,NA,NA,alley crop,maize;gliricidia,maize planted 1 m apart between rows and 30 cm apart within rows;gliricidia trees replacing middle row of maize,NA,NA,NA,NA
+4028,2012-3,0,1;2,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4028,2012-3,1,1;2,NA,NA,NA,NA,alley crop,maize;desmodium intortum;brachiaria,inter and intrarow spacing of 75 cm and 30 cm;  intercrop at a spacing of 50 cm within and 50 cm between rows,NA,NA,NA,NA
+4029,2011-3,0,1;2;3,NA,NA,NA,NA,intercrop,maize;bean,NA,NA,NA,NA,NA
+4029,2011-3,1,1;2;3,NA,NA,NA,NA,intercrop,maize;bean;mucuna,relay planting with mucuna,NA,NA,NA,NA
+4029,2011-3,2,1;2;3,NA,NA,NA,NA,intercrop,maize;bean;mucuna,strip planting with annual rotation,NA,NA,NA,NA
+4029,2011-3,3,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,moldboard plow (18-20 cm)
+4029,2011-3,4,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,minimum tillage (0-5 cm)
+4029,2011-3,5,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,no tillage
+4030,2009-3,0,1;2;3,NA,NA,NA,NA,monocrop,maize,maize planted at 90 x 45 cm and 2 seeds per hole,NA,NA,NA,NA
+4030,2009-3,1,1;2;3,NA,NA,NA,NA,intercrop,maize;brown dolichos,"maize planted at 90 x 45 cm and 2 seeds per hole;two
+rows of dolichos were planted between two rows of maize with
+intra-row spacing of 45 cm",NA,NA,NA,NA
+4030,2009-3,2,1;2;3,NA,NA,NA,NA,intercrop,maize;black dolichos,"maize planted at 90 x 45 cm and 2 seeds per hole;two
+rows of dolichos were planted between two rows of maize with
+intra-row spacing of 45 cm",NA,NA,NA,NA
+4030,2009-3,3,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,imazapyr herbicide coating
+4030,2009-3,4,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,uncoated seed
+4031,2012-2,0,1;2,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4031,2012-2,1,1;2,NA,NA,NA,NA,monocrop,bean,NA,NA,NA,NA,NA
+4031,2012-2,2,1;2,NA,NA,NA,NA,alley crop,maize;trees,NA,NA,NA,NA,NA
+4031,2012-2,2,1;2,NA,NA,NA,NA,alley crop,bean;trees,NA,NA,NA,NA,NA
+4032,2014-1,0,1;2,NA,NA,NA,NA,monocrop,kale,NA,NA,NA,NA,NA
+4032,2014-1,1,1;2,NA,NA,NA,NA,alley crop,kale;trees,NA,NA,NA,NA,NA
+4033,2012-3,0,1;2;3,NA,NA,NA,NA,monocrop,coffee,NA,NA,NA,NA,NA
+4033,2012-3,1,1;2;3,NA,NA,NA,NA,alley crop,coffee;trees,NA,NA,NA,NA,NA
+4034,2007-3,0,1;2;3,NA,NA,NA,NA,monocrop,soybean,NA,NA,NA,NA,NA
+4034,2007-3,1,1;2;3,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4034,2007-3,2,1;2;3,NA,NA,NA,NA,monocrop,maize;soybean,rotation,NA,NA,NA,NA
+4034,2007-3,3,1;2;3,NA,NA,NA,NA,intercrop,maize;soybean,NA,NA,NA,NA,NA
+4034,2007-3,4,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0 kg N/ha added
+4034,2007-3,5,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,60 kg N/ha added
+4034,2007-3,6,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,no crop residues added
+4034,2007-3,7,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,crop residues added
+4035,2007-4,0,1;2;3;4,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4035,2007-4,1,1;2;3;4,NA,NA,NA,NA,monocrop,cowpea,NA,NA,NA,NA,NA
+4035,2007-4,2,1;2;3;4,NA,NA,NA,NA,intercrop,maize;cowpea,NA,NA,NA,NA,NA
+4035,2007-4,3,1;2;3;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,conventional tillage
+4035,2007-4,4,1;2;3;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,subsoil tillage
+4035,2007-4,5,1;2;3;4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tied ridge tillage
+4036,2009-2,0,1;2,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4036,2009-2,1,1;2,NA,NA,NA,NA,intercrop,maize;Desmodium uncinatum,NA,NA,NA,NA,NA
+4036,2009-2,2,1;2,NA,NA,NA,NA,intercrop,maize;Desmodium intortum,NA,NA,NA,NA,NA
+4036,2009-2,3,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Desmodium cutting at 9 WAP
+4036,2009-2,4,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Desmodium cutting at 12 WAP
+4036,2009-2,5,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Desmodium cutting at 18 WAP
+4037,2003-5,0,1;2;3;4;5,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4037,2003-5,1,1;2;3;4;5,NA,NA,NA,NA,monocrop,maize;soybean,NA,NA,NA,NA,NA
+4037,2003-5,2,1;2;3;4;5,NA,NA,NA,NA,intercrop,maize;soybean,NA,NA,NA,NA,NA
+4037,2003-5,3,1;2;3;4;5,NA,NA,NA,NA,conventional tillage,NA,NA,NA,NA,NA,conventional tillage
+4037,2003-5,4,1;2;3;4;5,NA,NA,NA,NA,reduced tillage,NA,NA,NA,NA,NA,reduced tillage
+4037,2003-5,5,1;2;3;4;5,NA,NA,NA,NA,no crop residue added,NA,NA,NA,NA,NA,no crop residue added
+4037,2003-5,6,1;2;3;4;5,NA,NA,NA,NA,crop residue added,NA,NA,NA,NA,NA,crop residue added
+4038,2009-1,0,1,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4038,2009-1,1,1,NA,NA,NA,NA,intercrop,maize;cowpea or common bean,NA,NA,NA,NA,NA
+4039,2003-3,0,1;2;3,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4039,2003-3,1,1;2;3,NA,NA,NA,NA,alley crop,maize; desmodium; brachiaria,NA,NA,NA,NA,NA
+4039,2003-3,2,1;2;3,NA,NA,NA,NA,monocrop,maize;soybean,NA,NA,NA,NA,NA
+4039,2003-3,3,1;2;3,NA,NA,NA,NA,monocrop,maize;Crotalaria ochroleuca,NA,NA,NA,NA,NA
+4039,2003-3,4,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,IR-maize variety
+4039,2003-3,5,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,local maize variety
+4039,2003-3,6,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0 kg/ha of DAP and CAN
+4039,2003-3,7,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,100 kg/ha of DAP and CAN
+4040,2002-2,0,1;2,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4040,2002-2,1,1;2,NA,NA,NA,NA,alley crop,maize; desmodium; napier,NA,NA,NA,NA,NA
+4041,2006-3,0,1;2;3,NA,NA,NA,NA,monocrop,maize or cowpea,NA,NA,NA,NA,NA
+4041,2006-3,1,1;2;3,NA,NA,NA,NA,intercrop,maize;cowpea,NA,NA,NA,NA,NA
+4042,2006-3,0,1;2;3,NA,NA,NA,NA,monocrop,maize or cowpea,NA,NA,NA,NA,NA
+4042,2006-3,1,1;2;3,NA,NA,NA,NA,intercrop,maize;cowpea,NA,NA,NA,NA,NA
+4043,2003-2,0,1;2,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4043,2003-2,1,1;2,NA,NA,NA,NA,monocrop,maize or soybean,NA,NA,NA,NA,NA
+4043,2003-2,2,1;2,NA,NA,NA,NA,monocrop,maize or Crotalaria,NA,NA,NA,NA,NA
+4043,2003-2,3,1;2,NA,NA,NA,NA,intercrop,maize; desmodium; napier,NA,NA,NA,NA,NA
+4044,2005-2,0,1;2,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4044,2005-2,1,1;2,NA,NA,NA,NA,monocrop,maize;soybean,NA,NA,NA,NA,NA
+4044,2005-2,2,1;2,NA,NA,NA,NA,intercrop,maize;soybean,NA,NA,NA,NA,NA
+4044,2005-2,3,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,no crop residue added
+4044,2005-2,4,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,crop residue added
+4044,2005-2,5,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0 kg N/ha (urea)
+4044,2005-2,6,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,60 kg N/ha (urea)
+4045,1999-11,0,1;2;3;4;5;6;7;8;9;10;11,NA,NA,NA,NA,monocrop,coffee,NA,NA,NA,NA,NA
+4045,1999-11,1,1;2;3;4;5;6;7;8;9;10;11,NA,NA,NA,NA,alley crop,coffee;avocado;mango;grevilla,NA,NA,NA,NA,NA
+4046,2007-3,0,1;2;3,NA,NA,NA,NA,monocrop,maize,NA,NA,NA,NA,NA
+4046,2007-3,1,1;2;3,NA,NA,NA,NA,alley crop,maize or soybean;leucaena,NA,NA,NA,NA,NA
+4046,2007-3,2,1;2;3,NA,NA,NA,NA,alley crop,maize or soybean;napier grass,NA,NA,NA,NA,NA
+4046,2007-3,3,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,minimum tillage
+4046,2007-3,4,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tillage
