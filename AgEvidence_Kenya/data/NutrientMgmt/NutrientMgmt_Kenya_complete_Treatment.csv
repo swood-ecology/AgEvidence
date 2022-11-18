@@ -1,0 +1,354 @@
+paper_id,duration,trt_id,year,fert_app,fert_type,fert_type_detail,fert_rate,fert_nitrogen,fert_phosphorus,fert_potassium,fert_carbon,fert_date,trt_name,trt_other_description
+5000,2012-4,0,1;2;3;4,NA,unamended,NA,0 t/ha applied only at start of experiment,0 kg N/ha,NA,NA,NA,start of experiment: 3 Oct 2012,B0,NA
+5000,2012-4,1,1;2;3;4,NA,biochar,eucalyptus wood based,2.5 t/ha applied only at start of experiment,0 kg N/ha,NA,NA,NA,start of experiment: 3 Oct 2012,B2.5,NA
+5000,2012-4,2,1;2;3;4,NA,unamended,NA,0 t/ha per season,0 kg N/ha,NA,NA,48% carbon,before each growing season,T0,NA
+5000,2012-4,3,1;2;3;4,NA,green manure,Tithonia diversifolia air dried leaves,2.5 t/ha per season,75 kg N/ha,NA,NA,48% carbon,before each growing season,T2.5,NA
+5000,2012-4,4,1;2;3;4,NA,green manure,Tithonia diversifolia air dried leaves,5 t/ha per season,150 kg N/ha,NA,NA,48% carbon,before each growing season,T5,NA
+5000,2012-4,5,1;2;3;4,NA,unamended,NA,0 t/ha per season,0 kg N/ha,0 kg P/ha,0 kg K/ha,0 kg C/ha,before each growing season,U0,NA
+5000,2012-4,6,1;2;3;4,NA,nitrogen mineral fertilizer,urea,120 t/ha per season,120 kg N/ha,0 kg P/ha,0 kg K/ha,0 kg C/ha,before each growing season,U120,NA
+5001,2012-4,0,1;2;3;4,NA,unamended,NA,NA,0 kg N/ha,0 kg P/ha,0 kg K/ha,0 kg C/ha,NA,unfertilized,NA
+5001,2012-4,1,1;2;3;4,basal application,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,NA,50 kg N/ha per maize season; 30 kg P/ha per maize season; 60 kg K/ha per maize season,50 kg N/ha,30 kg P/ha,60 kg K/ha,0 kg C/ha,before each growing season,NPK (maize),NA
+5001,2012-4,2,1;2;3;4,basal application,Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,NA,30 kg P/ha per soybean season; 45 kg K/ha per soybean season,0 kg N/ha,30 kg P/ha,45 kg K/ha,0 kg C/ha,before each growing season,PK (soybean),NA
+5002,2018-1,0,1,NA,unamended,NA,0 t/ha per season,0 kg N/ha,0 kg P/ha,0 kg K/ha,0 kg C/ha,before each growing season,Control,NA
+5002,2018-1,1,1,NA,animal manure; incinerated organics,cow manure; wood ash,"cow manure, 2640 kg/ha; wood ash, 8000 kg/ha",NA,NA,NA,NA,both applied at planting,CmWa,NA
+5002,2018-1,2,1,NA,animal manure; mineral fertilizer; foliar fertilizer,cow manure; DAP; Agro-feed Plus,"cow manure, 2640 kg/ha; DAP, 256 kg/ha; Agro-feed Plus foliar feed, 2.5 L/ha",NA,NA,NA,NA,"all applied at planting, foliar feed only applied after 2 months",CmDCF,NA
+5002,2018-1,3,1,NA,animal manure; incinerated organics; foliar fertilizer,cow manure; wood ash; Agro-feed Plus,"cow manure, 2640 kg/ha; wood ash, 8000 kg/ha; Agro-feed Plus foliar feed, 2.5 L/ha",NA,NA,NA,NA,"all applied at planting, foliar feed only applied after 2 months",CmWaF,NA
+5002,2018-1,4,1,NA,phosphorus mineral fertilizer; nitrogen mineral fertilizer; potassium mineral fertilizer; foliar fertilizer,DAP; NPK; foliar fertilizer,"DAP, 256 kg/ha; NPK, 512 kg/ha; foliar fertilizer, 2.5 L/ha",NA,NA,NA,NA,"all applied at planting, foliar feed only applied after 2 months",DNF,NA
+5003,2018-2,0,1;2,NA,unamended,NA,0 kg N/ha/season applied only at beginning of each growing season,0 kg N/ha/yr,Absent,Absent,Absent,before each growing season,control,NA
+5003,2018-2,1,1;2,broadcast and hand hoed to incorporate,nitrogen mineral fertilizer; phosphous mineral fertilizer,NP,60 kg N/ha/season applied only at beginning of each growing season,120 kg N/ha/yr,Absent,Absent,Absent,before each growing season,inorganic fertilizer,NA
+5003,2018-2,2,1;2,broadcast and hand hoed to incorporate,animal manure,goat manure,60 kg N/ha/season applied only at beginning of each growing season,120 kg N/ha/yr,Present,Present,Present,before each growing season,animal manure,NA
+5003,2018-2,3,1;2,broadcast and hand hoed to incorporate,animal manure; nitrogen mineral fertilizer; phosphorus mineral fertilizer,goat manure & NP,60 kg N/ha/season applied only at beginning of each growing season,120 kg N/ha/yr,Present,Present,Present,before each growing season,combined inorganic fertilizer and animal manure,NA
+5004,2019-2,0,1;2,NA,unamended,unamended,NA,NA,NA,NA,NA,Control,NA,NA
+5004,2019-2,1,1;2,NA,insect frass,black soldier fly frass,NA,NA,Present,Present,Present,BSF frass,NA,NA
+5004,2019-2,2,1;2,NA,animal manure; biochar; phosphorus mineral fertilizer,commercial organic fertilizer,NA,NA,Present,Present,Present,SAFI,NA,NA
+5004,2019-2,3,1;2,NA,phosphorus mineral fertilizer; potassium mineral fertilizer; foliar fertilizer,45% urea; triple super phosphate (TSP); muriate of potash,60 kg P/ha; 50 kg K/ha,NA,Present,Present,Absent,NA,NA,NA
+5004,2019-2,4,1;2,NA,NA,NA,0 t/ha,0,NA,NA,NA,0,NA,NA
+5004,2019-2,5,1;2,NA,nitrogen mineral fertilizer,NA,2.5 t/ha,2.1% N,NA,NA,NA,2.5,NA,NA
+5004,2019-2,6,1;2,NA,nitrogen mineral fertilizer,NA,5 t/ha,2.1% N,NA,NA,NA,5,NA,NA
+5004,2019-2,7,1;2,NA,nitrogen mineral fertilizer,NA,7.5 t/ha,2.1% N,NA,NA,NA,7.5,NA,NA
+5004,2019-2,8,1;2,NA,NA,NA,0 kg N/ha,0 kg N/ha,0 kg N/ha,Absent,Absent,0,NA,NA
+5004,2019-2,9,1;2,NA,nitrogen mineral fertilizer,NA,30 kg N/ha,30 kg N/ha,30 kg N/ha,Present,Present,30,NA,NA
+5004,2019-2,10,1;2,NA,nitrogen mineral fertilizer,NA,60 kg N/ha,60 kg N/ha,60 kg N/ha,Present,Present,60,NA,NA
+5004,2019-2,11,1;2,NA,nitrogen mineral fertilizer,NA,100 kg N/ha,100 kg N/ha,100 kg N/ha,Present,Present,100,NA,NA
+5005,2017-2,0,1;2,NA,unamended,NA,NA,NA,NA,NA,NA,NA,C,NA
+5005,2017-2,1,1;2,NA,mineral fertilizer,"urea, triple superphosphate, muriate of potash",NA,80 kg N/ha,30 kg P/ha,40 kg K/ha,Absent,at planting and 6 weejs post-planting,"NTR, CTM, NTRM",NA
+5005,2017-2,2,1;2,NA,animal manure,fully decomposed cow manure,2 t/ha,2.1% N,Present,Present,Present,NA,"CTM, NTRM",NA
+5005,2017-2,3,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,"C, CTM",conventional tillage (15 cm hand hoeing)
+5005,2017-2,4,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NTR, NTRM",no tillage
+5006,2017-1,0,1,NA,unamended,NA,NA,NA,NA,NA,NA,NA,without manure,NA
+5006,2017-1,1,1,NA,animal manure,cow manure,200 kg N/ha (10 t/ha) (maize); 100 kg N/ha (5 t/ha) (beans),100 kg N/ha,Present,Present,Present,NA,with manure,NA
+5007,2018-1,0,1,NA,unamended,NA,NA,NA,NA,NA,NA,NA,control,NA
+5007,2018-1,1,1,NA,mineral fertilizer,"NPK 23:23:0 was used for basal fertilization,  calcium ammonium nitrate (CAN) was used for first and second top dressing (21 and 45 days after transplanting, respectively)",50 kg of fertilizer/acre,Present,Present,Present,Absent,NA,standard fertilization,NA
+5007,2018-1,2,1,NA,mineral fertilizer,"calcium ammonium nitrate (CAN) was used for first and second top dressing (21 and 45 days after transplanting, respectively)",50 kg of fertilizer/acre,Present,Present,Present,Absent,NA,under fertilization,NA
+5008,2004-15,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,unamended,NA,NA,NA,NA,NA,NA,NA,Control,NA
+5008,2004-15,1,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,mineral fertilizer,inorganic fertilizer (nitrogen [N] = 23% and phosphorus [P] = 23%; [NP]) applied at 120 kg N ha−1 yr−1; 60 kg N/ha/season,60 kg N/ha/season,60 kg N/ha,Present,Absent,Absent,NA,Fert,NA
+5008,2004-15,2,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,animal manure,goat manure,60 kg N/ha/season,60 kg N/ha,Present,Present,Absent,NA,Manure,NA
+5008,2004-15,3,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,mineral fertilizer; animal manure,inorganic fertilizer (nitrogen [N] = 23% and phosphorus [P] = 23%; [NP]) and goat manure applied at 120 kg N ha−1 yr−1; 60 kg N/ha/season,60 kg N/ha/season,60 kg N/ha,Present,Present,Present,NA,Man + Fert,NA
+5009,2016-2,0,1;2,NA,animal manure,unspecified,1.7% N,1.7% N,0.53% P,Present,42.06% C,litter bag decomposition study,animal manure,NA
+5009,2016-2,1,1;2,NA,green manure,Tithonia diversifolia,3.32% N,3.32% N,0.14% P,NA,41.3% C,litter bag decomposition study,green manure,NA
+5009,2016-2,2,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,ConvT,conventional tillage (15 cm hand hoeing)
+5009,2016-2,3,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,MinT,minimal tillage (holes dug for plants and weeds hand pulled)
+5010,2017-2,0,1;2,NA,unamended,NA,NA,NA,NA,NA,NA,NA,Non-fertilized,NA
+5010,2017-2,1,1;2,NA,mineral fertilizer,NPK added at 80% (2017) and 50% (2018) of water limited potential yields,NA,Present,Present,Present,Absent,basal and top dress,Fertilized,NA
+5011,2016-2,0,1;2,NA,Unamended,NA,NA,NA,NA,NA,NA,NA,Control,NA
+5011,2016-2,1,1;2,NA,Nitrogen Mineral Fertilizer,unspecified mineral fertilizer (60 kg N/ha),60 kg N/ha,NA,NA,NA,NA,NA,F,NA
+5011,2016-2,2,1;2,NA,Nitrogen Mineral Fertilizer; Green Manure,mineral fertilizer and crop residue (equavilent to 60 kg N/ha),60 kg N/ha,NA,NA,NA,NA,NA,RF,NA
+5011,2016-2,3,1;2,NA,Unspecified Mineral Fertilizer; Green Manure; Animal Manure,"unspecified mineral fertilizer, crop residue manure, unspecified animal fertilizer (equavilent to 60 kg N/ha)",60 kg N/ha,NA,NA,NA,NA,NA,RFM,NA
+5011,2016-2,4,1;2,NA,Green Manure; Animal Manure; Legume Intercrop,"crop residue, unspecified animal manure, Dolichos lablab intercrop (equavilent to 60 kg N/ha)",60 kg N/ha,NA,NA,NA,NA,NA,RML,NA
+5011,2016-2,5,1;2,NA,Green Manure; Animal Manure; Legume Intercrop,"crop residue, unspecified animal manure, Tithonia diversifolia (equavilent to 60 kg N/ha)",60 kg N/ha,NA,NA,NA,NA,NA,RTiM,NA
+5011,2016-2,6,1;2,NA,Green Manure; Legume Intercrop; Mineral Fertilizer,"crop residues, Tithonia diversifolia intercrop, phosphate rock (Minjingu) (equavilent to 60 kg N/ha)",60 kg N/ha,NA,NA,NA,NA,NA,RTiP,NA
+5011,2016-2,7,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,D15,"conventional tillage, 15 cm depth"
+5011,2016-2,8,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,D0,"minimum tillage, 0 cm depth in interrow, mix in amendments in row"
+5012,2016-1,0,1,NA,mineral fertilizer,selenium,NA,NA,NA,NA,NA,NA,soil Se,NA
+5012,2016-1,1,1,NA,mineral fertilizer,"selenium, diammonium phosphate, urea",NA,200 kg N/ha,60 kg P/ha,Absent,Absent,NA,soil Se + P & N,NA
+5012,2016-1,2,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,control,"0 g Se/ha, selium rate"
+5012,2016-1,3,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,5 g Se/ha,"5 g Se/ha, selium rate"
+5012,2016-1,4,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,10 g Se/ha,"10 g Se/ha, selium rate"
+5012,2016-1,5,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,20 g Se/ha,"20 g Se/ha, selium rate"
+5013,2014-2,0,1;2,NA,animal manure; nitrogen mineral fertilizer; phosphorus mineral fertilizer,decomposed animal manure; triple-super phosphate (TSP); di-ammonium-phosphate (DAP); calcium-ammonium-nitrate (CAN),NA,113 kg N/ha,60 kg P/ha,Present,Present,NA,conventional high,NA
+5013,2014-2,1,1;2,NA,green manure,"compost, liquid manure from Tithonia diversifolia, crop residues",NA,113 kg N/ha,60 kg P/ha,Present,Present,NA,organic high,NA
+5013,2014-2,2,1;2,NA,animal manure; nitrogen mineral fertilizer; phosphorus mineral fertilizer,fresh animal manure; triple-super phosphate (TSP); di-ammonium-phosphate (DAP); calcium-ammonium-nitrate (CAN),NA,31 kg N/ha,18 kg P/ha,Present,Present,NA,conventional low,NA
+5013,2014-2,3,1;2,NA,animal manure; phosphorus mineral fertilizer,"decomposed animal manure, phosphate rock",NA,31 kg N/ha,18 kg P/ha,Present,Present,NA,organic low,NA
+5014,2002-14,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,unamended,NA,NA,NA,NA,NA,NA,NA,control,NA
+5014,2002-14,1,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,green manure,Tithonia diversifolia (low C:N),NA,variable,NA,NA,Present,NA,Tithonia,NA
+5014,2002-14,2,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,green manure,maize stover (high C:N),NA,variable,NA,NA,Present,NA,Stover,NA
+5014,2002-14,3,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,phosphorus mineral fertilizer,60 kg P/ha as triple superphosphate,NA,0 kg N/ha,60 kg P/ha,Absent,Absent,NA,(-N),NA
+5014,2002-14,4,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer,"120 kg N/ha mineral fertilizer applied every growing season as split application (1/3 at planting, 2/3  top dressed after 8 weeks); 60 kg P/ha as triple superphosphate",NA,120 kg N/ha,60 kg P/ha,Absent,Absent,NA,(+N),NA
+5015,2016-2,0,1;2,NA,unamended,NA,NA,NA,NA,NA,NA,NA,C,NA
+5015,2016-2,1,1;2,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer,nitrogen mineral fertilizer; triple super phosphate (TSP),60 kg N/ha; 90 kg P/ha,60 kg N/ha,90 kg P/ha,Absent,Absent,NA,F,NA
+5015,2016-2,2,1;2,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; green manure,nitrogen mineral fertilizer; triple super phosphate (TSP); crop residue,60 kg N/ha; 90 kg P/ha,60 kg N/ha,90 kg P/ha,NA,Present,NA,RF,NA
+5015,2016-2,3,1;2,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; green manure; animal fertilizer,nitrogen mineral fertilizer; triple super phosphate (TSP); crop residue manure; unspecified animal fertilizer,60 kg N/ha; 90 kg P/ha,60 kg N/ha,90 kg P/ha,Present,Present,NA,RFM,NA
+5015,2016-2,4,1;2,NA,green manure; green manure; animal manure,crop residue; unspecified animal manure; Tithonia diversifolia,60 kg N/ha,60 kg N/ha,Present,Present,Present,NA,RTiM,NA
+5015,2016-2,5,1;2,NA,green manure; animal manure; phosphorus mineral fertilizer,crop residue; Tithonia diversifolia intercrop; phosphate rock (Minjingu),60 kg N/ha,60 kg N/ha,90 kg P/ha,Present,Present,NA,RTiP,NA
+5015,2016-2,6,1;2,NA,green manure; animal manure; legume intercrop,crop residue; unspecified animal manure; Dolichos lablab intercrop,60 kg N/ha,60 kg N/ha,Present,Present,Present,NA,RML,NA
+5016,2013-4,0,1;2;3;4,NA,unamended,NA,NA,0 kg N/ha,0 kg P/ha,0 kg K/ha,Absent,NA,NA,NA
+5016,2013-4,1,1;2;3;4,NA,phosphorus mineral fertilizer; potassium mineral fertilizer,muriate of potash; triple superphosphate,40 kg P/ha; 60 kg K/ha,0 kg N/ha,40 kg P/ha,60 kg K/ha,Absent,NA,NA,NA
+5016,2013-4,2,1;2;3;4,NA,nitrogen mineral fertilizer; potassium mineral fertilizer,urea; muriate of potash,NA,150 kg N/ha,0 kg P/ha,60 kg K/ha,Absent,NA,NA,NA
+5016,2013-4,3,1;2;3;4,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer,urea; triple superphosphate,NA,150 kg N/ha,40 kg P/ha,0 kg K/ha,Absent,NA,NA,NA
+5016,2013-4,4,1;2;3;4,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; potassium mineral fertilizer,urea; muriate of potash; triple superphosphate,NA,150 kg N/ha,40 kg P/ha,60 kg K/ha,Absent,NA,NA,NA
+5017,2006-11,0,1;2;3;4;5;6;7;8;9;10;11,NA,unamended,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5017,2006-11,1,1;2;3;4;5;6;7;8;9;10;11,"half applied at planting, other half six weeks later",nitrogen mineral fertilizer; phosphorus mineral fertilizer; potassium mineral fertilizer,Mavuno (NPK 10:26:10),50-60 kg N/ha,50-60 kg N/ha,Present,Present,Present,NA,NA,NA
+5017,2006-11,2,1;2;3;4;5;6;7;8;9;10;11,incorporated to 20 cm depth,biochar,pyrolysis Acacia spp. Wood,100 Mg dry weight/ha,Absent,Present,Present,Present,NA,NA,NA
+5017,2006-11,2,1;2;3;4;5;6;7;8;9;10;11,NA,bare fallow,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5018,2016-2,0,1;2,NA,Unamended,NA,NA,NA,NA,NA,NA,NA,Control,NA
+5018,2016-2,1,1;2,NA,Nitrogen Mineral Fertilizer,unspecified mineral fertilizer (60 kg N/ha),60 kg N/ha,NA,NA,NA,NA,NA,F,NA
+5018,2016-2,2,1;2,NA,Nitrogen Mineral Fertilizer; Green Manure,mineral fertilizer and crop residue (equavilent to 60 kg N/ha),60 kg N/ha,NA,NA,NA,NA,NA,RF,NA
+5018,2016-2,3,1;2,NA,Unspecified Mineral Fertilizer; Green Manure; Animal Manure,"unspecified mineral fertilizer, crop residue manure, unspecified animal fertilizer (equavilent to 60 kg N/ha)",60 kg N/ha,NA,NA,NA,NA,NA,RFM,NA
+5018,2016-2,4,1;2,NA,Green Manure; Animal Manure; Legume Intercrop,"crop residue, unspecified animal manure, Dolichos lablab intercrop (equavilent to 60 kg N/ha)",60 kg N/ha,NA,NA,NA,NA,NA,RML,NA
+5018,2016-2,5,1;2,NA,Green Manure; Animal Manure; Legume Intercrop,"crop residue, unspecified animal manure, Tithonia diversifolia (equavilent to 60 kg N/ha)",60 kg N/ha,NA,NA,NA,NA,NA,RTiM,NA
+5018,2016-2,6,1;2,NA,Green Manure; Legume Intercrop; Mineral Fertilizer,"crop residues, Tithonia diversifolia intercrop, phosphate rock (Minjingu) (equavilent to 60 kg N/ha)",60 kg N/ha,NA,NA,NA,NA,NA,RTiP,NA
+5018,2016-2,7,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,D15,"conventional tillage, 15 cm depth"
+5018,2016-2,8,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,D0,"minimum tillage, 0 cm depth in interrow, mix in amendments in row"
+5019,2014-2,0,1;2,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,NA,NA
+5019,2014-2,1,1;2,NA,Biological,Biofix® soya from MEA Ltd (Kenya) containing Bradyrhizobium diazoefficiens strain USDA110,NA,NA,NA,NA,NA,NA,NA,NA
+5019,2014-2,2,1;2,NA,Biological,Legumefix® soya from Legume technology (UK) containing Bradyrhizobium japonicum strain 532c,NA,NA,NA,NA,NA,NA,NA,NA
+5020,2015-1,0,1,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,NA,NA
+5020,2015-1,1,1,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,Urea; Triple superphosphate; Muriate of potash,NA,NA,NA,NA,NA,NA,NA,NA
+5020,2015-1,2,1,NA,Animal Manure; Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Farm yard manure; Urea; Triple superphosphate,NA,NA,NA,NA,NA,NA,NA,NA
+5020,2015-1,3,1,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer; Micronutrient Mineral Fertilizer,Mavuno; Zinc oxide; Copper oxide,NA,NA,NA,NA,NA,NA,NA,NA
+5020,2015-1,4,1,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer; Micronutrient Mineral Fertilizer,Urea; Triple superphosphate; Muriate of potash; Mavuno; Zinc oxide; Copper oxide,NA,NA,NA,NA,NA,NA,NA,NA
+5021,2003-13,0,1;2;3;4;5;6;7;8;9;10;11;12 13,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,Urea; Triple superphosphate; Muriate of potash,up to 60 kg N/ha,up to 60 kg N/ha,Present,Present,Absent,NA,NA,NA
+5021,2003-13,1,1;2;3;4;5;6;7;8;9;10;11;12 13,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer; Animal Manure,Farm yard manure; Urea; Triple superphosphate; Muriate of potash,up to 60 kg N/ha,up to 60 kg N/ha,Present,Present,Present,NA,NA,NA
+5022,2015-2,0,1;2,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,NA,NA
+5022,2015-2,1,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,diammonium phophate,"DAP, 18:46:0",40 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5022,2015-2,2,1;2,NA,Animal Manure,fresh cattle manure,10 t/ha,29.5 kg N/ha,Present,Present,Present,NA,NA,NA
+5022,2015-2,3,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Animal Manure,diammonium phophate; fresh cattle manure,"DAP, 18:46:0; manure, 10 t/ha",34.7 kg N/ha,Present,Present,Present,NA,NA,NA
+5023,2013-2,0,1;2,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,NA,NA
+5023,2013-2,1,1;2,NA,Phosphorus Mineral Fertilizer,Triple superphosphate,60 kg/ha,Absent,Present,Absent,Absent,NA,TSP,NA
+5023,2013-2,2,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Urea; Triple superphosphate,60 kg/ha TSP; 100 kg N/ha urea,100 kg N/ha,Present,Absent,Absent,NA,TSP-Urea,NA
+5023,2013-2,3,1;2,NA,Green manure,Water hyacinth compost,NA,100 kg N/ha,Present,Present,Present,NA,WH,NA
+5023,2013-2,4,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NI,uninnoculated
+5023,2013-2,5,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,I,innoculated
+5024,2013-3,0,1;2;3,NA,Unamended,unfertilized,NA,0 kg N/ha,0 kg P/ha,0 kg K/ha,Absent,NA,NA,NA
+5024,2013-3,1,1;2;3,NA,Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,Triple super phosphate; Muriate of potash,NA,0 kg N/ha,40 kg P/ha,60 kg K/ha,Absent,NA,NA,NA
+5024,2013-3,2,1;2;3,NA,Nitrogen Mineral Fertilizer; Potassium Mineral Fertilizer,Urea (3 equal applications); Muriate of potash,NA,150 kg N/ha,0 kg P/ha,60 kg K/ha,Absent,NA,NA,NA
+5024,2013-3,3,1;2;3,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Urea (3 equal applications); Triple super phosphate,NA,150 kg N/ha,40 kg P/ha,0 kg K/ha,Absent,NA,NA,NA
+5024,2013-3,4,1;2;3,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,Urea (3 equal applications); Triple super phosphate; Muriate of potash,NA,150 kg N/ha,40 kg P/ha,60 kg K/ha,Absent,NA,NA,NA
+5025,2014-1,0,1,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,NA,NA
+5025,2014-1,1,1,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,Urea (2 equal applications); Triple Super Phosphate (TSP); Muriate of Potash (MOP),NA,100 kg N/ha,30 kg P/ha,60 kg K/ha,NA,NA,NA,NA
+5026,2011-2,0,1;2,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,Control,NA
+5026,2011-2,1,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,50 kg N/ha,Present,Absent,Absent,NA,50,NA
+5026,2011-2,2,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,75 kg N/ha,Present,Absent,Absent,NA,75,NA
+5026,2011-2,3,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,100 kg N/ha,Present,Absent,Absent,NA,100,NA
+5026,2011-2,4,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,150 kg N/ha,Present,Absent,Absent,NA,150,NA
+5026,2011-2,5,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,200 kg N/ha,Present,Absent,Absent,NA,200,NA
+5027,2012-2,0,1;2,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,Control,NA
+5027,2012-2,1,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,50 kg N/ha,Present,Absent,Absent,NA,50,NA
+5027,2012-2,2,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,75 kg N/ha,Present,Absent,Absent,NA,75,NA
+5027,2012-2,3,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,200 kg N/ha,Present,Absent,Absent,NA,200,NA
+5028,2012-2,0,1;2,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,Control,NA
+5028,2012-2,1,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,50 kg N/ha,Present,Absent,Absent,NA,50,NA
+5028,2012-2,2,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,75 kg N/ha,Present,Absent,Absent,NA,75,NA
+5028,2012-2,3,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,100 kg N/ha,Present,Absent,Absent,NA,100,NA
+5028,2012-2,4,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,150 kg N/ha,Present,Absent,Absent,NA,150,NA
+5028,2013-2,5,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Diammonium phosphate (18% N) at planting equalling 1/3 fertilizer N; Urea (46% N) applied 5 weeks post planting equalling 2/3 fertilizer N,NA,200 kg N/ha,Present,Absent,Absent,NA,200,NA
+5029,2013-1,0,1,NA,Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,60 kg P/ha/season; 60 kg K/ha/season,NA,Absent,60 kg P/ha/season,60 kg K/ha/season,Absent,NA,Con,NA
+5029,2013-1,1,1,broadcast and hand hoed (0-15 cm) to incorporate,Green Manure; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,"intermediate quality Calliandra calothyrsus (C/N ratio 13; Lignin 13%; Polyphenols 9.4%), 4 Mg C/ha/a; 60 kg P/ha/season; 60 kg K/ha/season",NA,Present,60 kg P/ha/season,60 kg K/ha/season,Present,NA,CC,NA
+5029,2013-1,2,1,broadcast and hand hoed (0-15 cm) to incorporate,Green Manure; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,"low quality Zea mays (C/N ratio 59; Lignin 5.4%; Polyphenols 1.2%), 4 Mg C/ha/a; 60 kg P/ha/season; 60 kg K/ha/season",NA,Present,60 kg P/ha/season,60 kg K/ha/season,Present,NA,ZM,NA
+5029,2013-1,3,1,broadcast and hand hoed (0-15 cm) to incorporate,Green Manure;Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,"high quality Tithonia diversifolia (C/N ratio: 13, Lignin: 8.9%; Polyphenols: 1.7%), 4 Mg C/ha/a; 60 kg P/ha/season; 60 kg K/ha/season",NA,Present,60 kg P/ha/season,60 kg K/ha/season,Present,NA,TD,NA
+5030,2009-4,0,1;2;3;4,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,NA,NA
+5030,2009-4,1,1;2;3;4,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,unspecified NPK fertilizer,"100 kg N/ha , 30 kg P/ ha , 60 kg K/ha",100 kg N/ha,30 kg P/ ha,60 kg K/ha,Absent,NA,NA,NA
+5031,2004-11,0,1;2;3;4;5;6;7;8;9;10;11,NA,Potassium Mineral Fertilizer,potassium chloride fertilizer,60 kg K/ha,Absent,Absent,60 kg K/ha,Absent,NA,NA,NA
+5031,2004-11,1,1;2;3;4;5;6;7;8;9;10;11,NA,Animal Manure; Potassium Mineral Fertilizer,farm yard manure; potassium chloride fertilizer,4 Mg/ha,Present,Present,Present,Present,NA,NA,NA
+5031,2004-11,2,1;2;3;4;5;6;7;8;9;10;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5031,2004-11,3,1;2;3;4;5;6;7;8;9;10;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5031,2004-11,4,1;2;3;4;5;6;7;8;9;10;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5031,2004-11,5,1;2;3;4;5;6;7;8;9;10;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5031,2004-11,6,1;2;3;4;5;6;7;8;9;10;11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5032,2005-9,0,1;2;3;4;5;6;7;8;9,NA,Unamended,unfertilized,NA,Absent,Absent,Absent,Absent,NA,No Fertilizer,NA
+5032,2005-8,1,1;2;3;4;5;6;7;8;9,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,urea; triple super phosphate; muriate of potash,120 kg N/ha; 100 kg P/ha; 100 kg K/ha,120 kg N/ha,100 kg P/ha,100 kg K/ha,Absent,NA,Fertilizer,NA
+5032,2005-8,2,1;2,NA,Incinerated Organics,Eucalyptus saligna Sm. Wood biochar,at 6 t C/ha for three consecutive season,15.5 kg N/ha,2.1 kg P/ha,19.0 kg K/ha,851  g/kg,NA,Biochar,NA
+5032,2005-8,3,1;2,NA,Green Manure,cypress wood (Cupressus lusitanica Mill.) sawdust,at 6 t C/ha for three consecutive season,13.5 kg N/ha,1.2 kg P/ha,4.9 kg K/ha,490  g/kg,NA,Sawdust,NA
+5032,2005-8,4,1;2,NA,Green Manure,Tithonia diversifolia (Hemsl.) A. Gray leaves,at 6 t C/ha for three consecutive season,64.7 kg N/ha,41.8 kg P/ha,477.3 kg K/ha,445  g/kg,NA,Tithonia,NA
+5033,2002-12,0,1;2;3;4;5;6;7;8;9;10;11;12,NA,Unamended,unfertilized,NA,Absent,Absent,Absent,Absent,NA,CON,NA
+5033,2002-12,1,1;2;3;4;5;6;7;8;9;10;11;12,NA,Green Manure,Calliandra calothyrsus (medium quality; C/N ratio 13; Lignin 13 %; Polyphenols 9.4 %),4 Mg C/ha/year,Present,Present,Present,Present,NA,CC,NA
+5033,2002-12,2,1;2;3;4;5;6;7;8;9;10;11;12,NA,Green Manure,Zea mays (low quality; C/N ratio 59; Lignin 5.4 %; Polyphenols 1.2 %),4 Mg C/ha/year,Present,Present,Present,Present,NA,ZM,NA
+5033,2002-12,3,1;2;3;4;5;6;7;8;9;10;11;12,NA,Green Manure,Tithonia diversifolia (high quality; C/N ratio: 13; Lignin: 8.9 %; Polyphenols: 1.7 %),4 Mg C/ha/year,Present,Present,Present,Present,NA,TD,NA
+5033,2002-12,4,1;2;3;4;5;6;7;8;9;10;11;12,NA,Nitrogen Mineral Fertilizer,Calcium ammonium nitrate (CaNH4NO3),"120 kg N/ha with 1/3 applied 3 weeks after sowing, 2/3 applied 8 weeks later",120 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5034,2007-6,0,1;2;3;4;5;6,NA,Unamended,unfertilized,NA,Absent,Absent,Absent,Absent,NA,Nil,0
+5034,2007-6,1,1;2;3;4;5;6,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,triple superphosphate; urea; potassium chloride,NA,60 kg N/ha,60 kg P/ha,12.5 kg K/ha,Absent,NA,TSP 12.5,1
+5034,2007-6,2,1;2;3;4;5;6,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,triple superphosphate; urea; potassium chloride,NA,60 kg N/ha,60 kg P/ha,25 kg K/ha,Absent,NA,TSP 25,2
+5034,2007-6,3,1;2;3;4;5;6,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,triple superphosphate; Minjingu phosphate rock; urea; potassium chloride,NA,60 kg N/ha,60 kg P/ha,62.5 kg K/ha,Absent,NA,TSP 12.5 + MPR 50,3
+5034,2007-6,4,1;2;3;4;5;6,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,triple superphosphate; Minjingu phosphate rock; urea; potassium chloride,NA,60 kg N/ha,60 kg P/ha,50 kg K/ha,Absent,NA,TSP 25 + MPR 25,4
+5034,2007-6,5,1;2;3;4;5;6,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,triple superphosphate; urea; potassium chloride,NA,60 kg N/ha,60 kg P/ha,50 kg K/ha,Absent,NA,TSP 50,5
+5034,2007-6,6,1;2;3;4;5;6,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,Minjingu phosphate rock; urea; potassium chloride,NA,60 kg N/ha,60 kg P/ha,50 kg K/ha,Absent,NA,MPR 50,6
+5035,2011-2,0,1;2,NA,Unamended,unfertilized,NA,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5035,2011-2,1,1;2,NA,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,50 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5035,2011-2,2,1;2,NA,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,75 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5035,2011-2,3,1;2,NA,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,100 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5035,2011-2,4,1;2,NA,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,150 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5035,2011-2,5,1;2,NA,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,200 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5036,2010-2,0,1;2,NA,Unamended,unfertilized,NA,0 kg N/ha,Absent,Absent,Absent,NA,T1,NA
+5036,2010-2,1,1;2,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Mavuno fertilizer,60 kg N/ha; 26 kg P/ha,60 kg N/ha,26 kg/ha,Absent,Absent,applied each season,T2,NA
+5036,2010-2,2,1;2,NA,Animal Manure,cow manure compost,5 Mg/ha,68.5 kg N/ha,Present,Present,Present,applied each season,T3,NA
+5036,2010-2,3,1;2,NA,Green Manure,maize stover compost,5 Mg/ha,39.5 kg N/ha,Present,Present,Present,applied each season,T4,NA
+5036,2010-2,4,1;2,NA,Green Manure,sugarcane straw compost,5 Mg/ha,29 kg N/ha,Present,Present,Present,applied each season,T5,NA
+5036,2010-2,5,1;2,NA,Green Manure,filtermud compost (residue left after sugarcane processing),5 Mg/ha,173.5 kg N/ha,Present,Present,Present,applied each season,T6,NA
+5036,2010-2,6,1;2,NA,Green Manure,Tithonia diversifolia compost,5 Mg/ha,202 kg N/ha,Present,Present,Present,applied each season,T7,NA
+5036,2010-2,7,1;2,NA,Green Manure,bagasse compost (pulpy sugarcane residue),5 Mg/ha,18.5 kg N/ha,Present,Present,Present,applied each season,T8,NA
+5037,2011-2,0,1;2,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,NA,NA
+5037,2011-2,1,1;2,basal application,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,50 kh N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5037,2011-2,2,1;2,basal application,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,75 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5037,2011-2,3,1;2,basal application,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,100 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5037,2011-2,4,1;2,basal application,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,200 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5038,2011-2,0,1;2,NA,Unamended,unfertilized,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5038,2011-2,1,1;2,basal application,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,50 kh N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5038,2011-2,2,1;2,basal application,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,75 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5038,2011-2,3,1;2,basal application,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,100 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5038,2011-2,3,1;2,basal application,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,150 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5038,2011-2,4,1;2,basal application,Nitrogen Mineral Fertilizer,diammonium phosphate; urea,NA,200 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5039,2010-1,0,1,NA,Unamended,unfertilizer,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5039,2010-1,1,1,"split application, 1/3 at planting, 2/3 1 month later",Nitrogen Mineral Fertilizer,diammonium phosphate; urea,50 kg N/ha,50 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5039,2010-1,2,1,"split application, 1/3 at planting, 2/3 1 month later",Nitrogen Mineral Fertilizer,diammonium phosphate; urea,75 kg N/ha,75 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5039,2010-1,3,1,"split application, 1/3 at planting, 2/3 1 month later",Nitrogen Mineral Fertilizer,diammonium phosphate; urea,100 kg N/ha,100 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5039,2010-1,4,1,"split application, 1/3 at planting, 2/3 1 month later",Nitrogen Mineral Fertilizer,diammonium phosphate; urea,200 kg N/ha,200 kg N/ha,Present,Absent,Absent,"1/3 at planting as DAP, 2/3 five weeks later as urea",NA,NA
+5040,2003-2,0,1,NA,Unamended,unfertilized,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5040,2003-2,1,1,"split application, 1/3 at planting, 2/3 1 month later",Nitrogen Mineral Fertilizer,triple super phosphate,50 kg P/ha; 0 kg N/ha,0 kg N/ha,Present,Absent,Absent,TSP applied at planting,NA,NA
+5040,2003-2,2,1,"split application, 1/3 at planting, 2/3 1 month later",Nitrogen Mineral Fertilizer,triple super phosphate; urea,50 kg P/ha; 50 kg N/ha,50 kg N/ha,Present,Absent,Absent,"TSP applied at planting, urea top dressed (split application)",NA,NA
+5041,2004-4,0,1;2;3,NA,Unamended,unfertilized maize,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5041,2004-4,1,1;2;3,NA,legume intercrop,Calliandra calothyrsus,60 kg N/ha,60 kg N/ha,Present,Present,Present,continuous throughout growing season,NA,NA
+5041,2004-4,2,1;2;3,NA,legume intercrop; nitrogen mineral fertilizer,Calliandra calothyrsus; calcium ammonium nitrate (CAN),30 kg N/ha from Calliandra; 30 kg N/ha CAN,60 kg N/ha,Present,Present,Present,continuous throughout growing season,NA,NA
+5041,2004-4,3,1;2;3,NA,legume intercrop,Mucuna puriens,60 kg N/ha,60 kg N/ha,Present,Present,Present,continuous throughout growing season,NA,NA
+5041,2004-4,4,1;2;3,NA,legume intercrop; nitrogen mineral fertilizer,Mucuna puriens; calcium ammonium nitrate (CAN),30 kg N/ha from Mucuna pruriens; 30 kg N/ha CAN,60 kg N/ha,Present,Present,Present,continuous throughout growing season,NA,NA
+5041,2004-4,5,1;2;3,NA,legume intercrop,Tithonia diversifolia,60 kg N/ha,60 kg N/ha,Present,Present,Present,continuous throughout growing season,NA,NA
+5041,2004-4,6,1;2;3,NA,legume intercrop; nitrogen mineral fertilizer,Tithonia diversifolia; calcium ammonium nitrate (CAN),30 kg N/ha from Tithonia diversifolia; 30 kg N/ha CAN,60 kg N/ha,Present,Present,Present,continuous throughout growing season,NA,NA
+5041,2004-4,7,1;2;3,NA,animal manure,cattle manure,60 kg N/ha,60 kg N/ha,Present,Present,Present,NA,NA,NA
+5041,2004-4,8,1;2;3,NA,animal manure; nitrogen mineral fertilizer,cattle manure; calcium ammonium nitrate (CAN),30 kg N/ha from manure; 30kg N/ha from CAN,60 kg N/ha,Present,Present,Present,NA,NA,NA
+5041,2004-4,9,1;2;3,NA,nitrogen mineral fertilizer,calcium ammonium nitrate,60 kg N/ha,60 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5042,2007-3,0,1;2;3,NA,unamended,unfertilized maize,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5042,2007-3,1,1;2;3,NA,unamended,unfertilized soybean,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5042,2007-3,2,1;2;3,NA,unamended,unfertilized maize-soybean rotation,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5042,2007-3,3,1;2;3,NA,legume intercrop,soybean,NA,Present,Present,Present,Present,NA,NA,NA
+5042,2007-3,4,1;2;3,NA,nitrogen mineral fertilizer,calcium ammonium nitrate,60 kg N/ha,60 kg N/ha,Absent,Absent,Absent,"split applied, 1/3 at planting, 2/3 top dressed 5 weeks after planting",NA,NA
+5042,2007-3,5,1;2;3,NA,green manure,previous crop residues added,NA,Present,Present,Present,Present,NA,NA,NA
+5043,2005-4,0,1;2;3;4,NA,unamended,unfertilized soybean,NA,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5043,2005-4,1,1;2;3;4,NA,phosphorus mineral fertilizer,triple super phosphate,26 kg P/ha,0 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5043,2005-4,2,1;2;3;4,NA,phosphorus mineral fertilizer,triple super phosphate,52 kg P/ha,0 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5044,2008-2,0,1;2,NA,unamended,unfertilized maize,NA,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5044,2008-2,1,1;2,NA,green manure,Mucuna pruriens,NA,42-55 kg N/ha,33 kg P/ha,Present,Present,NA,NA,NA
+5044,2008-2,2,1;2,NA,animal manure,farmyard manure,60 kg N/ha,60 kg N/ha,13 kg P/ha,Present,Present,NA,NA,NA
+5044,2008-2,3,1;2,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer,nitrogen mineral fertilizer; phosphorus mineral fertilizer,100 kg N/ha; 100 kg P/ha,100 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5045,2009-1,0,1,NA,phosphorus mineral fertilizer,triple super phosphate,26 kg P/ha,0 kg N/ha,Present,Absent,Absent,NA,T26,NA
+5045,2009-1,1,1,NA,phosphorus mineral fertilizer; animal manure,triple super phosphate; farmyard manure,26 kg P/ha,Present,Present,Present,Present,NA,50T13F13,NA
+5045,2009-1,2,1,NA,animal manure,farmyard manure,26 kg P/ha,Present,Present,Present,Present,NA,50F26,NA
+5046,1997-12,0,1;2;3;4;5;6;7;8;9;10;11;12,NA,unamended,unfertilized,0 kg N/ha,Absent,Absent,Absent,Absent,NA,NA,NA
+5046,1997-12,1,1;2;3;4;5;6;7;8;9;10;11;12,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; potassium mineral fertilizer,NPKS fertilizer,75 kg N/ha,75 kg N/ha,Present,Present,Absent,NA,NA,NA
+5046,1997-12,2,1;2;3;4;5;6;7;8;9;10;11;12,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; potassium mineral fertilizer,NPKS fertilizer,150 kg N/ha,150 kg N/ha,Present,Present,Absent,NA,NA,NA
+5046,1997-12,3,1;2;3;4;5;6;7;8;9;10;11;12,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; potassium mineral fertilizer,NPKS fertilizer,225 kg N/ha,225 kg N/ha,Present,Present,Absent,NA,NA,NA
+5046,1997-12,4,1;2;3;4;5;6;7;8;9;10;11;12,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; potassium mineral fertilizer,NPKS fertilizer,300 kg N/ha,300 kg N/ha,Present,Present,Absent,NA,NA,NA
+5047,2003-5,0,1;2;3;4;5,NA,unamended,unfertilized,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5047,2003-5,1,1;2;3;4;5,NA,green manure,crop residue,13 kg N/ha,33.2 kg N/ha,Present,Present,Present,NA,NA,NA
+5047,2003-5,2,1;2;3;4;5,NA,animal manure,goat manure,53.4 kg N/ha,53.4 kg N/ha,Present,Present,Present,NA,NA,NA
+5048,2003-5,0,1;2;3;4;5,NA,unamended,unfertilized,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5048,2003-5,1,1;2;3;4;5,NA,phosphorus mineral fertilizer,triple super phosphate,60 kg P/ha,Absent,Presemt,Absent,Absent,NA,NA,NA
+5048,2003-5,2,1;2;3;4;5,NA,nitrogen mineral fertilizer,urea,30-90 kg N/ha,30-90 kg N/ha,Absent,Absent,Absent,"split applied, 1/3 at planting, 2/3 top dressed 5 weeks after planting",NA,NA
+5048,2003-5,3,1;2;3;4;5,NA,green manure,crop residue,< 5 kg N/ha,< 5 kg N/ha,Present,Present,Present,NA,NA,NA
+5049,2003-1,0,1,NA,nitrogen mineral fertilizer,NA,18 kg N/ha,18 kg N/ha,Absent,Absent,Absent,NA,K03N2,NA
+5049,2003-1,1,1,NA,nitrogen mineral fertilizer; green manure,NA,90 kg N/ha,90 kg N/ha,Present,Present,Present,NA,K03N3,NA
+5050,2008-2,0,1;2,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,FP,NA
+5050,2008-2,1,1;2,NA,nitrogen mineral fertilzer,urea,200 kg N/ha,200 kg N/ha,Absent,Absent,Absent,NA,NP,NA
+5050,2008-2,2,1;2,NA,animal manure,cattle manure,120 kg N/ha,120 kg N/ha,Present,Present,Present,NA,FYM,NA
+5050,2008-2,3,1;2,NA,green manure; phosphorus mineral fertilizer,Mucuna pruriens; triple super phosphate,97 kg N/ha,97 kg N/ha,Present,Present,Present,NA,GM,NA
+5050,2008-2,4,1;2,NA,nitrogen mineral fertilzer,urea and zero tillage,200 kg N/ha,200 kg N/ha,Absent,Absent,Absent,NA,ZNP,NA
+5050,2008-2,5,1;2,NA,legume intercrop,cover crop and zero tillage,200 kg N/ha,200 kg N/ha,Absent,Absent,Absent,NA,ZANP,NA
+5051,2005-3,0,1;2;3,NA,unamended,unfertilized,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,Control (1),NA
+5051,2005-3,1,1;2;3,NA,nitrogen mineral fertilizer,60 kg N/ha,60 kg N/ha,60 kg N/ha,Absent,Absent,Absent,NA,(+) N,NA
+5051,2005-3,2,1;2;3,NA,animal manure,goat manure,2 t/ha,217 kg N/ha,Present,Present,Present,NA,manure,NA
+5051,2005-3,3,1;2;3,NA,green manure; animal manure,maize stover residue; goat manure,1 t/ha manure; 1 t/ha stover,133 kg N/ha,Present,Present,Present,NA,CR+manure,NA
+5052,1976-31,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,C-F,NA
+5052,1976-31,1,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,only applied in maize rotation,nitrogen mineral fertilizer; phosphorus mineral fertilizer,calcium ammonium nitrate; triple superphosphate,120 kg N/ha; 52.6 kg P/ha/yr,120 kg N/ha,Present,Absent,Absent,NA,C+F,NA
+5052,1976-31,2,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,only applied in maize rotation,green manure,maize stover residue,NA,Present,Present,Present,Present,NA,R-F,NA
+5052,1976-31,3,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,only applied in maize rotation,nitrogen mineral fertilizer; phosphorus mineral fertilizer; green manure,calcium ammonium nitrate; triple superphosphate; maize stover residue,120 kg N/ha; 52.6 kg P/ha/yr,120 kg N/ha,Present,Present,Present,NA,R+F,NA
+5052,1976-31,4,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,only applied in maize rotation,animal manure,cattle manure,10 Mg DM/ha/yr,Present,Present,Present,Present,NA,FYM-F,NA
+5052,1976-31,5,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,only applied in maize rotation,nitrogen mineral fertilizer; phosphorus mineral fertilizer; animal manure,calcium ammonium nitrate; triple superphosphate; cattle manure,120 kg N/ha; 52.6 kg P/ha/yr; manure at 10 Mg DM/ha/yr,120 kg N/ha,Present,Present,Present,NA,FYM+F,NA
+5053,1976-31,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5053,1976-31,1,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,NA,green manure,maize stover residue,NA,Present,Present,Present,Present,NA,NA,NA
+5053,1976-31,2,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,NA,animal manure,cattle manure,10 Mg DM/ha/yr,Present,Present,Present,Present,NA,NA,NA
+5053,1976-31,3,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer,calcium ammonium nitrate; triple superphosphate,120 kg N/ha; 52.6 kg P/ha/yr,120 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5053,1976-31,4,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; green manure,calcium ammonium nitrate; triple superphosphate; maize stover residue,120 kg N/ha; 52.6 kg P/ha/yr,120 kg N/ha,Present,Present,Present,NA,NA,NA
+5053,1976-31,5,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; animal manure,calcium ammonium nitrate; triple superphosphate; cattle manure,120 kg N/ha; 52.6 kg P/ha/yr; manure at 10 Mg DM/ha/yr,120 kg N/ha,Present,Present,Present,NA,NA,NA
+5054,2003-1,0,1,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5054,2003-1,1,1,NA,nitrogen mineral fertilizer,unspecified nitrogen mineral fertilizer,45 kg N/ha,45 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5054,2003-1,2,1,NA,nitrogen mineral fertilizer,unspecified nitrogen mineral fertilizer,90 kg N/ha,90 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5054,2003-1,3,1,NA,nitrogen mineral fertilizer,unspecified nitrogen mineral fertilizer,135 kg N/ha,135 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5054,2003-1,4,1,NA,nitrogen mineral fertilizer,unspecified nitrogen mineral fertilizer,180 kg N/ha,180 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5054,2003-1,5,1,NA,phosphorus mineral fertilizer,unspecified phosphorus mineral fertilizer,45 kg P/ha,Absent,Present,Absent,Absent,NA,NA,NA
+5054,2003-1,6,1,NA,phosphorus mineral fertilizer,unspecified phosphorus mineral fertilizer,90 kg P/ha,Absent,Present,Absent,Absent,NA,NA,NA
+5054,2003-1,7,1,NA,phosphorus mineral fertilizer,unspecified phosphorus mineral fertilizer,135 kg P/ha,Absent,Present,Absent,Absent,NA,NA,NA
+5054,2003-1,8,1,NA,phosphorus mineral fertilizer,unspecified phosphorus mineral fertilizer,180 kg P/ha,Absent,Present,Absent,Absent,NA,NA,NA
+5054,2003-1,9,1,NA,phosphorus mineral fertilizer,unspecified phosphorus mineral fertilizer,60 kg P/ha,Absent,Present,Absent,Absent,NA,NA,NA
+5054,2003-1,10,1,NA,nitrogen mineral fertilizer,unspecified nitrogen mineral fertilizer,60 kg N/ha,60 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5055,2008-2,0,1;2,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5055,2008-2,1,1;2,NA,green manure; phosphorus mineral fertilizer,Mucuna pruriens var utilis,30 kg P/ha,Present,Present,Present,Present,NA,NA,NA
+5055,2008-2,2,1;2,NA,legume intercrop; nitrogen mineral fertilizer; phosphorus mineral fertilizer,Arachis pintoi planted before maize and retained as intercrop,"100 kg N/ha , 100 kg P/ha",100 kg N/ha,Present,Present,Present,NA,NA,NA
+5056,2003-2,0,1;2,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5056,2003-2,1,1;2,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer; biologics,PREP-PAC,60 kg N/ha; 100 kg P/ha,60 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5056,2003-2,2,1;2,NA,legume intercrop,Bambaranuts; Soybean; Yellow grams; Groundnuts; Beans; Cowpeas,NA,NA,NA,NA,NA,NA,NA,NA
+5057,2003-2,0,1;2,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5057,2003-2,1,1;2,NA,nitrogen mineral fertilizer,"calcium ammonium nitrate, split application",60 kg N/ha,60 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5057,2003-2,2,1;2,NA,nitrogen mineral fertilizer,"calcium ammonium nitrate, split application",120 kg N/ha,120 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5057,2003-2,3,1;2,NA,green manure; phosphorus mineral fertilizer,garden pea; triple super phosphate,NA,Present,Present,Present,Present,NA,NA,NA
+5057,2003-2,4,1;2,NA,green manure; phosphorus mineral fertilizer,lupine; triple super phosphate,NA,Present,Present,Present,Present,NA,NA,NA
+5058,5003-3,0,1;2;3,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5058,5003-3,1,1;2;3,NA,phosphorus mineral fertilizer; nitrogen mineral fertilizer,100 kg /ha of DAP; 100 kg/ha of CAN,27 kg N/ha,27 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5059,2005-2,0,1;2,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5059,2005-2,1,1;2,NA,nitrogen mineral fertilizer; phosphorus mineral fertilizer,60 kg N/ha urea; 60 kg P/ha MOP,60 kg N/ha urea; 60 kg P/ha MOP,60  kg N/ha,Present,Absent,Absent,NA,NA,NA
+5059,2005-2,2,1;2,NA,green manure,maize residue,2 t/ha maize residue,Present,Present,Present,Present,NA,NA,NA
+5059,2005-2,3,1;2,NA,legume intercrop,soybean intercrop,soybean intercrop,Present,Present,Present,Present,NA,NA,NA
+5060,2002-4,0,1;2;3;4,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5060,2002-4,1,1;2;3;4,NA,green manure,"maize residue; calcium ammonium nitrate, 120 kg N/ha",0 kg N/ha,120 kg N/ha,Present,Present,Present,NA,NA,NA
+5060,2002-4,2,1;2;3;4,NA,green manure,"Calliandra calothyrsus; calcium ammonium nitrate, 120 kg N/ha",0 kg N/ha,120 kg N/ha,Present,Present,Present,NA,NA,NA
+5060,2002-4,3,1;2;3;4,NA,green manure,"Tithonia diversifolia; calcium ammonium nitrate, 120 kg N/ha",0 kg N/ha,120 kg N/ha,Present,Present,Present,NA,NA,NA
+5060,2002-4,4,1;2;3;4,NA,nitrogen mineral fertilizer,"calcium ammonium nitrate, 120 kg N/ha",120 kg N/ha,120 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5061,2004-3,0,1;2;3,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5061,2004-3,1,1;2;3,NA,phosphorus mineral fertilizer,single super phosphate at 188 kg/ha,single super phosphate at 188 kg/ha,Absent,Present,Absent,Absent,NA,NA,NA
+5061,2004-3,2,1;2;3,NA,phosphorus mineral fertilizer,diammonium phosphate at 125 kg/ha,diammonium phosphate at 125 kg/ha,Absent,Present,Absent,Absent,NA,NA,NA
+5061,2004-3,3,1;2;3,NA,phosphorus mineral fertilizer,diammonium phosphate at 188 kg/ha,diammonium phosphate at 188 kg/ha,Absent,Present,Absent,Absent,NA,NA,NA
+5061,2004-3,4,1;2;3,NA,animal manure,farmyard manure,5 ton/ha,Low,Present,Present,Present,NA,NA,NA
+5062,2006-2,0,1;2,NA,unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5062,2006-2,1,1;2,NA,Phosphorus Mineral Fertilizer,diammonium phosphate,NA,None,Present,None,None,NA,NA,NA
+5062,2006-2,2,1;2,NA,Animal Manure,farmyard manure,NA,Present,Present,Present,Present,NA,NA,NA
+5062,2006-2,3,1;2,NA,Incinerated Organics,ash,NA,None,Present,None,None,NA,NA,NA
+5062,2006-2,4,1;2,NA,Phosphorus Mineral Fertilizer;Animal Manure,diammonium phosphate;farmyard manure,NA,Present,Present,Present,Present,NA,NA,NA
+5062,2006-2,5,1;2,NA,Animal Manure;Incinerated Organics,farmyard manure; ash,NA,Present,Present,Present,Present,NA,NA,NA
+5062,2006-2,6,1;2,NA,Phosphorus Mineral Fertilizer;Green Manure,diammonium phosphate; Tithonia diversifolia,NA,Present,Present,Present,Present,NA,NA,NA
+5063,1998-10,0,1;2;3;4;5;6;7;8;9;10,NA,Unamended,unamended,0 kg N/ha,0 kg N/ha,Absent,Absent,Absent,NA,NA,NA
+5063,1998-10,1,1;2;3;4;5;6;7;8;9;10,NA,Nitrogen Mineral Fertilizer;Phosphorus Mineral Fertilizer;Potassium Mineral Fertilizer,NPKS 25:5:5:5,"75, 150, 225, or 300 kg N/ha/yr",Present,Present,Present,Absent,NA,NA,NA
+5064,2007-2,0,1;2,NA,Nitrogen Mineral Fertilizer,urea,NA,Present,Absent,Absent,Absent,NA,NA,NA
+5064,2007-2,1,1;2,NA,Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,Minjingu phosphate rock (MPR) with urea,NA,Present,Present,Absent,Absent,NA,NA,NA
+5064,2007-2,2,1;2,NA,Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,Busumbu phosphate rock (BPR) with urea,NA,Present,Present,Absent,Absent,NA,NA,NA
+5064,2007-2,3,1;2,NA,Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,triple superphosphate (TSP) with urea,NA,Present,Present,Absent,Absent,NA,NA,NA
+5064,2007-2,4,1;2,NA,Animal Manure,"farm yard manure, 60 kg P/ha",NA,Present,Present,Present,Present,NA,NA,NA
+5064,2007-2,5,1;2,NA,Green Manure,"Tithonia, 20 kg P/ha",NA,Present,Present,Present,Present,NA,NA,NA
+5064,2007-2,6,1;2,NA,Animal Manure;Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,farm yard manure; Minjingu phosphate rock (MPR) with urea,NA,Present,Present,Present,Present,NA,NA,NA
+5064,2007-2,7,1;2,NA,Animal Manure;Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,farm yard manure; Busumbu phosphate rock (BPR) with urea,NA,Present,Present,Present,Present,NA,NA,NA
+5064,2007-2,8,1;2,NA,Animal Manure;Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,farm yard manure; triple superphosphate (TSP) with urea,NA,Present,Present,Present,Present,NA,NA,NA
+5064,2007-2,9,1;2,NA,Green Manure;Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,Tithonia manure; triple superphosphate (TSP) with urea,NA,Present,Present,Present,Present,NA,NA,NA
+5064,2007-2,10,1;2,NA,Green Manure;Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,Tithonia manure; Busumbu phosphate rock (BPR) with urea,NA,Present,Present,Present,Present,NA,NA,NA
+5064,2007-2,11,1;2,NA,Green Manure;Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,Tithonia manure; triple superphosphate (TSP) with urea,NA,Present,Present,Present,Present,NA,NA,NA
+5065,2003-1,0,1,NA,Unamended,unfertilized,0 kg P/ha/yr,Absent,Absent,Absent,Absent,NA,NA,NA
+5065,1997-7,1,1,NA,Phosphorus Mineral Fertilizer,"Triple Super Phosphate, 50 kg P/ha/yr",50 kg P/ha/yr,Absent,Present,Absent,Absent,NA,NA,NA
+5066,2004-4,0,1;2;3;4,NA,Unamended,unfertilized,0 kg P/ha/yr,Absent,Absent,Absent,Absent,NA,NA,NA
+5066,2004-4,1,1;2;3;4,NA,Phosphorus Mineral Fertilizer,"Triple Super Phosphate, 50 kg P/ha/yr",60 kg P/ha/yr,Absent,Present,Absent,Absent,NA,NA,NA
+5067,1976-27,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27,NA,Unamended,unfertilized,NA,Absent,Absent,Absent,Absent,NA,NA,NIL
+5067,1976-27,1,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27,NA,Green Manure,corn stover residue,NA,Present,Present,Present,Present,NA,NA,NIL+R
+5067,1976-27,2,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27,NA,Animal Manure,farm yard manure,5 tons manure/ha,Present,Present,Present,Present,NA,NA,FYM
+5067,1976-27,3,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27,NA,Animal Manure;Green Manure,farm yard manure; corn stover residue,5 tons manure/ha; all stover residue,Present,Present,Present,Present,NA,NA,FYM+R
+5067,1976-27,4,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27,NA,Nitrogen Mineral Fertilizer;Phosphorus Mineral Fertilizer,calcium ammonium nitrate; triple super-phosphate,60 kg N/ha; 26 kg P/ha,60 kg N/ha,26 kg P/ha,Absent,Absent,NA,NA,NP
+5067,1976-27,5,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27,NA,Green Manure;Nitrogen Mineral Fertilizer;Phosphorus Mineral Fertilizer,corn stover residue;calcium ammonium nitrate; triple super-phosphate,60 kg N/ha; 26 kg P/ha,> 60 kg N/ha,>26 kg P/ha,Present,Present,NA,NA,NP+R
+5067,1976-27,6,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27,NA,Animal Manure;Nitrogen Mineral Fertilizer;Phosphorus Mineral Fertilizer,farmyard manure; calcium ammonium nitrate; triple super-phosphate,5 tons manure/ha; 60 kg N/ha; 26 kg P/ha,> 60 kg N/ha,>26 kg P/ha,Present,Present,NA,NA,FYM+N+P
+5067,1976-27,7,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27,NA,Animal Manure;Green Manure;Nitrogen Mineral Fertilizer;Phosphorus Mineral Fertilizer,farm yard manure; corn stover residue; calcium ammonium nitrate; triple super-phosphate,NA,> 60 kg N/ha,>26 kg P/ha,Present,Present,NA,NA,FYM+N+P+R
+5068,2006-2,0,1;2,NA,Unamended,unfertilized,0 kg P/ha/yr,Absent,Absent,Absent,Absent,NA,NA,NA
+5068,2006-2,1,1;2,NA,Green Manure,Tithonia,20 kg P/ha,Present,Present,Present,Present,NA,NA,NA
+5068,2006-2,2,1;2,NA,Animal Manure,farmyard manure,20 kg P/ha,Present,Present,Present,Present,NA,NA,NA
+5068,2006-2,3,1;2,NA,Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,Minjingu phosphate rock;urea,60 Kg P/ha; 100 kg N/ha,100 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5068,2006-2,4,1;2,NA,Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,Busumbu phosphate rock;urea,60 Kg P/ha; 100 kg N/ha,100 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5068,2006-2,5,1;2,NA,Phosphorus Mineral Fertilizer;Nitrogen Mineral Fertilizer,triple superphosphate;urea,60 Kg P/ha; 100 kg N/ha,100 kg N/ha,Present,Absent,Absent,NA,NA,NA
+5068,2006-2,6,1;2,NA,Green Manure;Phosphorus Mineral Fertilizer,Minjingu phosphate rock;Tithonia,60 Kg P/ha,Present,Present,Present,Present,NA,NA,NA
+5068,2006-2,7,1;2,NA,Green Manure;Phosphorus Mineral Fertilizer,Busumbu phosphate rock;Tithonia,60 Kg P/ha,Present,Present,Present,Present,NA,NA,NA
+5068,2006-2,8,1;2,NA,Green Manure;Phosphorus Mineral Fertilizer,triple superphosphate;Tithonia,60 Kg P/ha,Present,Present,Present,Present,NA,NA,NA
+5068,2006-2,9,1;2,NA,Animal Manure;Phosphorus Mineral Fertilizer,Minjingu phosphate rock;farmyard manure,60 Kg P/ha,Present,Present,Present,Present,NA,NA,NA
+5068,2006-2,10,1;2,NA,Animal Manure;Phosphorus Mineral Fertilizer,Busumbu phosphate rock;farmyard manure,60 Kg P/ha,Present,Present,Present,Present,NA,NA,NA
+5068,2006-2,11,1;2,NA,Animal Manure;Phosphorus Mineral Fertilizer,triple superphosphate;farmyard manure,60 Kg P/ha,Present,Present,Present,Present,NA,NA,NA
+5069,2001-3,0,1;2;3,NA,Potassium Mineral Fertilizer,potash,60 kg K/ha,Absent,Absent,Present,Absent,NA,NA,NA
+5069,2001-3,1,1;2;3,NA,Phosphorus Mineral Fertilizer;Potassium Mineral Fertilizer,triple super phosphate;potash,50 kg P/ha;60 kg K/ha,Absent,Present,Present,Absent,NA,NA,NA

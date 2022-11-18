@@ -1,0 +1,71 @@
+paper_id,duration,cash_tillage,control_species,trtmt_species,control_seeddensity,trtmt_seeddensity,cash_cultivar,cash_genetics
+5000,2012-4,NA,maize,NA,NA,NA,HB 513,NA
+5001,2012-4,manually tilled 15-20 cm depth,maize; soybean,NA,maize @ 25 cm spacing; soybean @ 5 cm spacing,NA,NA,NA
+5002,2018-1,cow pulled plow at 30 cm depth,maize-bean,NA,maize @ 75 cm * 60 cm; bean @ 37.5 cm * 30 cm,NA,maize variety pioneer PhB 30G19; bean variety Mamasafi,NA
+5003,2018-2,"hand hoeing, weeds hand hoed twice per season",maize,NA,"0.75 m between rows and 0.50 m within rows with three seeds per hole, thinned to plant density of 53,333 per hectare",NA,NA,NA
+5004,2019-2,NA,maize,NA,NA,NA,variety H513,NA
+5005,2017-2,hand hoeing (15 cm depth) or no tillage,maize,NA,"53,333 plants/ha; 37,037 plants/ha",NA,Kenya Seed Company H513 and DH04,NA
+5006,2017-1,NA,maize; beans,NA,NA,NA,NA,NA
+5007,2018-1,NA,rice,NA,NA,NA,NA,NA
+5008,2004-15,all residual biomass removed from surface prior to growing season,maize,NA,2 seeds/hole at 0.9 m interrow x 0.6 m intrarow spacing,NA,DH04,NA
+5009,2016-2,conventional tillage or minimal tillage,NA,NA,NA,NA,NA,NA
+5010,2017-2,variable,maize,NA,NA,NA,NA,NA
+5011,2016-2,minimum or conventional tillage,maize,NA,NA,NA,NA,NA
+5012,2016-1,ploughed or harrowed,maize; beans,NA,NA,NA,"KH 600-15A (maize, Mbuyu); KH 500-33A (maize, Mbeu and Kiaga); K132 (beans, Mbuyu); GLP24 (beans, Mbeu and Kiaga)",NA
+5013,2014-2,hand hoed with weeds manually removed,maize (baby corn and grain maize); part of 3 year-6 season crop rotation,NA,75 cm rows with 30 cm between plants,NA,"Pannar 14 (baby corn), H513 (grain maize)",NA
+5014,2002-14,hand hoed,maize,NA,"target density of 53,333 plants/ha",NA,DH04,NA
+5015,2016-2,hand hoed or no tillage,maize,NA,"target density of 53,333 plants/ha",NA,variety H516,NA
+5016,2013-4,NA,maize,NA,"target density after thinning of 53,333 plants/ha",NA,variety DK8031,NA
+5017,2006-11,hand hoed,maize; soybean,NA,maize stands to 5.7 plants/m^2; soybean stands to 40 plants/m^2,NA,drought tolerant hybrid H513 (maize); early variety SB19 (soybaen),NA
+5018,2016-2,minimum or conventional tillage,maize,NA,NA,NA,NA,NA
+5019,2014-2,NA,soybean,NA,NA,NA,NA,NA
+5020,2015-1,NA,maize,NA,NA,NA,H516 and H513 from Kenya Seed Company,NA
+5021,2003-13,hand hoed (20-30 cm depth),maize; tephorosia-maize; maize-soybean intercrop,NA,NA,NA,NA,NA
+5022,2015-2,hand hoed,African nightshade (Solanum scabrum),NA,15 cm apart in rows with 40 cm interrow,NA,NA,NA
+5023,2013-2,NA,beans,NA,40 cm x 15 cm interplot spacing,NA,Rose coco; yellow bean,NA
+5024,2013-3,hand hoed (20 cm),maize,NA,"53,333 plants/ha",NA,short-season maize variety DK8031,NA
+5025,2014-1,hand hoed,maize,NA,"75 cm inter-row spacing, intra-row spacing of 25 cm",NA,L.cv. H614 and H513 from Kenya Seed Compan,NA
+5026,2011-2,NA,maize,NA,"44,444 plants/ha",NA,Kenya Seed Company hybrid maize varieties (WH505 in 2011 and WH403 in 2012),NA
+5027,2012-2,NA,maize,NA,30 x 75 cm spacing,NA,Kenya Seed Company WH403,NA
+5028,2013-2,NA,NA,NA,30 x 75 cm spacing,NA,Kenya Seed Company WH403,NA
+5029,2013-1,NA,maize,NA,NA,NA,NA,NA
+5030,2009-4,NA,maize; beans,NA,12.1 t/ha,NA,Maize PH04,NA
+5031,2004-11,NA,maize; maize-Tephrosia candida,NA,"0.75 m 9 0.25 m, with one plant per hill, whereas two (maize) or five (Tephrosia) seeds per hole were planted and then thinned",NA,"HB513 in 2004 followed by WS402, IR, WS502, WS403 the first 4 years and DH4 for the last 6 years",NA
+5032,2005-8,NA,maize,NA,0.75 m between rows and 0.25 m within rows,NA,"Hybrid 614, Kenya Seed Company, P.O. Box 553-30200, Kitale, Kenya",NA
+5033,2002-12,NA,maize,NA,NA,NA,NA,NA
+5034,2007-6,NA,maize-bush bean; maize-soybean,NA,"75 cm x 25 cm, 45 cm x 10 cm and 45 cm x 5 cm for maize, common bean and soybean",NA,"Maize (DH04), bush beans (KK8) and soybeans (SB20 from 2007 to 2010 and SB 25 in 2011)",NA
+5035,2011-2,NA,maize,NA,75 cm between rows,NA,"Kenya Seed Company hybrid maize varieties, WH505 in 2011 and WH403 in 2012",NA
+5036,2010-2,NA,maize,NA,NA,NA,variety H-512,NA
+5037,2011-2,NA,maize,NA,75 cm between rows,NA,"Kenya Seed Company hybrid maize varieties, WH505 in 2011 and WH403 in 2012",NA
+5038,2011-2,NA,maize,NA,75 cm between rows,NA,"Kenya Seed Company hybrid maize varieties, WH505 in 2011 and WH403 in 2012",NA
+5039,2010-1,NA,maize,NA,"44,444 plants/ha",NA,DK 8031,NA
+5040,2003-2,NA,maize,soybean-maize; groundnut-maize; common bean-maize; lima bean-maize; lablab-maize,NA,NA,"common bean (Phaseolus vulgaris L.) variety KK8, soybean (Glycine max (L.) Merr.) variety TGx 1448-2E (long duration, promiscuously nodulating), groundnut (Arachis hypogaea L.) variety CG7 (long duration), Lima bean (Phaseolus lunatus L.) – local landrace, and lablab (Lablab purpureus (L.) Sweet), varietyRongai; the green manure legumes were velvet bean (Mucuna pruriens (L.) Walp), crotalaria (Crotalaria ochroleuca G. Don), and jackbean (Canavalia ensiformis (L.) DC.)",NA
+5041,2004-4,NA,maize,maize-Calliandra calothyrsus; maize-Mucuna pruriens; maize-Tithonia diversifolia,"53,333 plants/ha",NA,NA,NA
+5042,2007-3,NA,maize,soybean; maize-soybean rotation; maize-soybean intercrop,"53,000 plants/ha","165,000 plants/ha soybean",NA,NA
+5043,2005-4,NA,maize,NA,NA,NA,hybrid H 513,NA
+5044,2008-2,NA,maize,NA,NA,NA,HB 520,NA
+5045,2009-1,NA,maize,NA,"44,444 plants/ha","H513, H614 from Kenya Seed Company",NA,NA
+5046,1997-12,NA,tea,NA,NA,NA,NA,NA
+5047,2003-5,NA,maize; maize-soybean intercrop; maize-soybean rotation,NA,NA,NA,NA,NA
+5048,2003-5,NA,maize; maize-soybean intercrop; maize-soybean rotation,NA,"53,000 hills/ha for maize; 266,000 seeds/ha for soybean",NA,NA,NA
+5049,2003-1,NA,maize,NA,"53,333 plants per hectare",NA,NA,NA
+5050,2008-2,NA,maize,NA,NA,NA,HB 520,NA
+5051,2005-3,NA,maize,NA,NA,NA,Katumani composite (72 days maturity),NA
+5052,1976-31,NA,maize-bean rotation,NA,"50,000 plants/ha",NA,"Zea mays Hybrid 512; Phaseolus vulgaris, variety Rosecoco",NA
+5053,1976-31,NA,maize-bean rotation,NA,NA,NA,NA,NA
+5054,2003-1,NA,maize,NA,NA,NA,NA,NA
+5055,2008-2,NA,maize,NA,60 cm x 25 cm spacing,NA,HB 520,NA
+5056,2003-2,NA,maize,maize-bambaranuts; maize-beans; maize-soybean; maize-yellow grams; maize-cowpeas; maize-groundnuts,NA,NA,cv ‘KSTP-94’ (KARI Kakamega),NA
+5057,2003-2,NA,potato,potato-garden pea; potato-lupine,75 cm between rows and 30 cm between hill,"garden pea and lupine used as green manure, incorporated into soil at 50% flowering stage",NA,NA
+5058,5003-3,NA,maize,maize-soybean rotation; maize-Crotalaria ochroleuca rotation,NA,NA,NA,NA
+5059,2005-2,NA,maize; maize-soybean rotation,maize-soybean intercrop,NA,NA,NA,NA
+5060,2002-4,NA,maize,NA,NA,NA,NA,NA
+5061,2004-3,NA,maize,NA,NA,NA,"H 6213, H614 D, H 3401",NA
+5062,2006-2,NA,maize,NA,NA,NA,NA,NA
+5063,1998-10,NA,tea,NA,NA,NA,clone BBK,NA
+5064,2007-2,NA,maize,NA,NA,NA,NA,NA
+5065,1997-7,NA,maize; maize-crotalaria; maize-Tithonia,NA,NA,NA,NA,NA
+5066,2004-4,NA,maize-common bean; maize-cowpea; maize-groundnut,NA,NA,NA,NA,NA
+5067,1976-27,NA,maize;bean,NA,NA,NA,NA,NA
+5068,2006-2,NA,maize,NA,NA,NA,NA,NA
+5069,2001-3,NA,continuous maize;mucuna-maize rotation; soybean-maize rotation,NA,NA,NA,NA,NA

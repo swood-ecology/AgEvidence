@@ -1,0 +1,59 @@
+paper_id,duration,cash_tillage,control_species,trtmt_species,control_seeddensity,trtmt_seeddensity,cash_cultivar,cash_genetics
+4000,2018-1,ridges for vines,sweet potato,maize-sweet potato,120 vines 30 cm apart,60 cm by 50 cm between maize and vines,NA,NA
+4001,2017-2,NA,maize,maize-bean; maize-cowpea; maize-green gam; maize-groundnut; maize-desmodium-brachiaria,75 cm x 30 cm spacing,75 cm x 75 cm inter and intra row spacing with brachiaria planted around in three rows distant with a spacing of 50 cm within rows,NA,NA
+4002,2017-2,NA,potato; lima bean; dolichos,potato-lima bean; potato-dolichos,NA,"1 row of potato alternating with 1 row of legumes. Potatoes were planted at a uniform depth of 0.1 m on pre-hilled ridges.Two
+legume bean seeds were planted per hole at within row
+spacing of 0.2 m and inter-row spacing of 0.75 m
+between potato and legume strips, and 0.5 m between
+2 legume strips.",NA,NA
+4003,1981-2,NA,maize; cowpea; sorghum;,maize-cowpea; sorghum-cowpea; maize-sorghum; maize-cowpea-sorghum,"40,000 plants/ha; 120,000 plants/ha; 80,000 plants/ha",1 maize: 2 sorghum: 3 cowpea; substitutie model to maintain uniform carrying capacity per unit area,Katumani (East African Variety); Ex-Luanda; Serena,NA
+4004,1983-3,NA,sorghum,sorghum-maize; sorghum-cowpea; sorghum-cowpea-maize,NA,NA,Serena (sorghum); Katumani composit B (maize); Ex-Luanda (cowpea),NA
+4005,1982-6,NA,Acacia albida,Acacia albida-maize; Acacia albida-green gram,"2,500 trees/ha with 4 m row spacings",NA,maize (Coast Composite variety),NA
+4006,1988-2,NA,cowpea,cowpea-maize,"110,110 plants/ha","110,110 plants/ha; 37,000 plants/ha",ER 1-1 from Nigeria; Coast Composite from Coast Province of Kenya,NA
+4007,1986-2,NA,bean,maize-bean,9.2 to 5.6 bean plants/m^2,NA,Mwezi Moja NB 518 bean,NA
+4008,1995-1,NA,maize,maize-bean,NA,NA,NA,NA
+4009,1995-3,NA,natural fallow,sesbania; crotalaria (Crotalaria agatiflora); maize,NA,NA,NA,NA
+4010,1989-4,NA,maize,Leucanena-maize; Leucanena-maize-cowpea,"40,000 plants/ha","5 m rows with 8,000 trees/ha, 1 m to maize row at 32,000 plants/ha, cowpea planted 30 cm between maize rows at 67,000 plants/ha",Coast Composite or Pwani hybrid II; Leucaena variety K28 (Salavdorian type); Katumani 80,NA
+4011,1990-1,NA,maize; bean,maize-bean,variable (average results recorded),variable (average results recorded),NA,NA
+4012,1987-5,NA,coffee,coffee-potato; coffee-tomato; coffee-kale; coffee-carrot; coffee-bean; coffee-maize; coffee-pea; coffee-sweet potato; coffee-soybean; coffee-sorghum; coffee-millet,NA,"75x30 cm, 40 cm from coffee; 100x50 cm; 50 cm from coffee; 60x60 cm, 40 cm from coffee; 60x60 cm, 40 cm from coffee; drill rows at 30, 25 cm from coffee; 25x15 cm, 37.5 cm from coffee; 75x30 cm, 40 cm from coffee; 30x10 cm, 60 cm from coffee; 100x45 cm, 50 cm from coffee; 45x10, 55 cm from coffee; 75x20 cm, 40 cm from coffee; 45x10 cm, 55 cm from coffee",Annet Moneymaker; Copenhagen market; Thousand headed; Nantes; GLP 1004; H511 Green feast Muibai; Local; Serena; Ekarakara,NA
+4013,1989-4,NA,napier grass (Pennisetum purpureum); Leucaena leucocephala,napier grass-Leucaena leucocephala; napier grass-Leucaena leucocephala-blue pea (Clitoria ternatea),"20,000 transplants/ha; 40,000 trees/ha","16,000 transplants/ha; 8,000 trees/ha; 4 kg seeds/ha","Bana variety, napier grass; de Wit variety K28, Leucaena leucocephala",NA
+4014,1995-2,NA,Acaia saligna,Acaia saligna-sorghum,"2,500 trees/ha with 1 m between trees","2,500 trees/ha with 1 m between trees; 0.5 m apart with 0.25 m distance between plant rows","H. Wendl., Acacia saligna",NA
+4015,1986-2,NA,cowpea,cowpea-maize,NA,NA,12-16 cowpea genotypes,NA
+4016,1992-1,NA,maize; bean,maize-bean,NA,NA,NA,NA
+4017,1981-9,NA,sorghum; cowpea; maize,sorghum-maize; sorghum-cowpea,NA,NA,Serena; ICS1; ICS2; 1CS4660; ExLuanda; ICZ2; Ochuti,NA
+4018,2016-2,"plow to 20 cm to remove Cynodon nlemfuensis Vanderyst  on site, then hand hoe to 20 cm two weeks after each harvest",maize-bean,maize-bean-Caliandra,"0.75 m × 0.30 m spacing, 44,444 maize plants/ha; 0.2 m btwn maize, 66,666  bean plants/ha","0.75 m × 0.30 m spacing maize, 0.2 m bean btwn maize, 4 m × 0.50 m Caliandra",NA,NA
+4019,2002-3,NA,sorghum,sorghum-Desmodium intortum (greenleaf desmodium),"30 cm in row, 60 cm row to row",60 cm to sorghum rows,NA,NA
+4020,1998-3,NA,maize,maize-soybean; maize-sunhemp; maize-cowpea; maize-Desmodium uncinatum; maize-D. intortum,"25 cm in row, 75 cm row to row","25 cm in row, 75 cm row to row, alternating row","Zea mays L. var. Hybrid 513, Glycine max L., Crotolaria juncea
+L.,  Vigna unguiculata L.",NA
+4021,2009-1,NA,french bean,french bean-sun flower; french bean-baby corn; french bean-irish potato; french bean-sunflower-baby corn; french bean-sunflower-irish potato,"50 x 10 cm (rows x plants), 10 rows",30 cm between plants,"French bean (var. Amy); Helianthus annuus L. var. H-8998; Zea mays L. var. ZS 2O6
+(Poaceae); Solanum tuberosum L.
+var. Tigoni (Solanaceae)",NA
+4022,2016-3,NA,potato; lima bean; dolichos,potato-lima bean; potato-dolichos,"30 cm in row and 75 cm between rows, potatoes; 20 cm in row and 75 cm between rows, lima bean and dolichos","30 cm in row and 75 cm between rows, potatoes; 20 cm in row and 75 cm between rows, lima bean and dolichos","potato (Solanum tuberosum L., Unica cv-CIP 392797.22); lima bean (Phaseolus lunatus); dolichos (Lablab purpureus)",NA
+4023,2003-15,NA,maize; beans,maize-beans,NA,NA,NA,NA
+4024,2014-2,NA,potato,potato-garden pea; potato-climbing bean; potato-dolichos,90 cm between the rows and 30 cm within the rows,90 cm between the rows and 30 cm within the rows while the legume beans were intercropped in a single row between the rows of potato at a spacing of 25 cm,Shangi,NA
+4025,2011-3,NA,maize,maize-Desmodium uncinatum; maize-peanut,"53,333/ha","533,333 peanut/ha",NA,NA
+4026,2015-1,NA,sorghum,sorghum-Desmodium intortum;sorghum-Desmodium uncinatum;sorghum-Desmodium incanum;sorghum-Desmodium ramosissimum,"interrow spacing of 60 cm, intrarow spacing of 30 cm","interrow spacing of 60 cm, intrarow spacing of 30 cm; Desmodium palnted between sorghum rows",NA,NA
+4027,1996-2,NA,maize,maize;gliricidia trees,maize planted 1 m apart between rows and 30 cm apart within rows,maize planted 1 m apart between rows and 30 cm apart within rows with gliricidia trees replacing middle row of maize,NA,NA
+4028,2012-3,NA,maize,maize-desmodium intortum-Brachiaria,inter and intrarow spacing of 75 cm and 30 cm,"inter and intrarow spacing of 75 cm and 30 cm, intercrop at a spacing of 50 cm within and 50 cm between rows",NA,NA
+4029,2011-3,NA,maize-bean intercrop,"maize-bean intercrop with mucuna relay crop; strip intercropping of maize, bean and mucuna",NA,NA,Maize H6213 hybrid or H513 hybrid; Common bean Rosecoco-GLP2; white seed mucuna,NA
+4030,2009-3,NA,maize,maize-brown dolichos;maize-black dolichos,90x45 cm and 2 seeds per hole,90x45 cm and 2 seeds per hole with dolichos were planted between two rows of maize with intra-row spacing of 45 cm,NA,NA
+4031,2012-2,NA,maize,maize-trees,NA,NA,NA,NA
+4032,2014-1,NA,kale,kale-trees,NA,NA,NA,NA
+4033,2012-3,NA,coffee,coffee-trees,NA,NA,NA,NA
+4034,2007-3,NA,maize; soybean,maize-soybean rotation; maize-soybean intercrop,"maize 53,000 plants/ ha; soybean 165,000 plants/haF",NA,"maize variety H513 from “Kenya Seed Company""; soybean variety used was TGx1740-2F (SB19",NA
+4035,2007-4,variable,maize;cowpea,maize-cowpea intercrop,spacing of 90 cm (row) by 30 cm (hill) cm for maize and 90 cm (row) by 20 cm (hill) for cowpea,"intra-row spacing of maize in the intercrop was 30 cm, and cowpea was planted between two maize plants such that the spacing between the two different plants was 15 cm","dryland maize variety (Katumani Composite hybrid, KCB) and cowpea (K80 variety)",NA
+4036,2009-2,NA,maize,maize-Desmodium uncinatum; maize-Desmodium intortum,"44,444 plants/ha","44,444 plants/ha (maize); 2.5 kg/ha (Desmodium)",NA,NA
+4037,2003-5,variable,maize,maize-soybean rotation; maize-soybean intercrop,"53,000 hills per hectare (maize)","53,000 hills per hectare (maize), 266,000 seeds per hectare (soybean)",NA,NA
+4038,2009-1,NA,maize,maize-common bean or pigeon pea,NA,NA,Phaseolus vulgaris L.; Cajanus cajan ([L.] Millsp.),NA
+4039,2003-3,NA,maize,maize-Napier-Desmodium; maize-soybean (rotation); Crotalaria ochroleuca-maize (rotation),NA,NA,"IR-maize and local maize (Msamaria, an open-pollinated local variety, in 2003 and
+2004 while in 2005, a commercial hybrid WH502)","IR-maize and local maize (Msamaria, an open-pollinated local variety, in 2003 and
+2004 while in 2005, a commercial hybrid WH502); soybean (variety TGX-1448–2E"
+4040,2002-2,NA,maize,maize-Napier-Desmodium,0.75 m between and 0.25 m within rows,"Desmodium between rows of maize (Western Hybrid 513 spaced 0.75 m between and 0.25 m within rows), with Napier grass planted as a trap crop around the edge of the plot (spaced 1 m from main crop)",Western Hybrid 513,NA
+4041,2006-3,NA,maize;cowpea,maize-cowpea,"Cowpea was planted at a spacing of 60 cm · 20 cm, whereas maize was planted at a spacing of 120 · 30 cm","A
+maize row was sandwiched between cowpea rows and there were two cowpea rows between consecutive maize rows. Cowpea was planted at a spacing of 60 cm · 20 cm, whereas maize was planted at a spacing of 120 · 30 cm",NA,NA
+4042,2006-3,NA,maize;cowpea,maize-cowpea,"Cowpea was planted at a spacing of 60 cm · 20 cm, whereas maize was planted at a spacing of 120 · 30 cm","A
+maize row was sandwiched between cowpea rows and there were two cowpea rows between consecutive maize rows. Cowpea was planted at a spacing of 60 cm · 20 cm, whereas maize was planted at a spacing of 120 · 30 cm",NA,NA
+4043,2003-2,NA,maize; maize-soybean rotation; maize-Crotalaria ochroleuca rotation,maize-Napier-Desmodium,NA,NA,"soybean, TGX-1448-2E; maize, Msamaria (open pollinated local variety)",NA
+4044,2005-2,NA,maize,maize-soybean rotation; maize-soybean intercrop,NA,NA,NA,NA
+4045,1999-11,NA,coffee;banana,coffee;avocado;mango;grevilla,1.82 x 1.82 m for coffee,1.82 x 1.82 m for coffee,NA,NA
+4046,2007-3,NA,maize;soybean,maize or soybean-Napier; maize or soybean-leucaena,NA,Napier grass cuttings and leucaena were planted in a staggered pattern at 50 cm for inter-row and 20 cm for intrarow spacing.,"Zea mays L., Dekalb variety 8031) in short rain season and soybean (Glycine max L., Merill, variety TGx1740-2F) in long rain season",NA
