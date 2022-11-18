@@ -7,26 +7,31 @@ require(funr)
 setwd(funr::get_script_path())
 
 # Define variables
-cc.name <- "data/ContinuousCover_Kenya_complete.xlsx"
-till.name <- "data/Tillage_Kenya_complete.xlsx"
-nm.name <- "data/NutrientMgmt_Kenya_complete.xlsx"
+cc_web <- read.csv("filtered-data/ContinuousCover_Kenya_2022-11-18.csv")
+till_web <- read.csv("filtered-data/Tillage_Kenya_2022-11-18.csv")
+nm_web <- read.csv("filtered-data/NutrientMgmt_Kenya_2022-11-18.csv")
 
 # Read in data filters
-cc_to_map <- read_csv("spatial-data/cc-points-to-map.csv", 
-                             col_types = cols(X1 = col_skip()))
-nm_to_map <- read_csv("spatial-data/nm-points-to-map.csv", 
-                      col_types = cols(X1 = col_skip()))
-till_to_map <- read_csv("spatial-data/till-points-to-map.csv", 
-                      col_types = cols(X1 = col_skip()))
+cc_to_map <- cc_web %>% select(paper_id) %>% unique
+till_to_map <- till_web %>% select(paper_id) %>% unique
+nm_to_map <- nm_web %>% select(paper_id) %>% unique
+
+#cc_to_map <- read_csv("spatial-data/cc-points-to-map.csv", 
+                             #col_types = cols(X1 = col_skip()))
+#nm_to_map <- read_csv("spatial-data/nm-points-to-map.csv", 
+ #                     col_types = cols(X1 = col_skip()))
+#till_to_map <- read_csv("spatial-data/till-points-to-map.csv", 
+ #                     col_types = cols(X1 = col_skip()))
 
 # Add data
 # kenya_ecoregions <- st_read("spatial-data/Ecozone Map Layers/Kenya_Ecoregions.shp", 
 #                             crs = 3857) %>% st_make_valid()
 kenya_farming_systems <- st_read("spatial-data/FAO_Farming-Systems_KE/fao_farming-systems_ke_GADM.shp", 
                                  crs = 3857) %>% st_make_valid()
-cc_points <- read_excel(cc.name, sheet = "ExpD_Location")
-till_points <- read_excel(till.name, sheet = "ExpD_Location")
-nm_points <- read_excel(nm.name, sheet = "ExpD_Location")
+cc_points <- read.csv("data/ContinuousCover/ContinuousCover_Kenya_complete_ExpD.csv")
+till_points <- read.csv("data/Tillage/Tillage_Kenya_complete_ExpD.csv")
+nm_points <- read.csv("data/NutrientMgmt/NutrientMgmt_Kenya_complete_ExpD.csv")
+
 
 # Filter points by studies that have data
 cc_points <- cc_points %>% filter( (paper_id %in% cc_to_map$paper_id) ) 
@@ -64,6 +69,6 @@ till_tb$DESCRIPTIO <- ifelse(till_tb$DESCRIPTIO == "Coastal artisanal fishing",
                            "Coastal", till_tb$DESCRIPTIO)
 
 # Write files
-write.csv(cc_tb,"data/ContinuousCover_FarmingSystems.csv")
-write.csv(till_tb,"data/Tillage_FarmingSystems.csv")
-write.csv(nm_tb,"data/NutrientManagement_FarmingSystems.csv")
+write.csv(cc_tb,"data/ContinuousCover_FarmingSystems.csv", col.names=FALSE)
+write.csv(till_tb,"data/Tillage_FarmingSystems.csv", col.names=FALSE)
+write.csv(nm_tb,"data/NutrientManagement_FarmingSystems.csv", col.names=FALSE)
