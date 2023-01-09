@@ -1,7 +1,7 @@
 #### SET WORKING DIRECTORY ####
-require(funr)
-setwd(funr::get_script_path())
-
+#require(funr)
+#setwd(funr::get_script_path())
+setwd("C:/Users/lesley.atwood/Desktop/GitHub/AgEvidence/AgEvidence_Kenya")
 #test
 
 #### LOAD LIBRARIES ####

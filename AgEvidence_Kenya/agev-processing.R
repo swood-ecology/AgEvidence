@@ -30,11 +30,11 @@ till <- read.csv("data/Tillage/Tillage_Kenya_complete_Results.csv")
 filtered_rv_units <- c("^#$", "(arcsine)", "log10")
 
 # Filter data files before data checking
-cc <- cc_web  %>%
+cc <- cc  %>%
   filter(!is.na(trt1_value)) %>%
   filter(!rv_units %in% filtered_rv_units)
 
-nm <- nm_web  %>%
+nm <- nm  %>%
   filter(!is.na(trt1_value)) %>%
   filter(!rv_units %in% filtered_rv_units)
 
@@ -57,9 +57,15 @@ rm(cc.unique);rm(nm.unique);rm(till.unique)
 
 ##Reload complete files to work with####
 # Data files
-cc <- read_excel("data/ContinuousCover_Kenya_complete.xlsx", sheet = "Results")
-nm <- read_excel("data/NutrientMgmt_Kenya_complete.xlsx", sheet = "Results")
-till <- read_excel("data/Tillage_Kenya_complete.xlsx", sheet = "Results")
+#cc <- read_excel("data/ContinuousCover_Kenya_complete.xlsx", sheet = "Results")
+#nm <- read_excel("data/NutrientMgmt_Kenya_complete.xlsx", sheet = "Results")
+#till <- read_excel("data/Tillage_Kenya_complete.xlsx", sheet = "Results")
+
+
+cc <- read.csv("data/ContinuousCover/ContinuousCover_Kenya_complete_Results.csv")
+nm <- read.csv("data/NutrientMgmt/NutrientMgmt_Kenya_complete_Results.csv")
+till <- read.csv("data/Tillage/Tillage_Kenya_complete_Results.csv")
+
 
 
 ####Remove unwanted trtmt comparisons for webtool version#####
@@ -223,12 +229,12 @@ nm_web <- sign.correction(nm_web)
 
 
 #### WRITE FILES for Website####
-write.csv(cc_web, paste0("filtered-data/ContinuousCover_Kenya_",Sys.Date(),".csv"), col.names=FALSE)
-write.csv(till_web, paste0("filtered-data/Tillage_Kenya_",Sys.Date(),".csv"), col.names=FALSE)
-write.csv(nm_web, paste0("filtered-data/NutrientMgmt_Kenya_",Sys.Date(),".csv"), col.names=FALSE)
+write.csv(cc_web, paste0("filtered-data/ContinuousCover_Kenya_",Sys.Date(),".csv"), row.names=FALSE)
+write.csv(till_web, paste0("filtered-data/Tillage_Kenya_",Sys.Date(),".csv"), row.names=FALSE)
+write.csv(nm_web, paste0("filtered-data/NutrientMgmt_Kenya_",Sys.Date(),".csv"), row.names=FALSE)
 
 #### WRITE FILES for KNB
 #complete database 
-write.csv(cc, paste0("KNBfiles/ContinuousCover_Kenya_",Sys.Date(),".csv"), col.names=FALSE)
-write.csv(till, paste0("KNBfiles/Tillage_Kenya_",Sys.Date(),".csv"), col.names=FALSE)
-write.csv(nm, paste0("KNBfiles/NutrientMgmt_Kenya_",Sys.Date(),".csv"), col.names=FALSE)
+write.csv(cc, paste0("KNBfiles/ContinuousCover_Kenya_",Sys.Date(),".csv"), row.names=FALSE)
+write.csv(till, paste0("KNBfiles/Tillage_Kenya_",Sys.Date(),".csv"), row.names=FALSE)
+write.csv(nm, paste0("KNBfiles/NutrientMgmt_Kenya_",Sys.Date(),".csv"), row.names=FALSE)
