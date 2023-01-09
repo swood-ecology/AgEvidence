@@ -7,9 +7,9 @@ require(funr)
 setwd(funr::get_script_path())
 
 # Define variables
-cc_web <- read.csv("filtered-data/ContinuousCover_Kenya_2022-11-18.csv")
-till_web <- read.csv("filtered-data/Tillage_Kenya_2022-11-18.csv")
-nm_web <- read.csv("filtered-data/NutrientMgmt_Kenya_2022-11-18.csv")
+cc_web <- read.csv("filtered-data/ContinuousCover_Kenya_2023-01-09.csv")
+till_web <- read.csv("filtered-data/Tillage_Kenya_2023-01-09.csv")
+nm_web <- read.csv("filtered-data/NutrientMgmt_Kenya_2023-01-09.csv")
 
 # Read in data filters
 cc_to_map <- cc_web %>% select(paper_id) %>% unique
@@ -69,6 +69,6 @@ till_tb$DESCRIPTIO <- ifelse(till_tb$DESCRIPTIO == "Coastal artisanal fishing",
                            "Coastal", till_tb$DESCRIPTIO)
 
 # Write files
-write.csv(cc_tb,"data/ContinuousCover_FarmingSystems.csv", col.names=FALSE)
-write.csv(till_tb,"data/Tillage_FarmingSystems.csv", col.names=FALSE)
-write.csv(nm_tb,"data/NutrientManagement_FarmingSystems.csv", col.names=FALSE)
+write.csv(cc_tb,"data/ContinuousCover_FarmingSystems.csv", row.names=FALSE)
+write.csv(till_tb,"data/Tillage_FarmingSystems.csv", row.names=FALSE)
+write.csv(nm_tb,"data/NutrientManagement_FarmingSystems.csv", row.names=FALSE)
