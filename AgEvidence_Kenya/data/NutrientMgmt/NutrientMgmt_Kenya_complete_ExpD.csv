@@ -64,7 +64,7 @@ paper_id,doi,loc_multi,soil_type,city,country,latitude,longitude,elevation,year_
 5020,10.3390/agronomy8040049,17,Plinthic Acrisols,"Busia-North, Site 8",Kenya,0.66,34.33,1270,2015,1,1400,farmer's field,randomized complete block,NA,3,4.5,5,1,fertilizer type,5,NA,NA,NA,NA,NA,NA
 5020,10.3390/agronomy8040049,18,Plinithic Acrisols,"Busia-North, Site 9",Kenya,0.67,34.37,1399,2015,1,1400,farmer's field,randomized complete block,NA,3,4.5,5,1,fertilizer type,5,NA,NA,NA,NA,NA,NA
 5021,10.1016/j.agee.2017.11.004,1,Acric Ferralsols,International Center for Tropical Agriculture,Kenya,0.143972,34.403806,1330,2003,13,1727,research farm,randomized complete block,split-split-split plot,4,4.5,6,3,fertilizer type,2,residue management,2,crop rotation,3,NA,NA
-5022,10.1016/j.agsy.2017.10.003,1,Humic Nitisols,"Wangige, Kiambu county",Kenya,1.220187,36.698593,1940,2015,2,950,farmer's field,completely randomized,NA,3,3,3,1,fertilizer type,4,NA,NA,NA,NA,NA,NA
+5022,10.1016/j.agsy.2017.10.003,1,Humic Nitisols,"Wangige, Kiambu county",Kenya,-1.220187,36.698593,1940,2015,2,950,farmer's field,completely randomized,NA,3,3,3,1,fertilizer type,4,NA,NA,NA,NA,NA,NA
 5023,10.1080/01904167.2018.1458870,1,Arenosols,Kisumu,Kenya,-0.09151,34.81214,1300,2013,2,1200-1300,farmer's field,randomized complete block,NA,4,2.4,3,2,innoculant,2,fertilizer type,4,NA,NA,NA,NA
 5023,10.1080/01904167.2018.1458870,2,Nitisols,Kakamega,Kenya,0.290436,34.76894,1585,2013,2,1200-2100,farmer's field,randomized complete block,NA,4,2.4,3,2,innoculant,2,fertilizer type,4,NA,NA,NA,NA
 5024,10.1016/j.fcr.2017.09.026,1,NA,Sidindi,Kenya,0.15,34.4,1240,2013,3,1600-2000,farmer's field (24 fields),complete block,NA,24,10,10,1,fertilizer type,2,NA,NA,NA,NA,NA,NA
