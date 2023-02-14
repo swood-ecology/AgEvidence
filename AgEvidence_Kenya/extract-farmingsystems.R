@@ -7,9 +7,9 @@ require(funr)
 setwd(funr::get_script_path())
 
 # Define variables
-cc_web <- read.csv("filtered-data/ContinuousCover_Kenya_2023-01-09.csv")
-till_web <- read.csv("filtered-data/Tillage_Kenya_2023-01-09.csv")
-nm_web <- read.csv("filtered-data/NutrientMgmt_Kenya_2023-01-09.csv")
+cc_web <- read.csv("filtered-data/ContinuousCover_Kenya_2023-02-14.csv")
+till_web <- read.csv("filtered-data/Tillage_Kenya_2023-02-14.csv")
+nm_web <- read.csv("filtered-data/NutrientMgmt_Kenya_2023-02-14.csv")
 
 # Read in data filters
 cc_to_map <- cc_web %>% select(paper_id) %>% unique

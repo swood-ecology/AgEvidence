@@ -49,7 +49,7 @@ cc_expd <- read_excel("data/ContinuousCover_Kenya_complete.xlsx", sheet="ExpD_Lo
 cc_cash <- read_excel("data/ContinuousCover_Kenya_complete.xlsx", sheet="CashCrop")
 cc_trtmt <- read_excel("data/ContinuousCover_Kenya_complete.xlsx", sheet="Treatment")
 
-write.csv(cc_results, paste0("data/ContinuousCover/ContinuousCover_Kenya_complete_Results.csv"), col.names=FALSE)
+write.csv(cc_results, paste0("data/ContinuousCover/ContinuousCover_Kenya_complete_Results.csv"), col.names = FALSE)
 write.csv(cc_ref, paste0("data/ContinuousCover/ContinuousCover_Kenya_complete_Ref.csv"), col.names=FALSE)
 write.csv(cc_expd, paste0("data/ContinuousCover/ContinuousCover_Kenya_complete_ExpD.csv"), col.names=FALSE)
 write.csv(cc_cash, paste0("data/ContinuousCover/ContinuousCover_Kenya_complete_CashCrop.csv"), col.names=FALSE)
