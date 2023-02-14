@@ -1,3 +1,5 @@
+##Need to update script to create xlsx files
+
 #### SET WORKING DIRECTORY ####
 require(funr)
 setwd(funr::get_script_path())
@@ -15,9 +17,9 @@ library(stringr)
 ##need to update data file names####
 
 # Data files
-cc <- read.csv("filtered-data/ContinuousCover_Kenya_2021-12-02.csv")
-nm <- read.csv("filtered-data/NutrientMgmt_Kenya_2021-12-02.csv")
-till <- read.csv("filtered-data/Tillage_Kenya_2021-12-02.csv")
+cc <- read.csv("filtered-data/ContinuousCover_Kenya_2023-02-14.csv")
+nm <- read.csv("filtered-data/NutrientMgmt_Kenya_2023-02-14.csv")
+till <- read.csv("filtered-data/Tillage_Kenya_2023-02-14.csv")
 
 colnames(till)
 
@@ -97,23 +99,24 @@ filtered_till$normative_effect <-  str_replace_all(filtered_till$normative_effec
 
 
 #### CREATE UPDATED WORKBOOK FOR EACH REVIEW ####
+###Need to add each worksheet to the excel file ###
 
 #Cover Crops
-cc_wb <- loadWorkbook("data/ContinuousCover_Kenya_081721.xlsx")
+cc_wb <- loadWorkbook("data/ContinuousCover_Kenya_complete.xlsx")
 openxlsx::removeWorksheet(cc_wb, "Results")
 openxlsx::addWorksheet(cc_wb, "Results")
 openxlsx::writeData(cc_wb, "Results", filtered_cc)
 openxlsx::saveWorkbook(cc_wb, "KNBfiles/ContinuousCover_AgEKenya.xlsx", overwrite = T)
 
 #Nutrient Management
-nm_wb <- loadWorkbook("data/NutrientMgmt_Kenya_CURRENT_081721.xlsx")
+nm_wb <- loadWorkbook("data/NutrientMgmt_Kenya_complete.xlsx")
 openxlsx::removeWorksheet(nm_wb, "Results")
 openxlsx::addWorksheet(nm_wb, "Results")
 openxlsx::writeData(nm_wb, "Results", filtered_nm)
 openxlsx::saveWorkbook(nm_wb, "KNBfiles/NutrientMgmt_AgEKenya.xlsx", overwrite = T)
 
 #Tillage
-till_wb <- loadWorkbook("data/Tillage_Kenya_081721.xlsx")
+till_wb <- loadWorkbook("data/Tillage_Kenya_complete.xlsx")
 openxlsx::removeWorksheet(till_wb, "Results")
 openxlsx::addWorksheet(till_wb, "Results")
 openxlsx::writeData(till_wb, "Results", filtered_till)
