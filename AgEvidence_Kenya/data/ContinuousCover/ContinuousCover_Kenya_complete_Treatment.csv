@@ -1,17 +1,17 @@
 paper_id,duration,trt_id,year,cover_soilprep,cover_plantdate,cover_plantimplement,cover_fertilizer,cover_type,cover_mixture,cover_seeddensity,termination,herbicide,termination_timing,trt_other_description
 4000,2018-1,0,1;2,NA,NA,NA,NA,monocrop,sweet potato,120 vines planted 30 cm apart along ridge,NA,NA,NA,NA
 4000,2018-1,1,1;2,NA,NA,NA,NA,intercrop,sweet potato; maize,sweet potato planted on ridges at spacing of 30 cm by 60 cm between vines; maize planted in flat beds at spacing of 60 cm by 50 cm between maize,NA,NA,NA,NA
-4001,2017-2,0,1;2;3,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",monocrop,maize,NA,NA,NA,NA,NA
-4001,2017-2,1,1;2;3,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",intercrop,maize; bean,NA,NA,NA,NA,NA
-4001,2017-2,2,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",intercrop,maize; cowpea,NA,NA,NA,NA,NA
-4001,2017-2,3,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",intercrop,maize; green gam,NA,NA,NA,NA,NA
-4001,2017-2,4,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",intercrop,maize; groundnut,NA,NA,NA,NA,NA
-4001,2017-2,5,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP ha−1 at planting and 60 kg CAN ha−1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca ha−",alley crop,maize; desmodium; brachiaria,NA,NA,NA,NA,NA
-4002,2017-2,0,1;2,NA,NA,NA,"50 kg ha-1 N, 90 kg P ha-1 , 100 kg K ha-1 and single topdressing with 50 kg N ha-1 in the form of calcium ammonium nitrate (26-0-0). Topdressing was done 15–25 days after potato emergence depending on the general soil moisture conditions",monocrop,potato,NA,NA,NA,NA,NA
+4001,2017-2,0,1;2;3,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP haâˆ’1 at planting and 60 kg CAN haâˆ’1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca haâˆ’",monocrop,maize,NA,NA,NA,NA,NA
+4001,2017-2,1,1;2;3,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP haâˆ’1 at planting and 60 kg CAN haâˆ’1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca haâˆ’",intercrop,maize; bean,NA,NA,NA,NA,NA
+4001,2017-2,2,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP haâˆ’1 at planting and 60 kg CAN haâˆ’1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca haâˆ’",intercrop,maize; cowpea,NA,NA,NA,NA,NA
+4001,2017-2,3,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP haâˆ’1 at planting and 60 kg CAN haâˆ’1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca haâˆ’",intercrop,maize; green gam,NA,NA,NA,NA,NA
+4001,2017-2,4,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP haâˆ’1 at planting and 60 kg CAN haâˆ’1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca haâˆ’",intercrop,maize; groundnut,NA,NA,NA,NA,NA
+4001,2017-2,5,1;2,NA,NA,NA,"mineral fertilizers were applied in the form of 60 kg DAP haâˆ’1 at planting and 60 kg CAN haâˆ’1 at 6 weeks after planting equivalent to 27 kg N, 12 kg P and 4.8 kg Ca haâˆ’",alley crop,maize; desmodium; brachiaria,NA,NA,NA,NA,NA
+4002,2017-2,0,1;2,NA,NA,NA,"50 kg ha-1 N, 90 kg P ha-1 , 100 kg K ha-1 and single topdressing with 50 kg N ha-1 in the form of calcium ammonium nitrate (26-0-0). Topdressing was done 15â€“25 days after potato emergence depending on the general soil moisture conditions",monocrop,potato,NA,NA,NA,NA,NA
 4002,2017-2,1,1;2,NA,NA,NA,"one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",monocrop,lima bean,NA,NA,NA,NA,NA
 4002,2017-2,2,1;2,NA,NA,NA,"one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",monocrop,dolichos,NA,NA,NA,NA,NA
-4002,2017-2,3,1;2,NA,NA,NA,"50 kg ha-1 N, 90 kg P ha-1 , 100 kg K ha-1 and single topdressing with 50 kg N ha-1 in the form of calcium ammonium nitrate (26-0-0). Topdressing was done 15–25 days after potato emergence depending on the general soil moisture conditions; one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",intercrop,potato; lima bean,NA,NA,NA,NA,NA
-4002,2017-2,4,1;2,NA,NA,NA,"50 kg ha-1 N, 90 kg P ha-1 , 100 kg K ha-1 and single topdressing with 50 kg N ha-1 in the form of calcium ammonium nitrate (26-0-0). Topdressing was done 15–25 days after potato emergence depending on the general soil moisture conditions; one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",intercrop,potato; dolichos,NA,NA,NA,NA,NA
+4002,2017-2,3,1;2,NA,NA,NA,"50 kg ha-1 N, 90 kg P ha-1 , 100 kg K ha-1 and single topdressing with 50 kg N ha-1 in the form of calcium ammonium nitrate (26-0-0). Topdressing was done 15â€“25 days after potato emergence depending on the general soil moisture conditions; one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",intercrop,potato; lima bean,NA,NA,NA,NA,NA
+4002,2017-2,4,1;2,NA,NA,NA,"50 kg ha-1 N, 90 kg P ha-1 , 100 kg K ha-1 and single topdressing with 50 kg N ha-1 in the form of calcium ammonium nitrate (26-0-0). Topdressing was done 15â€“25 days after potato emergence depending on the general soil moisture conditions; one basal phosphorus applications (triple super phosphate, 0-46-0) at rates averaging 20 kg P ha-1",intercrop,potato; dolichos,NA,NA,NA,NA,NA
 4003,1981-2,0,1;2,NA,NA,NA,NA,monocrop,maize,"40,000 plants/ha",NA,NA,NA,NA
 4003,1981-2,1,1;2,NA,NA,NA,NA,monocrop,cowpea,"120,000 plants/ha",NA,NA,NA,NA
 4003,1981-2,2,1;2,NA,NA,NA,NA,monocrop,sorghum,"80,000 plants/ha",NA,NA,NA,NA
@@ -101,8 +101,8 @@ paper_id,duration,trt_id,year,cover_soilprep,cover_plantdate,cover_plantimplemen
 4017,1981-9,1,1;2;3;4;5;6;7;8;9,NA,NA,NA,NA,monocrop,cowpea,NA,NA,NA,NA,NA
 4017,1981-9,2,1;2;3;4;5;6;7;8;9,NA,NA,NA,NA,intercrop,sorghum; cowpea,NA,NA,NA,NA,NA
 4017,1981-9,3,1;2;3;4;5;6;7;8;9,NA,NA,NA,NA,intercrop,sorghum; sorghum,NA,NA,NA,NA,Serena and IS4660 lines
-4018,42401,0,1;2,NA,NA,hand hoe,145 kg/ha of diammonium phosphate; maize 26 kg N/ha calcium ammonium nitrate at 4 and 7 weeks after sowing,intercrop,maize; bean,"0.75 m × 0.30 m spacing, 44444 maize plants/ha; 0.2 m btwn maize, 66666 bean plants/ha",NA,Karate; Redomil,NA,NA
-4018,42401,1,1;2,NA,NA,hand hoe,145 kg/ha of diammonium phosphate; maize 26 kg N/ha calcium ammonium nitrate at 4 and 7 weeks after sowing,alley crop,maize; bean; Calliandra,"0.75 m × 0.30 m spacing maize, 0.2 m bean btwn maize, 4 m × 0.50 m Caliandra",NA,Karate; Redomil,NA,hedgerows cut to 0.6m
+4018,42401,0,1;2,NA,NA,hand hoe,145 kg/ha of diammonium phosphate; maize 26 kg N/ha calcium ammonium nitrate at 4 and 7 weeks after sowing,intercrop,maize; bean,"0.75 m Ã— 0.30 m spacing, 44444 maize plants/ha; 0.2 m btwn maize, 66666 bean plants/ha",NA,Karate; Redomil,NA,NA
+4018,42401,1,1;2,NA,NA,hand hoe,145 kg/ha of diammonium phosphate; maize 26 kg N/ha calcium ammonium nitrate at 4 and 7 weeks after sowing,alley crop,maize; bean; Calliandra,"0.75 m Ã— 0.30 m spacing maize, 0.2 m bean btwn maize, 4 m Ã— 0.50 m Caliandra",NA,Karate; Redomil,NA,hedgerows cut to 0.6m
 4019,2002-3,0,1;2;3,NA,NA,NA,NA,monocrop,sorghum,"30 cm in row, 60 cm row to row",NA,NA,NA,NA
 4019,2002-3,1,1;2;3,NA,NA,NA,NA,intercrop,sorghum; Desmodium intortum,"30 cm in row, 60 cm row to row; 60 cm to sorghum rows",NA,NA,NA,NA
 4020,35855,0,1;2;3,NA,NA,NA,NA,monocrop,maize,"25 cm in row, 75 cm row to row",NA,NA,NA,NA
@@ -151,11 +151,11 @@ paper_id,duration,trt_id,year,cover_soilprep,cover_plantdate,cover_plantimplemen
 4029,2011-3,4,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,minimum tillage (0-5 cm)
 4029,2011-3,5,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,no tillage
 4030,2009-3,0,1;2;3,NA,NA,NA,NA,monocrop,maize,maize planted at 90 x 45 cm and 2 seeds per hole,NA,NA,NA,NA
-4030,2009-3,1,1;2;3,NA,NA,NA,NA,intercrop,maize;brown dolichos,"maize planted at 90 x 45 cm and 2 seeds per hole;two
-rows of dolichos were planted between two rows of maize with
+4030,2009-3,1,1;2;3,NA,NA,NA,NA,intercrop,maize;brown dolichos,"maize planted at 90 x 45 cm and 2 seeds per hole;two
+rows of dolichos were planted between two rows of maize with
 intra-row spacing of 45 cm",NA,NA,NA,NA
-4030,2009-3,2,1;2;3,NA,NA,NA,NA,intercrop,maize;black dolichos,"maize planted at 90 x 45 cm and 2 seeds per hole;two
-rows of dolichos were planted between two rows of maize with
+4030,2009-3,2,1;2;3,NA,NA,NA,NA,intercrop,maize;black dolichos,"maize planted at 90 x 45 cm and 2 seeds per hole;two
+rows of dolichos were planted between two rows of maize with
 intra-row spacing of 45 cm",NA,NA,NA,NA
 4030,2009-3,3,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,imazapyr herbicide coating
 4030,2009-3,4,1;2;3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,uncoated seed

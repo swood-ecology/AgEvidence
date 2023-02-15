@@ -1,5 +1,5 @@
 paper_id,duration,cash_tillage,cash_species,cash_seeddensity,cash_cultivar,cash_genetics,...8
-6000,2017-2,variable,maize,"53,333 and 37,037 plants/ha","H513 and DH04, produced by the Kenya Seed Company were sown in Kibugu and Machang’a",NA,NA
+6000,2017-2,variable,maize,"53,333 and 37,037 plants/ha","H513 and DH04, produced by the Kenya Seed Company were sown in Kibugu and Machangâ€™a",NA,NA
 6001,2016-2,variable,NA,NA,NA,NA,NA
 6002,2013-4,variable,maize,"53, 333 plants/hectare","CKH08051, CKH10077, CKH10080, CKH10085, CKH10717, and H513",NA,NA
 6003,2016-2,variable,maize,NA,NA,NA,NA
@@ -18,14 +18,14 @@ paper_id,duration,cash_tillage,cash_species,cash_seeddensity,cash_cultivar,cash_
 6016,2003-5,variable,continuous cereal; soybean-maize rotation; soybean-maize intercropping,NA,NA,NA,NA
 6017,2010-2,variable,maize,NA,DH04 variety for Machang'a and H513 for Kigogo,NA,NA
 6018,2011-1,variable,maize,"53,333 plants/ha; 37,037 plants/ha",Hybrid 513 (Kigogo); DH04 (Machang'a),NA,NA
-6019,2008-2,variable,maize,60×25 cm spacing,HB 520,NA,NA
+6019,2008-2,variable,maize,60Ã—25 cm spacing,HB 520,NA,NA
 6020,2003-6,variable,maize (long rains); soybean (short rains),75 cm interrow and 25 cm plant to plant (maize); 75 cm interrow and 5 cm plant to plant (soybean),NA,NA,NA
-6021,2007-4,variable,maize; cowpea; maize-cowpea,"90 cm (row) by 30 cm (hill) cm for maize; 90 cm (row) by 20 cm (hill) for cowpea; intra-row spacing of maize in the intercrop was 30 cm, and
+6021,2007-4,variable,maize; cowpea; maize-cowpea,"90 cm (row) by 30 cm (hill) cm for maize; 90 cm (row) by 20 cm (hill) for cowpea; intra-row spacing of maize in the intercrop was 30 cm, and
 cowpea was planted between two maize plants such that the spacing between the two different plants was 15 cm","maize (Katumani Composite hybrid, KCB); cowpea (K80 variety)",NA,NA
 6022,2003-5,variabe,maize; soybean; maize-soybean intercrop; maize-soybean rotation,NA,NA,NA,NA
 6023,2007-2,variable,maize;soybean;Leucaena;Napier,NA,Leucaena (Leucaena trichandra Zucc. Urband);Napier (Pennisetum purpureum Schumach. cv. cameroun),NA,NA
 6024,2007-2,variable,maize;soybean;Leucaena;Napier,NA,Leucaena (Leucaena trichandra Zucc. Urband);Napier (Pennisetum purpureum Schumach. cv. cameroun),NA,NA
 6025,2003-5,variable,maize; soybean-maize; maize-soybean intercropped,75 cm interrow and 25 cm plant to plant (maize);75 cm interrow and 50 cm between plants (soybeans),NA,NA,NA
-6026,2007-3,variable,maize,5.3 × 10^4 plants/ha,DeKalb 8031,NA,NA
-6027,2008-2,variable,maize,60×25 cm spacing,HB 520,NA,NA
+6026,2007-3,variable,maize,5.3 Ã— 10^4 plants/ha,DeKalb 8031,NA,NA
+6027,2008-2,variable,maize,60Ã—25 cm spacing,HB 520,NA,NA
 6028,2005-3,variable,maize,90 and 60 cm inter and intra-row spacing,Katumani composite variety,NA,NA

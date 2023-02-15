@@ -41,9 +41,9 @@ paper_id,duration,trt_id,year,fert_app,fert_type,fert_type_detail,fert_rate,fert
 5007,2018-1,1,1,NA,mineral fertilizer,"NPK 23:23:0 was used for basal fertilization,  calcium ammonium nitrate (CAN) was used for first and second top dressing (21 and 45 days after transplanting, respectively)",50 kg of fertilizer/acre,Present,Present,Present,Absent,NA,standard fertilization,NA
 5007,2018-1,2,1,NA,mineral fertilizer,"calcium ammonium nitrate (CAN) was used for first and second top dressing (21 and 45 days after transplanting, respectively)",50 kg of fertilizer/acre,Present,Present,Present,Absent,NA,under fertilization,NA
 5008,2004-15,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,unamended,NA,NA,NA,NA,NA,NA,NA,Control,NA
-5008,2004-15,1,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,mineral fertilizer,inorganic fertilizer (nitrogen [N] = 23% and phosphorus [P] = 23%; [NP]) applied at 120 kg N ha−1 yr−1; 60 kg N/ha/season,60 kg N/ha/season,60 kg N/ha,Present,Absent,Absent,NA,Fert,NA
+5008,2004-15,1,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,mineral fertilizer,inorganic fertilizer (nitrogen [N] = 23% and phosphorus [P] = 23%; [NP]) applied at 120 kg N haâˆ’1 yrâˆ’1; 60 kg N/ha/season,60 kg N/ha/season,60 kg N/ha,Present,Absent,Absent,NA,Fert,NA
 5008,2004-15,2,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,animal manure,goat manure,60 kg N/ha/season,60 kg N/ha,Present,Present,Absent,NA,Manure,NA
-5008,2004-15,3,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,mineral fertilizer; animal manure,inorganic fertilizer (nitrogen [N] = 23% and phosphorus [P] = 23%; [NP]) and goat manure applied at 120 kg N ha−1 yr−1; 60 kg N/ha/season,60 kg N/ha/season,60 kg N/ha,Present,Present,Present,NA,Man + Fert,NA
+5008,2004-15,3,1;2;3;4;5;6;7;8;9;10;11;12;13;14,NA,mineral fertilizer; animal manure,inorganic fertilizer (nitrogen [N] = 23% and phosphorus [P] = 23%; [NP]) and goat manure applied at 120 kg N haâˆ’1 yrâˆ’1; 60 kg N/ha/season,60 kg N/ha/season,60 kg N/ha,Present,Present,Present,NA,Man + Fert,NA
 5009,2016-2,0,1;2,NA,animal manure,unspecified,1.7% N,1.7% N,0.53% P,Present,42.06% C,litter bag decomposition study,animal manure,NA
 5009,2016-2,1,1;2,NA,green manure,Tithonia diversifolia,3.32% N,3.32% N,0.14% P,NA,41.3% C,litter bag decomposition study,green manure,NA
 5009,2016-2,2,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,ConvT,conventional tillage (15 cm hand hoeing)
@@ -100,8 +100,8 @@ paper_id,duration,trt_id,year,fert_app,fert_type,fert_type_detail,fert_rate,fert
 5018,2016-2,7,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,D15,"conventional tillage, 15 cm depth"
 5018,2016-2,8,1;2,NA,NA,NA,NA,NA,NA,NA,NA,NA,D0,"minimum tillage, 0 cm depth in interrow, mix in amendments in row"
 5019,2014-2,0,1;2,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,NA,NA
-5019,2014-2,1,1;2,NA,Biological,Biofix® soya from MEA Ltd (Kenya) containing Bradyrhizobium diazoefficiens strain USDA110,NA,NA,NA,NA,NA,NA,NA,NA
-5019,2014-2,2,1;2,NA,Biological,Legumefix® soya from Legume technology (UK) containing Bradyrhizobium japonicum strain 532c,NA,NA,NA,NA,NA,NA,NA,NA
+5019,2014-2,1,1;2,NA,Biological,BiofixÂ® soya from MEA Ltd (Kenya) containing Bradyrhizobium diazoefficiens strain USDA110,NA,NA,NA,NA,NA,NA,NA,NA
+5019,2014-2,2,1;2,NA,Biological,LegumefixÂ® soya from Legume technology (UK) containing Bradyrhizobium japonicum strain 532c,NA,NA,NA,NA,NA,NA,NA,NA
 5020,2015-1,0,1,NA,Unamended,unfertilized,NA,NA,NA,NA,NA,NA,NA,NA
 5020,2015-1,1,1,NA,Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer; Potassium Mineral Fertilizer,Urea; Triple superphosphate; Muriate of potash,NA,NA,NA,NA,NA,NA,NA,NA
 5020,2015-1,2,1,NA,Animal Manure; Nitrogen Mineral Fertilizer; Phosphorus Mineral Fertilizer,Farm yard manure; Urea; Triple superphosphate,NA,NA,NA,NA,NA,NA,NA,NA

@@ -103,8 +103,8 @@ paper_id,duration,trt_id,year,till_type,till_equipment,till_depth_cm,till_numpas
 6024,2007-2,1,1;2,"minimum tillage, post emergence herbicide",NA,NA,0,NA,NA,NA
 6025,2003-5,0,1;2;3;4;5,conventional tillage,hand,10 cm depth,NA,NA,conventional tillage,NA
 6025,2003-5,1,2;3;4;5,reduced tillage,hand,3 cm depth,NA,NA,reduced tillage,NA
-6025,2003-5,2,1;2;3;4;5,NA,NA,NA,NA,NA,#NAME?,no maize stover
-6025,2003-5,3,1;2;3;4;5,NA,NA,NA,NA,NA,#NAME?,maize stover added
+6025,2003-5,2,1;2;3;4;5,NA,NA,NA,NA,NA,NA,no maize stover
+6025,2003-5,3,1;2;3;4;5,NA,NA,NA,NA,NA,NA,maize stover added
 6025,2003-5,4,1;2;3;4;5,NA,NA,NA,NA,NA,continuous maize,continuous maize
 6025,2003-5,5,1;2;3;4;5,NA,NA,NA,NA,NA,rotation,soybean-maize rotation
 6025,2003-5,6,1;2;3;4;5,NA,NA,NA,NA,NA,intercrop,soybeam-maize intercrop
